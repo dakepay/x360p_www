@@ -3,6 +3,7 @@ x360p_api
 
 校360专业版 服务端API项目
 
+xushuqing
 
 www  WEB部署目录（或者子目录）
 ├─application           应用目录
