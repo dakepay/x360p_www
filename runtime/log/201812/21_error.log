@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2018-12-21T09:26:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-21T09:28:58+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-21T09:46:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-21T09:48:17+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-21T10:04:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-12-21T10:04:58+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]

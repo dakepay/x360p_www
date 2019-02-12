@@ -1,0 +1,3841 @@
+---------------------------------------------------------------
+[ 2018-09-19T10:15:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/classes
+[ error ] [8]未定义变量: arr[/home/wwwroot/pro.xiao360.com/application/api/controller/Classes.php:65]
+---------------------------------------------------------------
+[ 2018-09-19T12:17:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 873,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 873,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 873,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T12:25:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T12:30:34+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3257,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T13:52:18+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3257,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T13:53:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3541/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3257,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3125,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T13:59:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3541/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:01:14+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3541/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3250,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:02:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3541/regatts
+[ error ] [8]未定义变量: attendance[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:3209]
+---------------------------------------------------------------
+[ 2018-09-19T14:04:43+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:06:20+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3542/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:12:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3542/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:27:27+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3541/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 613,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 804,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 648,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 510,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:29:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:37:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:38:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 162,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 165,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3251,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3256,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:45:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 163,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 166,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:51:26+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 166,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:51:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 167,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:52:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 167,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3255,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:53:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 355,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T14:59:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 358,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T15:06:05+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 360,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T15:08:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 360,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T15:10:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php',
+    'line' => 360,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php',
+    'line' => 480,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrangeStudent.php',
+    'line' => 164,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3252,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 3124,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 875,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 235,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 418,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T15:25:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3544/regatts
+[ error ] [0]语法解析错误: syntax error, unexpected '$customer' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php:366]
+---------------------------------------------------------------
+[ 2018-09-19T15:58:01+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/class_attendances/570
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/ClassAttendance.php',
+    'line' => 216,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/ClassAttendances.php',
+    'line' => 50,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 367,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-19T16:53:19+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/course_arranges/3544
+[ error ] [64]Cannot use [] for unsetting[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:290]

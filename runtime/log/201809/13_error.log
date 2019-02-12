@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2018-09-13T10:40:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '，2' (T_STRING), expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/export/MarketClues.php:60]
+---------------------------------------------------------------
+[ 2018-09-13T10:40:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Call to undefined function app\api\export\get_dict_value()[/home/wwwroot/pro.xiao360.com/application/api/export/MarketClues.php:144]
+---------------------------------------------------------------
+[ 2018-09-13T14:17:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:151]
+---------------------------------------------------------------
+[ 2018-09-13T14:20:31+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:151]
+---------------------------------------------------------------
+[ 2018-09-13T14:28:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:151]
+---------------------------------------------------------------
+[ 2018-09-13T14:30:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:151]

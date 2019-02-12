@@ -1,0 +1,306 @@
+---------------------------------------------------------------
+[ 2019-01-26T11:35:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php',
+    'line' => 714,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2076,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php',
+    'line' => 1073,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2925,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2357,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 1100,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 228,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 420,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2019-01-26T11:36:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php',
+    'line' => 714,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2076,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php',
+    'line' => 1073,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2925,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2357,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 1100,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 228,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 420,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2019-01-26T11:37:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php',
+    'line' => 714,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2076,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php',
+    'line' => 1073,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2925,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2357,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 1100,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 228,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 420,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2019-01-26T11:39:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3865/attobjects
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php',
+    'line' => 714,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2076,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php',
+    'line' => 1073,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2925,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php',
+    'line' => 2357,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php',
+    'line' => 1100,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 228,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 420,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2019-01-26T11:44:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3761/regatts
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"absence","sid":95,"credit":"1.00","type":2,"cate":1,"cru_id":4}
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"absence","sid":429,"credit":"1.00","type":2,"cate":1,"cru_id":4}
+---------------------------------------------------------------
+[ 2019-01-26T18:02:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendances.php:106]
+---------------------------------------------------------------
+[ 2019-01-26T18:03:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendances.php:106]

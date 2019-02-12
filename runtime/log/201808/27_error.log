@@ -1,0 +1,77 @@
+---------------------------------------------------------------
+[ 2018-08-27T02:02:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:03:05+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:03:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:04:06+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:04:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:07+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/business/student/archive
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/knowledge_items?page=1&pagesize=10&order_field=stars&order_sort=desc&bid=-1&router_uri=%2Fbusiness%2Fstudent%2Farchive&with_my_like=1
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/users/10001/wechat_qrcode?code_type=upload_file
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:05:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T02:06:07+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180827%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ':', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/org_default_config.php:83]
+---------------------------------------------------------------
+[ 2018-08-27T10:47:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customers?page=1&pagesize=10&is_reg=0&trial_time=
+[ error ] [8]未定义数组索引: follew_times[/home/wwwroot/pro.xiao360.com/application/api/controller/Customers.php:109]
+[ error ] [1]Uncaught InvalidArgumentException: property not exists:app\api\model\User->uid in /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560
+Stack trace:
+#0 /home/wwwroot/pro.xiao360.com/application/api/model/User.php(144): think\Model->getAttr('uid')
+#1 /home/wwwroot/pro.xiao360.com/application/api/model/User.php(66): app\api\model\User->getPermissionBranchs(Array)
+#2 /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php(536): app\api\model\User->getBidAttr(NULL, Array, Array)
+#3 /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php(829): think\Model->getAttr('bid')
+#4 /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php(2135): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 /home/wwwroot/pro.xiao360.com/thinkphp/tpl/think_exception.tpl(385): json_encode(Object(app\api\model\User), 128)
+#7 /home/wwwroot/pro.xiao360.com/thinkphp/library/think/exception/Handle.php(178): include('/home/wwwroot/p...')
+#8 /home/wwwroot/pro.xiao360.com/thinkphp/lib[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-27T16:03:40+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/369/dostop
+[ error ] [0]致命错误: Using $this when not in object context[/home/wwwroot/pro.xiao360.com/application/api/model/StudentSuspend.php:22]
+---------------------------------------------------------------
+[ 2018-08-27T16:07:13+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/369/dostop
+[ error ] [0]致命错误: Using $this when not in object context[/home/wwwroot/pro.xiao360.com/application/api/model/StudentSuspend.php:27]
+---------------------------------------------------------------
+[ 2018-08-27T17:17:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/pro.xiao360.com/application/api/controller/StudentSuspends.php:20]
+---------------------------------------------------------------
+[ 2018-08-27T17:29:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ error ] [8]未定义数组索引: create_time[/home/wwwroot/pro.xiao360.com/application/api/controller/StudentSuspends.php:25]
+---------------------------------------------------------------
+[ 2018-08-27T17:39:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ error ] [0]致命错误: Call to undefined function app\api\controller\get_teach_name()[/home/wwwroot/pro.xiao360.com/application/api/controller/StudentSuspends.php:24]
+---------------------------------------------------------------
+[ 2018-08-27T17:51:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]method not exist:think\db\Query->getSchooldText[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-27T17:52:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]method not exist:think\db\Query->getSchooldText[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-27T17:52:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]method not exist:think\db\Query->getSchooldText[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-27T19:42:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ error ] [8]未定义数组索引: order_field[/home/wwwroot/pro.xiao360.com/application/api/controller/StudentSuspends.php:15]

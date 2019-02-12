@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+[ 2018-12-12T11:33:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/students?page=1&pagesize=10&int_day=20181213
+[ info ] pro.x360.com/api/course_arranges/students?page=1&pagesize=10&int_day=20181213 [运行时间：1.659960s][吞吐率：0.60req/s] [内存消耗：1,659.71kb] [文件加载：122]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'students',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1544585587',
+  'x-token' => '1b875830efa393121150529ddb6d33b0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'smtjy',
+  'x-bid' => '11',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=8kr1g2d8ohs8eqe1n688jj7eml',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '20181213',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\CourseArranges->students[ /home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.018016s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'smtjy'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.004724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007631s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 83 LIMIT 1 [ RunTime:0.000686s ]

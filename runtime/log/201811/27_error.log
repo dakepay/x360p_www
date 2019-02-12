@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-11-27T09:24:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customer_logs?page=1&pagesize=10
+[ error ] [0]致命错误: Class 'app\api\controller\Customer' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/CustomerLogs.php:54]
+---------------------------------------------------------------
+[ 2018-11-27T09:24:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customer_logs?page=1&pagesize=10
+[ error ] [0]致命错误: Class 'app\api\controller\Customer' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/CustomerLogs.php:54]
+---------------------------------------------------------------
+[ 2018-11-27T09:44:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/public_schools/1/center_schools?page=1&pagesize=10
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'x360p_center.pro_state_school' doesn't exist[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-27T09:45:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/public_schools/1/center_schools?page=1&pagesize=10
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'x360p_center.pro_state_school' doesn't exist[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-27T10:13:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customer_logs?page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '：' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/controller/CustomerLogs.php:57]
+---------------------------------------------------------------
+[ 2018-11-27T10:13:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customer_logs?page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '：' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/controller/CustomerLogs.php:57]
+---------------------------------------------------------------
+[ 2018-11-27T10:13:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/customer_logs?page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '：' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/controller/CustomerLogs.php:57]
+---------------------------------------------------------------
+[ 2018-11-27T14:34:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys
+[ error ] [0]语法解析错误: syntax error, unexpected '$w' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:390]
+---------------------------------------------------------------
+[ 2018-11-27T18:07:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [1]Class 'app\api\export\Base' not found[/home/wwwroot/pro.xiao360.com/application/api/export/CustomerLogs.php:6]
+---------------------------------------------------------------
+[ 2018-11-27T18:18:34+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\Customer' not found[/home/wwwroot/pro.xiao360.com/application/api/export/CustomerLogs.php:34]

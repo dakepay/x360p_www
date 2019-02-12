@@ -1,0 +1,608 @@
+---------------------------------------------------------------
+[ 2019-01-03T12:34:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ info ] pro.x360.com/api/orders/do_submit [运行时间：0.319701s][吞吐率：3.13req/s] [内存消耗：1,662.49kb] [文件加载：126]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'do_submit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '1638',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'db089671aecd605913398da0c8fca05d',
+  'x-client-time' => '1546495622',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=55323b83emegrts6m45reetmid',
+)
+[ info ] [ PARAM ] array (
+  'order' => 
+  array (
+    'paid_time' => '2019-01-03',
+    'balance_paid_amount' => 10000,
+    'money_pay_amount' => '0.00',
+    'paid_amount' => 10000,
+    'money_paid_amount' => '0.00',
+    'order_amount' => 10000,
+    '_lessons_amount' => 10000,
+    '_article_amount' => 0,
+    'origin_amount' => 10000,
+    '_total_amount' => 10000,
+    'order_discount_amount' => 0,
+    'order_reduced_amount' => 0,
+    'remark' => '',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 1,
+        'lid' => 38,
+        'gid' => 0,
+        'pi_id' => 0,
+        'item_name' => '舒青一对多（仅适用松园校区）',
+        'name' => '舒青一对多（仅适用松园校区）',
+        'gtype' => 0,
+        'nums' => 10,
+        'nums_unit' => 2,
+        'expire_time' => '',
+        '_discount_rate' => 100,
+        'origin_price' => 1000,
+        'price' => 1000,
+        'origin_amount' => '10000.00',
+        'discount_amount' => '0.00',
+        'paid_amount' => 10000,
+        'origin_lesson_times' => 0,
+        'present_lesson_times' => 0,
+        'lesson_times' => 0,
+        'origin_lesson_hours' => 0,
+        'present_lesson_hours' => 0,
+        'lesson_hours' => 0,
+        'subtotal' => 10000,
+        'reduced_amount' => 0,
+        'cid' => 0,
+        'consume_type' => 1,
+        'is_demo' => 0,
+        'product_level_did' => 0,
+        'sdc_id' => 0,
+        '_class_name' => '',
+        '_is_term' => 1,
+        '_unit_lesson_hours' => '1.00',
+        '_is_average' => false,
+        '_share_own_amount' => 0,
+        '_amount_by_discount' => 10000,
+        '_apply_debit_type' => 0,
+        '_debit_reduced' => '0.00',
+        '_debit_discount' => 100,
+        '_debit_origin' => 0,
+        '_debit_current' => 0,
+        '_is_lock' => false,
+        '_is_flex' => 0,
+        '_data' => 
+        array (
+          'origin_price' => 1000,
+          'origin_amount' => 1000,
+          'nums' => 1,
+        ),
+        'oi_id' => '660',
+      ),
+    ),
+    'payment' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 5,
+        'name' => '现金',
+        'is_public' => 0,
+        'pay_amount' => '0.00',
+        'type' => 0,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 0,
+      ),
+    ),
+    'is_demo' => 0,
+    'sdc_id' => 0,
+    '_dropdown_account' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 2,
+        'name' => '转账',
+        'is_public' => 1,
+        'pay_amount' => 0,
+        'type' => 1,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 1,
+      ),
+    ),
+    '_pre_stored_amount' => 0,
+    '_owe_payment_amount' => 0,
+    '_is_owe' => 0,
+    'is_submit' => 1,
+    '_submit' => 1,
+    'user_contract_no' => '',
+    'user_receipt_no' => '',
+    'oid' => 485,
+  ),
+  'is_push' => false,
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->do_submit[ /home/wwwroot/pro.xiao360.com/application/api/controller/Orders.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011603s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.015125s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008669s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000928s ]
+---------------------------------------------------------------
+[ 2019-01-03T12:44:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ info ] pro.x360.com/api/orders/do_submit [运行时间：0.311554s][吞吐率：3.21req/s] [内存消耗：2,016.97kb] [文件加载：127]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'do_submit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '1618',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'db089671aecd605913398da0c8fca05d',
+  'x-client-time' => '1546496234',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=55323b83emegrts6m45reetmid',
+)
+[ info ] [ PARAM ] array (
+  'order' => 
+  array (
+    'paid_time' => '2019-01-03',
+    'balance_paid_amount' => 2000,
+    'money_pay_amount' => '0.00',
+    'paid_amount' => 2000,
+    'money_paid_amount' => '0.00',
+    'order_amount' => 2000,
+    '_lessons_amount' => 2000,
+    '_article_amount' => 0,
+    'origin_amount' => 2000,
+    '_total_amount' => 2000,
+    'order_discount_amount' => 0,
+    'order_reduced_amount' => 0,
+    'remark' => '',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 1,
+        'lid' => 36,
+        'gid' => 0,
+        'pi_id' => 0,
+        'item_name' => '舒青高级课程（仅适用松园校区）',
+        'name' => '舒青高级课程（仅适用松园校区）',
+        'gtype' => 0,
+        'nums' => 10,
+        'nums_unit' => 2,
+        'expire_time' => '',
+        '_discount_rate' => 100,
+        'origin_price' => 200,
+        'price' => 200,
+        'origin_amount' => 2000,
+        'discount_amount' => 0,
+        'paid_amount' => 2000,
+        'origin_lesson_times' => 0,
+        'present_lesson_times' => 0,
+        'lesson_times' => 0,
+        'origin_lesson_hours' => 0,
+        'present_lesson_hours' => 0,
+        'lesson_hours' => 0,
+        'subtotal' => 2000,
+        'reduced_amount' => 0,
+        'cid' => 0,
+        'consume_type' => 1,
+        'is_demo' => 0,
+        'product_level_did' => 0,
+        'sdc_id' => 0,
+        '_class_name' => '',
+        '_is_term' => 1,
+        '_unit_lesson_hours' => '1.00',
+        '_is_average' => false,
+        '_share_own_amount' => 0,
+        '_amount_by_discount' => 2000,
+        '_apply_debit_type' => 0,
+        '_debit_reduced' => 0,
+        '_debit_discount' => 100,
+        '_debit_origin' => 0,
+        '_debit_current' => 0,
+        '_is_lock' => false,
+        '_is_flex' => 0,
+        '_data' => 
+        array (
+          'origin_price' => 200,
+          'origin_amount' => 2000,
+          'nums' => 10,
+        ),
+        'oi_id' => '662',
+      ),
+    ),
+    'payment' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 8,
+        'name' => '现金',
+        'is_public' => 0,
+        'pay_amount' => '0.00',
+        'type' => 0,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 0,
+      ),
+    ),
+    'is_demo' => 0,
+    'sdc_id' => 53,
+    '_dropdown_account' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 2,
+        'name' => '转账',
+        'is_public' => 1,
+        'pay_amount' => 0,
+        'type' => 1,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 1,
+      ),
+    ),
+    '_pre_stored_amount' => 0,
+    '_owe_payment_amount' => 0,
+    '_is_owe' => 0,
+    'is_submit' => 1,
+    '_submit' => 1,
+    'user_contract_no' => '',
+    'user_receipt_no' => '',
+    'oid' => 487,
+  ),
+  'is_push' => false,
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->do_submit[ /home/wwwroot/pro.xiao360.com/application/api/controller/Orders.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.017903s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007490s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2019-01-03T12:46:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ info ] pro.x360.com/api/orders/do_submit [运行时间：0.335493s][吞吐率：2.98req/s] [内存消耗：2,016.95kb] [文件加载：127]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'do_submit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '1618',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'db089671aecd605913398da0c8fca05d',
+  'x-client-time' => '1546496323',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=55323b83emegrts6m45reetmid',
+)
+[ info ] [ PARAM ] array (
+  'order' => 
+  array (
+    'paid_time' => '2019-01-03',
+    'balance_paid_amount' => 2000,
+    'money_pay_amount' => '0.00',
+    'paid_amount' => 2000,
+    'money_paid_amount' => '0.00',
+    'order_amount' => 2000,
+    '_lessons_amount' => 2000,
+    '_article_amount' => 0,
+    'origin_amount' => 2000,
+    '_total_amount' => 2000,
+    'order_discount_amount' => 0,
+    'order_reduced_amount' => 0,
+    'remark' => '',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 1,
+        'lid' => 36,
+        'gid' => 0,
+        'pi_id' => 0,
+        'item_name' => '舒青高级课程（仅适用松园校区）',
+        'name' => '舒青高级课程（仅适用松园校区）',
+        'gtype' => 0,
+        'nums' => 10,
+        'nums_unit' => 2,
+        'expire_time' => '',
+        '_discount_rate' => 100,
+        'origin_price' => 200,
+        'price' => 200,
+        'origin_amount' => 2000,
+        'discount_amount' => 0,
+        'paid_amount' => 2000,
+        'origin_lesson_times' => 0,
+        'present_lesson_times' => 0,
+        'lesson_times' => 0,
+        'origin_lesson_hours' => 0,
+        'present_lesson_hours' => 0,
+        'lesson_hours' => 0,
+        'subtotal' => 2000,
+        'reduced_amount' => 0,
+        'cid' => 0,
+        'consume_type' => 2,
+        'is_demo' => 0,
+        'product_level_did' => 0,
+        'sdc_id' => 0,
+        '_class_name' => '',
+        '_is_term' => 1,
+        '_unit_lesson_hours' => '1.00',
+        '_is_average' => false,
+        '_share_own_amount' => 0,
+        '_amount_by_discount' => 2000,
+        '_apply_debit_type' => 0,
+        '_debit_reduced' => 0,
+        '_debit_discount' => 100,
+        '_debit_origin' => 0,
+        '_debit_current' => 0,
+        '_is_lock' => false,
+        '_is_flex' => 0,
+        '_data' => 
+        array (
+          'origin_price' => 200,
+          'origin_amount' => 2000,
+          'nums' => 10,
+        ),
+        'oi_id' => '663',
+      ),
+    ),
+    'payment' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 8,
+        'name' => '现金',
+        'is_public' => 0,
+        'pay_amount' => '0.00',
+        'type' => 0,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 0,
+      ),
+    ),
+    'is_demo' => 0,
+    'sdc_id' => 53,
+    '_dropdown_account' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 2,
+        'name' => '转账',
+        'is_public' => 1,
+        'pay_amount' => 0,
+        'type' => 1,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 1,
+      ),
+    ),
+    '_pre_stored_amount' => 0,
+    '_owe_payment_amount' => 0,
+    '_is_owe' => 0,
+    'is_submit' => 1,
+    '_submit' => 1,
+    'user_contract_no' => '',
+    'user_receipt_no' => '',
+    'oid' => 488,
+  ),
+  'is_push' => false,
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->do_submit[ /home/wwwroot/pro.xiao360.com/application/api/controller/Orders.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000932s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012884s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007243s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000862s ]
+---------------------------------------------------------------
+[ 2019-01-03T14:52:47+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ info ] pro.x360.com/api/orders/do_submit [运行时间：0.794175s][吞吐率：1.26req/s] [内存消耗：1,692.88kb] [文件加载：137]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'do_submit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '1618',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'db089671aecd605913398da0c8fca05d',
+  'x-client-time' => '1546498366',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=55323b83emegrts6m45reetmid',
+)
+[ info ] [ PARAM ] array (
+  'order' => 
+  array (
+    'paid_time' => '2019-01-03',
+    'balance_paid_amount' => 2000,
+    'money_pay_amount' => '0.00',
+    'paid_amount' => 2000,
+    'money_paid_amount' => '0.00',
+    'order_amount' => 2000,
+    '_lessons_amount' => 2000,
+    '_article_amount' => 0,
+    'origin_amount' => 2000,
+    '_total_amount' => 2000,
+    'order_discount_amount' => 0,
+    'order_reduced_amount' => 0,
+    'remark' => '',
+    'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 1,
+        'lid' => 36,
+        'gid' => 0,
+        'pi_id' => 0,
+        'item_name' => '舒青高级课程（仅适用松园校区）',
+        'name' => '舒青高级课程（仅适用松园校区）',
+        'gtype' => 0,
+        'nums' => 10,
+        'nums_unit' => 2,
+        'expire_time' => '',
+        '_discount_rate' => 100,
+        'origin_price' => 200,
+        'price' => 200,
+        'origin_amount' => 2000,
+        'discount_amount' => 0,
+        'paid_amount' => 2000,
+        'origin_lesson_times' => 0,
+        'present_lesson_times' => 0,
+        'lesson_times' => 0,
+        'origin_lesson_hours' => 0,
+        'present_lesson_hours' => 0,
+        'lesson_hours' => 0,
+        'subtotal' => 2000,
+        'reduced_amount' => 0,
+        'cid' => 0,
+        'consume_type' => 1,
+        'is_demo' => 0,
+        'product_level_did' => 0,
+        'sdc_id' => 0,
+        '_class_name' => '',
+        '_is_term' => 1,
+        '_unit_lesson_hours' => '1.00',
+        '_is_average' => false,
+        '_share_own_amount' => 0,
+        '_amount_by_discount' => 2000,
+        '_apply_debit_type' => 0,
+        '_debit_reduced' => 0,
+        '_debit_discount' => 100,
+        '_debit_origin' => 0,
+        '_debit_current' => 0,
+        '_is_lock' => false,
+        '_is_flex' => 0,
+        '_data' => 
+        array (
+          'origin_price' => 200,
+          'origin_amount' => 2000,
+          'nums' => 10,
+        ),
+        'oi_id' => '676',
+      ),
+    ),
+    'payment' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 8,
+        'name' => '现金',
+        'is_public' => 0,
+        'pay_amount' => '0.00',
+        'type' => 0,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 0,
+      ),
+    ),
+    'is_demo' => 0,
+    'sdc_id' => 54,
+    '_dropdown_account' => 
+    array (
+      0 => 
+      array (
+        'aa_id' => 2,
+        'name' => '转账',
+        'is_public' => 1,
+        'pay_amount' => 0,
+        'type' => 1,
+        'cp_id' => 0,
+        'pay_status' => true,
+        'mode' => 1,
+      ),
+    ),
+    '_pre_stored_amount' => 0,
+    '_owe_payment_amount' => 0,
+    '_is_owe' => 0,
+    'is_submit' => 1,
+    '_submit' => 1,
+    'user_contract_no' => '',
+    'user_receipt_no' => '',
+    'oid' => 501,
+  ),
+  'is_push' => false,
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->do_submit[ /home/wwwroot/pro.xiao360.com/application/api/controller/Orders.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011701s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007990s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000661s ]

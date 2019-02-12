@@ -1,0 +1,116 @@
+---------------------------------------------------------------
+[ 2018-11-29T10:03:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/market_clues
+[ info ] pro.x360.com/api/market_clues [运行时间：1.272647s][吞吐率：0.79req/s] [内存消耗：1,312.93kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'market_clues',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '262',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'acfc41f43c83d178cdce56d7b9733609',
+  'x-client-time' => '1543456987',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=q3a74l4hshfk73q42cm8ckm04f',
+)
+[ info ] [ PARAM ] array (
+  'bid' => 8,
+  'mc_id' => 21,
+  'from_did' => 109,
+  'name' => '松园市场11号',
+  'tel' => '16474637463',
+  'family_rel' => 2,
+  'email' => '',
+  'sex' => 1,
+  'birth_time' => 0,
+  'get_time' => '2018-11-29',
+  'school_grade' => '',
+  'remark' => '',
+  'is_valid' => 0,
+  'assigned_eid' => 0,
+  'cu_assigned_eid' => 0,
+  'recommend_reward_note' => '',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001660s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012706s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010058s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2018-11-29T10:04:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/market_clues
+[ info ] pro.x360.com/api/market_clues [运行时间：1.034077s][吞吐率：0.97req/s] [内存消耗：1,420.36kb] [文件加载：118]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'market_clues',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '262',
+  'origin' => 'http://localhost:8868',
+  'x-token' => 'acfc41f43c83d178cdce56d7b9733609',
+  'x-client-time' => '1543457044',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=q3a74l4hshfk73q42cm8ckm04f',
+)
+[ info ] [ PARAM ] array (
+  'bid' => 8,
+  'mc_id' => 21,
+  'from_did' => 109,
+  'name' => '松园市场11号',
+  'tel' => '16474637463',
+  'family_rel' => 2,
+  'email' => '',
+  'sex' => 1,
+  'birth_time' => 0,
+  'get_time' => '2018-11-29',
+  'school_grade' => '',
+  'remark' => '',
+  'is_valid' => 0,
+  'assigned_eid' => 0,
+  'cu_assigned_eid' => 0,
+  'recommend_reward_note' => '',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012873s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009408s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000843s ]

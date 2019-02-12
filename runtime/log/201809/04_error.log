@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2018-09-04T09:35:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]类型错误: Too few arguments to function gvar(), 0 passed in /home/wwwroot/pro.xiao360.com/application/api/controller/Students.php on line 36 and at least 1 expected[/home/wwwroot/pro.xiao360.com/application/common.php:132]
+---------------------------------------------------------------
+[ 2018-09-04T10:02:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-09-04T11:16:50+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:430]
+---------------------------------------------------------------
+[ 2018-09-04T11:40:24+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_finish=0&reason=%E6%97%B6%E9%97%B4%E5%86%B2%E7%AA%81&tla_id=47
+[ error ] [0]致命错误: Call to undefined method app\api\controller\TrialListenArrange::get()[/home/wwwroot/pro.xiao360.com/application/api/controller/TrialListenArrange.php:106]
+---------------------------------------------------------------
+[ 2018-09-04T11:48:39+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_finish=0&tla_id=47&reason=%E6%97%B6%E9%97%B4%E5%86%B2%E7%AA%81
+[ error ] [2]Creating default object from empty value[/home/wwwroot/pro.xiao360.com/application/api/controller/TrialListenArrange.php:109]
+---------------------------------------------------------------
+[ 2018-09-04T11:55:18+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_finish=1&tla_id=47&x-bid=5&x-sub-host=base
+[ error ] [8]未定义变量: m_tiral[/home/wwwroot/pro.xiao360.com/application/api/controller/TrialListenArrange.php:109]
+---------------------------------------------------------------
+[ 2018-09-04T12:21:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3469/regatts
+[ error ] [8]Array to string conversion[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:810]
+---------------------------------------------------------------
+[ 2018-09-04T17:33:07+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_finish=0&reason=%E6%97%B6%E9%97%B4%E5%86%B2%E7%AA%81&tla_id=48
+[ error ] [0]语法解析错误: syntax error, unexpected '/', expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR)[/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php:366]
+---------------------------------------------------------------
+[ 2018-09-04T17:33:29+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_finish=0&reason=%E6%97%B6%E9%97%B4%E5%86%B2%E7%AA%81&tla_id=48
+[ error ] [0]数据表字段不存在:[is_finish][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-04T17:47:31+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/trial_listen_arrange?is_listen=0&reason=%E4%B8%B4%E6%97%B6%E6%9C%89%E4%BA%8B%EF%BC%8C%E6%97%B6%E9%97%B4%E5%86%B2%E7%AA%81&tla_id=46
+[ error ] [2]Creating default object from empty value[/home/wwwroot/pro.xiao360.com/application/api/model/TrialListenArrange.php:378]

@@ -1,0 +1,153 @@
+---------------------------------------------------------------
+[ 2018-11-15T09:12:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/dashboard/home
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/dashboard/home` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T09:13:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/channel
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/channel` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T09:13:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/clue
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/clue` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T09:48:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/clue
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/clue` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T09:48:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/channel
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/channel` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T09:51:48+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/business/arrange/lists
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/business/arrange/lists` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T10:14:02+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/query_course
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-15T10:21:22+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/query_course
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-15T10:28:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/clue
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/clue` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T11:48:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/business/iae/bills
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/business/iae/bills` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T11:48:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/business/iae/tally
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/business/iae/tally` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T12:29:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\AccountingAccount' not found[/home/wwwroot/pro.xiao360.com/application/api/export/OrderReceiptBills.php:54]
+---------------------------------------------------------------
+[ 2018-11-15T14:13:48+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/market/clue
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/market/clue` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T15:22:40+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/43/domktoken
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php:996]
+---------------------------------------------------------------
+[ 2018-11-15T15:24:25+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/43/domktoken
+[ error ] [0]致命错误: Class 'app\api\controller\Client' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php:999]
+---------------------------------------------------------------
+[ 2018-11-15T15:26:57+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/43/domktoken
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'x360p_base.x360p_client' doesn't exist[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-15T16:12:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/business/student/archive
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/business/student/archive` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T16:12:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/dashboard/home
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/dashboard/home` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T16:12:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/dashboard/home
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/dashboard/home` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T16:58:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/recruiting/list/customer
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/recruiting/list/customer` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]
+---------------------------------------------------------------
+[ 2018-11-15T18:26:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/system/logs
+[ error ] [502]Server error: `GET http://support.xiao360.com/api/help?router=/system/logs` resulted in a `502 Bad Gateway` response:
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+ (truncated...)
+[/home/wwwroot/pro.xiao360.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113]

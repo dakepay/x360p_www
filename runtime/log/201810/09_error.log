@@ -1,0 +1,87 @@
+---------------------------------------------------------------
+[ 2018-10-09T09:49:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/10?type=course_arrange_times
+[ error ] [0]致命错误: Call to undefined function app\api\controller\get_branch_namr()[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:69]
+---------------------------------------------------------------
+[ 2018-10-09T09:53:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/10?type=course_arrange_times
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:29]
+---------------------------------------------------------------
+[ 2018-10-09T10:24:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/10?type=course_arrange_student_times
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-10-09T10:42:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/10?type=course_arrange_student_times
+[ error ] [0]语法解析错误: syntax error, unexpected '：' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:95]
+---------------------------------------------------------------
+[ 2018-10-09T10:42:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/10?type=course_arrange_student_times
+[ error ] [8]未定义数组索引: cr_id[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:96]
+---------------------------------------------------------------
+[ 2018-10-09T14:34:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义变量: result[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentSummary.php:91]
+---------------------------------------------------------------
+[ 2018-10-09T14:34:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义数组索引: list[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentSummary.php:91]
+---------------------------------------------------------------
+[ 2018-10-09T14:35:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义数组索引: dept_id[/home/wwwroot/pro.xiao360.com/application/common/Report.php:228]
+---------------------------------------------------------------
+[ 2018-10-09T14:38:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义数组索引: list[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentSummary.php:93]
+---------------------------------------------------------------
+[ 2018-10-09T14:39:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义数组索引: dept_id[/home/wwwroot/pro.xiao360.com/application/common/Report.php:228]
+---------------------------------------------------------------
+[ 2018-10-09T14:39:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/?start_date=2018-08-01&end_date=2018-08-31&refresh=1
+[ error ] [8]未定义数组索引: list[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentSummary.php:93]
+---------------------------------------------------------------
+[ 2018-10-09T16:04:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [0]致命错误: Class 'app\api\model\ReportStudentCollect' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentCollects.php:13]
+---------------------------------------------------------------
+[ 2018-10-09T16:07:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [0]致命错误: Class 'app\api\model\ReportStudentCollect' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentCollects.php:13]
+---------------------------------------------------------------
+[ 2018-10-09T16:08:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `crea' at line 4[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:10:21+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `create' at line 8[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:12:29+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `create' at line 8[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:13:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `create' at line 8[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:14:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `create' at line 8[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:22:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `create' at line 8[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:451]
+---------------------------------------------------------------
+[ 2018-10-09T16:36:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [0]致命错误: Call to undefined function app\api\model\currect_week_ds()[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentCollect.php:53]
+---------------------------------------------------------------
+[ 2018-10-09T17:17:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [2]Declaration of app\api\model\ReportStudentCollect::buildDaySectionReport($sid) should be compatible with app\common\Report::buildDaySectionReport($start_date, $end_date, $bid)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentCollect.php:7]
+---------------------------------------------------------------
+[ 2018-10-09T17:19:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects
+[ error ] [0]类的属性不存在:app\api\model\ReportStudentCollect->sid_rwo_field_value[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-10-09T17:31:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects?refresh=1
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lids' in 'field list'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-10-09T17:31:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects?refresh=1
+[ error ] [8]未定义数组下标: 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:114]
+---------------------------------------------------------------
+[ 2018-10-09T17:42:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_collects?refresh=1
+[ error ] [8]未定义变量: lids[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentCollect.php:218]

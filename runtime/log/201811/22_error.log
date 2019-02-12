@@ -1,0 +1,462 @@
+---------------------------------------------------------------
+[ 2018-11-22T09:09:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:09:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T09:24:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:123]
+---------------------------------------------------------------
+[ 2018-11-22T09:26:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:123]
+---------------------------------------------------------------
+[ 2018-11-22T10:33:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:33:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:33:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:33:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:33:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:34:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:35:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:35:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:35:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:35:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:35:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:36:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:37:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:37:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:37:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:37:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:38:23+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:38:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:38:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:38:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:39:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:39:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:39:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:40:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:40:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:40:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:40:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:41:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:42:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:42:29+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:42:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:15+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:43:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:44:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:44:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:44:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:44:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:45:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:45:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:45:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:45:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:46:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:46:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:46:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:46:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:47:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:47:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:47:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:47:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:48:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:48:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:48:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:48:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:49:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:50:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:51:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:51:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:51:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:51:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:52:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:52:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:52:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:52:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:53:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:53:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:53:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:53:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:15+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:54:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:55:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:55:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:55:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:55:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:55:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:56:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:57:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:57:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:57:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T10:57:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ error ] [0]类型错误: Too few arguments to function app\api\model\StudentLog::addRecoverLog(), 1 passed in /home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonStop.php on line 122 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:120]
+---------------------------------------------------------------
+[ 2018-11-22T14:57:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/class_students/assign_class_logs?page=1&pagesize=10&sid=430
+[ error ] [0]致命错误: Call to undefined function app\api\controller\get_studnent_info()[/home/wwwroot/pro.xiao360.com/application/api/controller/ClassStudents.php:19]
+---------------------------------------------------------------
+[ 2018-11-22T15:26:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/class_students/assign_class_logs?page=1&pagesize=10&sid=430
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'x360p_base.in_time' doesn't exist[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-22T15:27:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/class_students/assign_class_logs?page=1&pagesize=10&sid=430
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'x360p_base.in_time' doesn't exist[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-11-22T15:37:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/class_students/assign_class_logs?page=1&pagesize=10&sid=430
+[ error ] [8]未定义数组索引: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/ClassStudents.php:42]

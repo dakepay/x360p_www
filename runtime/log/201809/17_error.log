@@ -1,0 +1,231 @@
+---------------------------------------------------------------
+[ 2018-09-17T03:44:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180917%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [64]Cannot redeclare get_user_words() (previously declared in /home/wwwroot/pro.xiao360.com/application/common.php:2092)[/home/wwwroot/pro.xiao360.com/application/common.php:2108]
+---------------------------------------------------------------
+[ 2018-09-17T03:45:12+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180917%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [64]Cannot redeclare get_user_words() (previously declared in /home/wwwroot/pro.xiao360.com/application/common.php:2092)[/home/wwwroot/pro.xiao360.com/application/common.php:2108]
+---------------------------------------------------------------
+[ 2018-09-17T03:45:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180917%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [64]Cannot redeclare get_user_words() (previously declared in /home/wwwroot/pro.xiao360.com/application/common.php:2092)[/home/wwwroot/pro.xiao360.com/application/common.php:2108]
+---------------------------------------------------------------
+[ 2018-09-17T03:46:12+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180917%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [64]Cannot redeclare get_user_words() (previously declared in /home/wwwroot/pro.xiao360.com/application/common.php:2092)[/home/wwwroot/pro.xiao360.com/application/common.php:2108]
+---------------------------------------------------------------
+[ 2018-09-17T12:24:08+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/homework_tasks?with=one_class&page=1&pagesize=10
+[ error ] [8]未定义变量: ht_ids[/home/wwwroot/pro.xiao360.com/application/sapi/controller/HomeworkTasks.php:43]
+---------------------------------------------------------------
+[ 2018-09-17T12:25:57+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/homework_tasks?with=one_class&page=1&pagesize=10
+[ error ] [8]未定义变量: row[/home/wwwroot/pro.xiao360.com/application/sapi/controller/HomeworkTasks.php:47]
+---------------------------------------------------------------
+[ 2018-09-17T14:48:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/makeup_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'class_typ' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-09-17T14:52:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/makeup_course_arranges
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:135]
+---------------------------------------------------------------
+[ 2018-09-17T14:53:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/makeup_course_arranges
+[ error ] [0]method not exist:think\db\Query->colomn[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-17T16:43:57+08:00 ] 192.168.10.10 192.168.10.1 POST /api/departments
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 172,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Branch.php',
+    'line' => 28,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Department.php',
+    'line' => 45,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Departments.php',
+    'line' => 23,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 367,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-17T16:44:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/departments
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 172,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Branch.php',
+    'line' => 28,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Department.php',
+    'line' => 45,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Departments.php',
+    'line' => 23,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 367,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-17T16:44:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/departments
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 172,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Branch.php',
+    'line' => 28,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Department.php',
+    'line' => 45,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Departments.php',
+    'line' => 23,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 367,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-09-17T17:12:37+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/course_arranges/activity_course_arranges
+[ error ] [0]致命错误: Class 'app\sapi\controller\CourseArrangeModel' not found[/home/wwwroot/pro.xiao360.com/application/sapi/controller/CourseArranges.php:90]
+---------------------------------------------------------------
+[ 2018-09-17T17:12:54+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/course_arranges/activity_course_arranges
+[ error ] [0]致命错误: Undefined class constant 'CLASS_TYPE_ACTIVITY'[/home/wwwroot/pro.xiao360.com/application/sapi/controller/CourseArranges.php:93]
+---------------------------------------------------------------
+[ 2018-09-17T17:13:25+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/course_arranges/activity_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'[/home/wwwroot/pro.xiao360.com/application/sapi/model/Classes.php:23]
+---------------------------------------------------------------
+[ 2018-09-17T18:15:32+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/classes/activity_schedule
+[ error ] [0]致命错误: Undefined class constant 'CLASS_TYPE_ACTIVITY'[/home/wwwroot/pro.xiao360.com/application/sapi/controller/Classes.php:48]

@@ -1,0 +1,84 @@
+---------------------------------------------------------------
+[ 2018-08-24T14:49:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/consume_lesson_hour?cid=46&int_start_hour=09%3A00&int_end_hour=10%3A00
+[ error ] [0]语法解析错误: syntax error, unexpected '{'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:268]
+---------------------------------------------------------------
+[ 2018-08-24T16:56:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-24T16:56:46+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-24T17:26:16+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '*', expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:209]
+---------------------------------------------------------------
+[ 2018-08-24T17:26:17+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '*', expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:209]
+---------------------------------------------------------------
+[ 2018-08-24T17:26:18+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '*', expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:209]
+---------------------------------------------------------------
+[ 2018-08-24T17:27:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-24T17:27:07+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-24T17:27:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-24T17:31:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T17:31:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T17:31:02+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:307]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:307]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:13+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:307]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:34+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: error_fields[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:234]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: error_fields[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:307]
+---------------------------------------------------------------
+[ 2018-08-24T18:08:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: error_fields[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:307]
+---------------------------------------------------------------
+[ 2018-08-24T19:20:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:311]
+---------------------------------------------------------------
+[ 2018-08-24T19:21:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:311]
+---------------------------------------------------------------
+[ 2018-08-24T19:21:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:311]
+---------------------------------------------------------------
+[ 2018-08-24T19:33:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: students[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:314]
+---------------------------------------------------------------
+[ 2018-08-24T19:33:16+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: students[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:314]
+---------------------------------------------------------------
+[ 2018-08-24T19:33:17+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: students[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:314]
+---------------------------------------------------------------
+[ 2018-08-24T20:04:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T20:04:13+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T20:06:04+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-24T20:06:05+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cr_id' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]

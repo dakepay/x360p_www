@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-11-23T09:59:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=multi_market_clues&fk=6bab6bddb1e5956b3021883589bbdce6&page=1&pagesize=20
+[ error ] [0]致命错误: Class 'PHPExcel_Shared_Date' not found[/home/wwwroot/pro.xiao360.com/application/api/import/MultiMarketClues.php:183]
+---------------------------------------------------------------
+[ 2018-11-23T11:00:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportEmployeePerformanceSummarys.php:44]

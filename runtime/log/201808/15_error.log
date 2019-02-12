@@ -1,0 +1,45 @@
+---------------------------------------------------------------
+[ 2018-08-15T11:40:10+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-15T12:30:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-15T12:35:50+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-15T12:56:31+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_lesson_hours
+[ error ] [8]未定义变量: data[/home/wwwroot/pro.xiao360.com/application/api/controller/StudentLessonHours.php:45]
+---------------------------------------------------------------
+[ 2018-08-15T14:48:46+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/class_attendances/453
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\exception\PDOException given, called in /home/wwwroot/pro.xiao360.com/application/api/model/ClassAttendance.php on line 253[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-15T14:54:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3339/regatts
+[ error ] http://210994a0.all123.net:8080/neza/message/push
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\exception\ErrorException given, called in /home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php on line 728[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-15T15:09:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3337/regatts
+[ error ] http://210994a0.all123.net:8080/neza/message/push
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\exception\ErrorException given, called in /home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php on line 728[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-15T15:14:57+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3337/regatts
+[ error ] http://210994a0.all123.net:8080/neza/message/push
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\exception\ErrorException given, called in /home/wwwroot/pro.xiao360.com/application/api/model/StudentAttendance.php on line 728[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-15T15:51:28+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3343/regatts
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:2696]

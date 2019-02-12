@@ -1,0 +1,574 @@
+---------------------------------------------------------------
+[ 2019-01-26T11:35:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ info ] pro.x360.com/api/course_arranges/3864/attobjects [运行时间：0.544623s][吞吐率：1.84req/s] [内存消耗：1,645.59kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'restful_sub',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1548473717',
+  'x-token' => '35f71f8ffebf941559b3d4b2ad12fc8c',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=sg062l8hvlv1d7m05pamlngs91',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'res' => 'course_arranges',
+  'id' => '3864',
+  'subres' => 'attobjects',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Base->restful_sub[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002384s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.069492s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.006086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.055980s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.006915s ]
+---------------------------------------------------------------
+[ 2019-01-26T11:36:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ info ] pro.x360.com/api/course_arranges/3864/attobjects [运行时间：0.489909s][吞吐率：2.04req/s] [内存消耗：1,645.59kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'restful_sub',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1548473767',
+  'x-token' => '35f71f8ffebf941559b3d4b2ad12fc8c',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=sg062l8hvlv1d7m05pamlngs91',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'res' => 'course_arranges',
+  'id' => '3864',
+  'subres' => 'attobjects',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Base->restful_sub[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001666s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.061018s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.045704s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001950s ]
+---------------------------------------------------------------
+[ 2019-01-26T11:37:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3864/attobjects
+[ info ] pro.x360.com/api/course_arranges/3864/attobjects [运行时间：0.474393s][吞吐率：2.11req/s] [内存消耗：1,645.59kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'restful_sub',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1548473830',
+  'x-token' => '35f71f8ffebf941559b3d4b2ad12fc8c',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=sg062l8hvlv1d7m05pamlngs91',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'res' => 'course_arranges',
+  'id' => '3864',
+  'subres' => 'attobjects',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Base->restful_sub[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001986s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.046649s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.044999s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001372s ]
+---------------------------------------------------------------
+[ 2019-01-26T11:39:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3865/attobjects
+[ info ] pro.x360.com/api/course_arranges/3865/attobjects [运行时间：0.644661s][吞吐率：1.55req/s] [内存消耗：1,645.59kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'restful_sub',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1548473969',
+  'x-token' => '35f71f8ffebf941559b3d4b2ad12fc8c',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=sg062l8hvlv1d7m05pamlngs91',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'res' => 'course_arranges',
+  'id' => '3865',
+  'subres' => 'attobjects',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Base->restful_sub[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001902s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.072898s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001721s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.065559s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001899s ]
+---------------------------------------------------------------
+[ 2019-01-26T11:44:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3761/regatts
+[ info ] pro.x360.com/api/course_arranges/3761/regatts [运行时间：1.729836s][吞吐率：0.58req/s] [内存消耗：2,566.26kb] [文件加载：143]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'course_arranges',
+    2 => 'restful_sub',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '5506',
+  'origin' => 'http://localhost:8868',
+  'x-token' => '35f71f8ffebf941559b3d4b2ad12fc8c',
+  'x-client-time' => '1548474291',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=sg062l8hvlv1d7m05pamlngs91',
+)
+[ info ] [ PARAM ] array (
+  'lesson_type' => 0,
+  'teach_eid' => 10003,
+  'lesson_remark' => '',
+  'students' => 
+  array (
+    0 => 
+    array (
+      'cas_id' => 4217,
+      'og_id' => 0,
+      'ca_id' => 3761,
+      'sid' => 430,
+      'cu_id' => 0,
+      'cid' => 33,
+      'is_trial' => 0,
+      'is_makeup' => 0,
+      'lid' => 29,
+      'sj_id' => 1,
+      'grade' => 1,
+      'sg_id' => 0,
+      'int_day' => 20190126,
+      'int_start_hour' => 600,
+      'int_end_hour' => 800,
+      'consume_source_type' => 1,
+      'is_in' => 0,
+      'is_leave' => 1,
+      'is_consume' => 0,
+      'consume_lesson_hour' => '0.00',
+      'consume_lesson_amount' => '0.00',
+      'has_extra_consume' => 0,
+      'remark' => '感冒啦',
+      'is_attendance' => 0,
+      'is_cancel' => 0,
+      'satt_id' => 0,
+      'create_time' => 1542677429,
+      'create_uid' => 10001,
+      'update_time' => 1548474181,
+      'is_delete' => 0,
+      'delete_time' => NULL,
+      'delete_uid' => 0,
+      'student' => 
+      array (
+        'sid' => 430,
+        'student_name' => '学员13号',
+        'nick_name' => '2gouzi',
+        'sex' => '1',
+        'photo_url' => 'http://s10.xiao360.com/qms/student_avatar/10001/18/11/20/9529271027bbba6c0feb0bdae659eb73.png',
+        'status' => 1,
+        'money' => '0.000000',
+        'student_lesson' => 
+        array (
+          'sid' => 430,
+          'sl_id' => 391,
+          'lid' => 34,
+          'cid' => 0,
+          'sj_ids' => '1',
+          'fit_grade_start' => 1,
+          'fit_grade_end' => 3,
+          'price_type' => 2,
+          'lesson_hours' => '21.00',
+          'lesson_amount' => '0.00',
+          'use_lesson_hours' => '4.00',
+          'remain_lesson_hours' => '7.00',
+          'remain_lesson_amount' => '0.00',
+          'refund_lesson_hours' => '10.00',
+          'transfer_lesson_hours' => '0.00',
+          'import_lesson_hours' => '0.00',
+          'present_lesson_hours' => '0.00',
+          'trans_in_lesson_hours' => '0.00',
+          'trans_out_lesson_hours' => '12.00',
+          'expire_time' => 0,
+        ),
+        'name' => '学员13号',
+      ),
+      'customer' => 
+      array (
+      ),
+      'attendance' => NULL,
+      'leave' => 
+      array (
+        'slv_id' => 180,
+        'og_id' => 0,
+        'bid' => 5,
+        'sid' => 430,
+        'lid' => 29,
+        'sj_id' => 1,
+        'grade' => 1,
+        'cid' => 33,
+        'sl_id' => 391,
+        'lesson_type' => 0,
+        'ca_id' => 3761,
+        'int_day' => 20181120,
+        'int_start_hour' => 600,
+        'int_end_hour' => 800,
+        'reason' => '感冒啦',
+        'leave_type' => 116,
+        'satt_id' => 0,
+        'ma_id' => 0,
+        'create_time' => 1542678162,
+        'create_uid' => 10001,
+        'update_time' => 1542678162,
+        'is_delete' => 0,
+        'delete_time' => NULL,
+        'delete_uid' => 0,
+      ),
+      'is_reset' => false,
+      'reset_val' => 0,
+      '_disabled' => true,
+    ),
+    1 => 
+    array (
+      'cas_id' => 4220,
+      'og_id' => 0,
+      'ca_id' => 3761,
+      'sid' => 137,
+      'cu_id' => 0,
+      'cid' => 33,
+      'is_trial' => 0,
+      'is_makeup' => 0,
+      'lid' => 29,
+      'sj_id' => 1,
+      'grade' => 1,
+      'sg_id' => 0,
+      'int_day' => 20190126,
+      'int_start_hour' => 600,
+      'int_end_hour' => 800,
+      'consume_source_type' => 1,
+      'is_in' => 0,
+      'is_leave' => 0,
+      'is_consume' => 0,
+      'consume_lesson_hour' => '0.00',
+      'consume_lesson_amount' => '0.00',
+      'has_extra_consume' => 0,
+      'remark' => '',
+      'is_attendance' => 0,
+      'is_cancel' => 0,
+      'satt_id' => 0,
+      'create_time' => 1542685014,
+      'create_uid' => 10001,
+      'update_time' => 1548474181,
+      'is_delete' => 0,
+      'delete_time' => NULL,
+      'delete_uid' => 0,
+      'student' => 
+      array (
+        'sid' => 137,
+        'student_name' => '李明',
+        'nick_name' => '狗蛋',
+        'sex' => '1',
+        'photo_url' => '',
+        'status' => 1,
+        'money' => '0.000000',
+        'student_lesson' => 
+        array (
+          'sid' => 137,
+          'sl_id' => 455,
+          'lid' => 29,
+          'cid' => 0,
+          'sj_ids' => '1',
+          'fit_grade_start' => 1,
+          'fit_grade_end' => 1,
+          'price_type' => 2,
+          'lesson_hours' => '1.00',
+          'lesson_amount' => '0.00',
+          'use_lesson_hours' => '0.00',
+          'remain_lesson_hours' => '1.00',
+          'remain_lesson_amount' => '0.00',
+          'refund_lesson_hours' => '0.00',
+          'transfer_lesson_hours' => '0.00',
+          'import_lesson_hours' => '0.00',
+          'present_lesson_hours' => '0.00',
+          'trans_in_lesson_hours' => '0.00',
+          'trans_out_lesson_hours' => '0.00',
+          'expire_time' => 0,
+        ),
+        'name' => '李明',
+      ),
+      'customer' => 
+      array (
+      ),
+      'attendance' => NULL,
+      'leave' => NULL,
+      'is_reset' => false,
+      'reset_val' => 0,
+      '_disabled' => false,
+    ),
+    2 => 
+    array (
+      'cas_id' => 4221,
+      'og_id' => 0,
+      'ca_id' => 3761,
+      'sid' => 95,
+      'cu_id' => 0,
+      'cid' => 33,
+      'is_trial' => 0,
+      'is_makeup' => 0,
+      'lid' => 29,
+      'sj_id' => 1,
+      'grade' => 1,
+      'sg_id' => 0,
+      'int_day' => 20190126,
+      'int_start_hour' => 600,
+      'int_end_hour' => 800,
+      'consume_source_type' => 1,
+      'is_in' => 0,
+      'is_leave' => 0,
+      'is_consume' => 0,
+      'consume_lesson_hour' => '0.00',
+      'consume_lesson_amount' => '0.00',
+      'has_extra_consume' => 0,
+      'remark' => '',
+      'is_attendance' => 0,
+      'is_cancel' => 0,
+      'satt_id' => 0,
+      'create_time' => 1542685014,
+      'create_uid' => 10001,
+      'update_time' => 1548474181,
+      'is_delete' => 0,
+      'delete_time' => NULL,
+      'delete_uid' => 0,
+      'student' => 
+      array (
+        'sid' => 95,
+        'student_name' => '客户2号',
+        'nick_name' => '',
+        'sex' => '1',
+        'photo_url' => '',
+        'status' => 1,
+        'money' => '0.000000',
+        'student_lesson' => 
+        array (
+          'sid' => 95,
+          'sl_id' => 445,
+          'lid' => 35,
+          'cid' => 0,
+          'sj_ids' => '1',
+          'fit_grade_start' => 2,
+          'fit_grade_end' => 4,
+          'price_type' => 2,
+          'lesson_hours' => '1.00',
+          'lesson_amount' => '0.00',
+          'use_lesson_hours' => '0.00',
+          'remain_lesson_hours' => '1.00',
+          'remain_lesson_amount' => '0.00',
+          'refund_lesson_hours' => '0.00',
+          'transfer_lesson_hours' => '0.00',
+          'import_lesson_hours' => '0.00',
+          'present_lesson_hours' => '0.00',
+          'trans_in_lesson_hours' => '0.00',
+          'trans_out_lesson_hours' => '0.00',
+          'expire_time' => 0,
+        ),
+        'name' => '客户2号',
+      ),
+      'customer' => 
+      array (
+      ),
+      'attendance' => NULL,
+      'leave' => NULL,
+      'is_reset' => false,
+      'reset_val' => 0,
+      '_disabled' => false,
+    ),
+    3 => 
+    array (
+      'cas_id' => 4222,
+      'og_id' => 0,
+      'ca_id' => 3761,
+      'sid' => 429,
+      'cu_id' => 0,
+      'cid' => 33,
+      'is_trial' => 0,
+      'is_makeup' => 0,
+      'lid' => 29,
+      'sj_id' => 1,
+      'grade' => 1,
+      'sg_id' => 0,
+      'int_day' => 20190126,
+      'int_start_hour' => 600,
+      'int_end_hour' => 800,
+      'consume_source_type' => 1,
+      'is_in' => 0,
+      'is_leave' => 0,
+      'is_consume' => 0,
+      'consume_lesson_hour' => '0.00',
+      'consume_lesson_amount' => '0.00',
+      'has_extra_consume' => 0,
+      'remark' => '',
+      'is_attendance' => 0,
+      'is_cancel' => 0,
+      'satt_id' => 0,
+      'create_time' => 1542685014,
+      'create_uid' => 10001,
+      'update_time' => 1548474181,
+      'is_delete' => 0,
+      'delete_time' => NULL,
+      'delete_uid' => 0,
+      'student' => 
+      array (
+        'sid' => 429,
+        'student_name' => '学员12号',
+        'nick_name' => '',
+        'sex' => '1',
+        'photo_url' => 'http://s10.xiao360.com/qms/student_avatar/10001/18/11/20/63ca71f6ed1b1c4e10675f809b539472.png',
+        'status' => 1,
+        'money' => '0.000000',
+        'student_lesson' => 
+        array (
+          'sid' => 429,
+          'sl_id' => 399,
+          'lid' => 34,
+          'cid' => 0,
+          'sj_ids' => '1',
+          'fit_grade_start' => 1,
+          'fit_grade_end' => 3,
+          'price_type' => 2,
+          'lesson_hours' => '10.00',
+          'lesson_amount' => '0.00',
+          'use_lesson_hours' => '1.00',
+          'remain_lesson_hours' => '9.00',
+          'remain_lesson_amount' => '0.00',
+          'refund_lesson_hours' => '0.00',
+          'transfer_lesson_hours' => '0.00',
+          'import_lesson_hours' => '0.00',
+          'present_lesson_hours' => '0.00',
+          'trans_in_lesson_hours' => '0.00',
+          'trans_out_lesson_hours' => '0.00',
+          'expire_time' => 0,
+        ),
+        'name' => '学员12号',
+      ),
+      'customer' => 
+      array (
+      ),
+      'attendance' => NULL,
+      'leave' => NULL,
+      'is_reset' => false,
+      'reset_val' => 0,
+      '_disabled' => false,
+    ),
+  ),
+  'consume_source_type' => 1,
+  'consume_lesson_hour' => '1.00',
+  'consume_lesson_amount' => '0.00',
+  'is_push' => true,
+  'res' => 'course_arranges',
+  'id' => '3761',
+  'subres' => 'regatts',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Base->restful_sub[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Credit @handle_credit [ RunTime:0.227835s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Credit @handle_credit [ RunTime:0.073747s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Credit @handle_credit [ RunTime:0.047263s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001805s ] mysql:host=192.168.10.1;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.066202s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.002077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.062383s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.008027s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Credit @handle_credit [ RunTime:0.017176s ]

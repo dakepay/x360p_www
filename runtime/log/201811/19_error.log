@@ -1,0 +1,81 @@
+---------------------------------------------------------------
+[ 2018-11-19T14:39:13+08:00 ] 192.168.10.10 192.168.10.1 GET //api/students/1/domktoken
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:123]
+---------------------------------------------------------------
+[ 2018-11-19T14:39:44+08:00 ] 192.168.10.10 192.168.10.1 GET //api/students/1/domktoken
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:123]
+---------------------------------------------------------------
+[ 2018-11-19T16:06:19+08:00 ] 192.168.10.10 192.168.10.1 GET //api/class_logs
+[ error ] [0]致命错误: Call to undefined method app\api\controller\ClassLogs::convert_envent_type()[/home/wwwroot/pro.xiao360.com/application/api/controller/ClassLogs.php:45]
+---------------------------------------------------------------
+[ 2018-11-19T18:04:05+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/classes/66
+[ error ] [0]致命错误: Call to undefined function app\api\model\json_incode()[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:93]
+---------------------------------------------------------------
+[ 2018-11-19T10:24:06+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/common.php:2824]
+---------------------------------------------------------------
+[ 2018-11-19T10:24:20+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/common.php:2824]
+---------------------------------------------------------------
+[ 2018-11-19T10:24:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/common.php:2824]
+---------------------------------------------------------------
+[ 2018-11-19T10:24:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/common.php:2824]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:48+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:39:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:40:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:40:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:40:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:40:21+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:40:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T18:41:00+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/students/430
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:937]
+---------------------------------------------------------------
+[ 2018-11-19T10:43:56+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T10:43:58+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T10:44:06+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T10:44:27+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T10:44:29+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T10:44:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181119%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/common.php:2822]
+---------------------------------------------------------------
+[ 2018-11-19T18:55:08+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/classes/66
+[ error ] [0]致命错误: Call to undefined function array_assoc()[/home/wwwroot/pro.xiao360.com/application/common.php:2823]

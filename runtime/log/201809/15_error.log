@@ -1,0 +1,69 @@
+---------------------------------------------------------------
+[ 2018-09-15T09:53:51+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:53+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:55+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:57+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:58+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:53:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T09:54:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [0]查询表达式错误:glt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-15T11:28:37+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/homework_tasks?with=one_class&page=1&pagesize=10
+[ error ] [8]未定义数组索引: cid[/home/wwwroot/pro.xiao360.com/application/sapi/controller/HomeworkTasks.php:39]
+---------------------------------------------------------------
+[ 2018-09-15T11:30:00+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/homework_tasks?with=one_class&page=1&pagesize=10
+[ error ] [8]未定义数组索引: cid[/home/wwwroot/pro.xiao360.com/application/sapi/controller/HomeworkTasks.php:40]
+---------------------------------------------------------------
+[ 2018-09-15T11:55:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_cut_amounts
+[ error ] [0]语法解析错误: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderCutAmounts.php:8]
+---------------------------------------------------------------
+[ 2018-09-15T11:56:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_cut_amounts
+[ error ] [0]致命错误: Class 'app\api\mdoel\OrderCutAmount' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderCutAmounts.php:17]
+---------------------------------------------------------------
+[ 2018-09-15T11:59:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_cut_amounts?with=student
+[ error ] [0]致命错误: Call to undefined function app\api\model\hasOne()[/home/wwwroot/pro.xiao360.com/application/api/model/OrderCutAmount.php:16]
+---------------------------------------------------------------
+[ 2018-09-15T12:22:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [2]A non-numeric value encountered[/home/wwwroot/pro.xiao360.com/application/api/model/OrderRefund.php:176]
+---------------------------------------------------------------
+[ 2018-09-15T15:07:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [0]类的属性不存在:app\api\model\OrderRefund->oca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:324]
+---------------------------------------------------------------
+[ 2018-09-15T15:08:16+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [8]Trying to get property 'oca_id' of non-object[/home/wwwroot/pro.xiao360.com/application/api/model/OrderRefund.php:277]
+---------------------------------------------------------------
+[ 2018-09-15T15:08:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [8]未定义变量: oca_info[/home/wwwroot/pro.xiao360.com/application/api/model/OrderRefund.php:279]
+---------------------------------------------------------------
+[ 2018-09-15T15:23:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [0]语法解析错误: syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLessonHour.php:20]
+---------------------------------------------------------------
+[ 2018-09-15T16:01:14+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/course_arranges/3541
+[ error ] [8]未定义数组索引: ignore_class_ec[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1261]
+---------------------------------------------------------------
+[ 2018-09-15T16:01:18+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/course_arranges/3541
+[ error ] [8]未定义数组索引: ignore_class_ec[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1261]
+---------------------------------------------------------------
+[ 2018-09-15T16:01:27+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/course_arranges/3541
+[ error ] [8]未定义数组索引: ignore_class_ec[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1261]

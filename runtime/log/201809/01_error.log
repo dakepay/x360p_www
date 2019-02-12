@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2018-09-01T09:03:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E9%B2%81%E7%8F%AD
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:281]
+---------------------------------------------------------------
+[ 2018-09-01T10:10:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&order_field=student_lesson_remain_hours&order_type=desc
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'remain_lesson_remain_hours' in 'field list'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-09-01T10:23:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&order_field=student_lesson_remain_hours&order_type=desc
+[ error ] [2]Use of undefined constant SORT_ - assumed 'SORT_' (this will throw an Error in a future version of PHP)[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:408]
+---------------------------------------------------------------
+[ 2018-09-01T16:14:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/vcode?mobile=17727750995&type=qrsign
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/Open.php:588]
+---------------------------------------------------------------
+[ 2018-09-01T16:16:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/vcode?mobile=17727750995&type=qrsign
+[ error ] [0]数据表字段不存在:[status][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-01T16:16:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/vcode?mobile=17727750995&type=qrsign
+[ error ] [0]数据表字段不存在:[status][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-01T17:00:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/customers/confirmUselessCustomer?cu_id=246
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, instance of app\api\model\Customer given, called in /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php on line 556[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:573]
+---------------------------------------------------------------
+[ 2018-09-01T17:03:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/customers/confirmUselessCustomer?cu_id=246
+[ error ] [0]类型错误: Argument 1 passed to think\Model::getRelationData() must be an instance of think\model\Relation, instance of app\api\model\Customer given, called in /home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php on line 556[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:573]

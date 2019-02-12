@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2018-08-29T01:15:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-29T09:08:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-29T09:08:41+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]

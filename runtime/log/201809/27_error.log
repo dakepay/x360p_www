@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[ 2018-09-27T10:22:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-09-19&end_date=2018-09-26
+[ error ] [0]method not exist:think\db\Query->count_lesson_nums[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-27T12:01:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]Indirect modification of overloaded property app\api\model\ReportEmployeeSummary::$eid_row_field_value has no effect[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:115]
+---------------------------------------------------------------
+[ 2018-09-27T12:03:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]Indirect modification of overloaded property app\api\model\ReportEmployeeSummary::$eid_row_field_value has no effect[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:116]
+---------------------------------------------------------------
+[ 2018-09-27T12:05:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义数组索引: bwtween_int_day[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:118]
+---------------------------------------------------------------
+[ 2018-09-27T12:05:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义变量: eid[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:210]
+---------------------------------------------------------------
+[ 2018-09-27T12:06:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [0]类的属性不存在:app\api\model\ReportEmployeeSummary->eid_row_field_vlaue[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-09-27T12:06:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义数组索引: end_int_day[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:161]
+---------------------------------------------------------------
+[ 2018-09-27T12:07:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义数组索引: rid[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:163]
+---------------------------------------------------------------
+[ 2018-09-27T12:17:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义变量: eid[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:222]
+---------------------------------------------------------------
+[ 2018-09-27T14:47:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义变量: result[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:192]
+---------------------------------------------------------------
+[ 2018-09-27T15:17:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_summarys?start_date=2018-08-01&end_date=2018-08-03
+[ error ] [8]未定义变量: einfo[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeeSummary.php:197]
+---------------------------------------------------------------
+[ 2018-09-27T16:21:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-01&end_date=2018-09-30
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:246]
+---------------------------------------------------------------
+[ 2018-09-27T17:08:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?start_date=2018-09-01&end_date=2018-09-30
+[ error ] [8]未定义变量: get_all_rows[/home/wwwroot/pro.xiao360.com/application/api/model/ReportBranchPerformanceSummary.php:47]
+---------------------------------------------------------------
+[ 2018-09-27T17:08:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?start_date=2018-09-01&end_date=2018-09-30
+[ error ] [0]类的属性不存在:app\api\model\ReportBranchPerformanceSummary->bid_row_fiels_value[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]

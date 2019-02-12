@@ -1,0 +1,199 @@
+---------------------------------------------------------------
+[ 2018-11-17T09:16:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/service_tasks
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 431,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/ServiceTask.php',
+    'line' => 76,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/ServiceTasks.php',
+    'line' => 33,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 369,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-17T10:29:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes
+[ error ] [0]语法解析错误: syntax error, unexpected 'Class' (T_CLASS), expecting variable (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:48]
+---------------------------------------------------------------
+[ 2018-11-17T10:29:43+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes
+[ error ] [0]语法解析错误: syntax error, unexpected 'Class' (T_CLASS), expecting variable (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:48]
+---------------------------------------------------------------
+[ 2018-11-17T11:18:45+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/classes/71
+[ error ] [0]致命错误: Using $this when not in object context[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:256]
+---------------------------------------------------------------
+[ 2018-11-17T11:19:28+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/classes/71
+[ error ] [0]致命错误: Using $this when not in object context[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:256]
+---------------------------------------------------------------
+[ 2018-11-17T11:22:55+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/classes/67
+[ error ] [0]致命错误: Call to a member function toArray() on null[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:95]
+---------------------------------------------------------------
+[ 2018-11-17T11:40:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/66/doassign
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/api/model/ClassStudent.php:253]
+---------------------------------------------------------------
+[ 2018-11-17T12:00:37+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/classes/66/students/405
+[ error ] [0]语法解析错误: syntax error, unexpected '$temp' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:121]
+---------------------------------------------------------------
+[ 2018-11-17T12:19:56+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/classes/66/students/405
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ClassLog::addClassStudentDeleteLog() must be of the type array, object given, called in /home/wwwroot/pro.xiao360.com/application/api/model/ClassStudent.php on line 325[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:135]
+---------------------------------------------------------------
+[ 2018-11-17T06:13:39+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:16]
+---------------------------------------------------------------
+[ 2018-11-17T06:14:02+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:16]
+---------------------------------------------------------------
+[ 2018-11-17T06:14:09+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:16]
+---------------------------------------------------------------
+[ 2018-11-17T06:14:17+00:00 ] 192.168.10.10 192.168.10.1 GET /api/classes?page=1&pagesize=10&status=%5BIn%2C0%2C1%2C2%5D&class_type=0&is_demo=0&with=schedules
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:16]
+---------------------------------------------------------------
+[ 2018-11-17T14:21:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3753/regatts
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"absence","sid":416,"credit":"1.00","type":2,"cate":1,"cru_id":4}
+---------------------------------------------------------------
+[ 2018-11-17T14:45:51+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:178]
+---------------------------------------------------------------
+[ 2018-11-17T14:46:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]数据表字段不存在:[op_type][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-11-17T14:52:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ClassLog::addClassArrangeLog() must be an instance of app\api\model\Classes, array given, called in /home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php on line 964[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:177]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:10+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:18+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:41+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/lesson_standard_files?page=1&pagesize=10&with=lesson_standard_file_item&lid=1
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T07:43:48+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181117%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/config/extra/format_string.php:20]
+---------------------------------------------------------------
+[ 2018-11-17T15:50:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/service_records
+[ error ] [0]语法解析错误: syntax error, unexpected 'int_hour_to_hour_str' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:251]
+---------------------------------------------------------------
+[ 2018-11-17T16:42:55+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":429,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-17T16:48:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":404,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-17T16:50:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":404,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-17T17:01:42+08:00 ] 192.168.10.10 192.168.10.1 DELETE /api/student_leaves/174
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 218,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLeave.php',
+    'line' => 397,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/StudentLeaves.php',
+    'line' => 56,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 369,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)

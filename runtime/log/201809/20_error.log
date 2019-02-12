@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2018-09-20T15:35:38+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]
+---------------------------------------------------------------
+[ 2018-09-20T15:35:40+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]
+---------------------------------------------------------------
+[ 2018-09-20T15:35:43+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]
+---------------------------------------------------------------
+[ 2018-09-20T15:35:45+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]
+---------------------------------------------------------------
+[ 2018-09-20T15:35:48+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]
+---------------------------------------------------------------
+[ 2018-09-20T15:35:50+08:00 ] 192.168.10.10 192.168.10.1 GET /wxapi/jssdk
+[ error ] [0]Component verify ticket does not exists.[/home/wwwroot/pro.xiao360.com/vendor/overtrue/wechat/src/OpenPlatform/VerifyTicket.php:100]

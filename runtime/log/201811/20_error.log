@@ -1,0 +1,563 @@
+---------------------------------------------------------------
+[ 2018-11-20T09:30:29+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":430,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-20T09:42:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":430,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-20T09:43:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":430,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-20T09:48:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/student_leaves
+[ error ] credit_hook_error: 学习积分不能小于0, data: {"hook_action":"leave","sid":430,"credit":"1.00","type":2,"cate":1,"cru_id":5}
+---------------------------------------------------------------
+[ 2018-11-20T10:12:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ error ] 钩子执行错误，hook_action:order_pay error: 订单金额不对
+---------------------------------------------------------------
+[ 2018-11-20T10:22:02+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [0]致命错误: Call to undefined function app\api\model\int_time()[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:405]
+---------------------------------------------------------------
+[ 2018-11-20T10:22:20+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_refund
+[ error ] [0]致命错误: Call to undefined function app\api\model\int_time()[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:405]
+---------------------------------------------------------------
+[ 2018-11-20T10:53:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_transfer
+[ error ] [8]未定义变量: cut_amount[/home/wwwroot/pro.xiao360.com/application/api/model/OrderTransfer.php:206]
+---------------------------------------------------------------
+[ 2018-11-20T12:08:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/orders/do_submit
+[ error ] 钩子执行错误，hook_action:order_pay error: 订单金额不对
+---------------------------------------------------------------
+[ 2018-11-20T12:32:31+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/416/dotranshours
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 227,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2478,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 183,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 283,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 1150,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 175,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 2410,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 922,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T12:32:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/416/dotranshours
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 227,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2478,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 183,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 283,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 1150,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 175,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 2410,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 922,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T12:32:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/416/dotranshours
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 227,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php',
+    'line' => 2478,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 183,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 283,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/helper.php',
+    'line' => 1150,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 175,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 2410,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 922,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T14:24:51+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/416/dotransmoney
+[ error ] [8]未定义变量: extra_parma[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:196]
+---------------------------------------------------------------
+[ 2018-11-20T14:53:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/employee_students
+[ error ] [0]致命错误: Class 'app\api\model\StudnentLog' not found[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:508]
+---------------------------------------------------------------
+[ 2018-11-20T15:17:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/404/dorecover
+[ error ] [0]语法解析错误: syntax error, unexpected 'info' (T_STRING), expecting variable (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php:119]
+---------------------------------------------------------------
+[ 2018-11-20T15:33:58+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/400/dorecover
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 1386,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 658,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T15:36:17+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/132/dorecover
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLog.php',
+    'line' => 131,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/StudentLesson.php',
+    'line' => 1572,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 1384,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 658,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 1386,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 658,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T15:46:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/133/dostop
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Student.php',
+    'line' => 1356,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php',
+    'line' => 605,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 792,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 410,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-20T15:59:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T15:59:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T15:59:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T15:59:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:00:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:00:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:00:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:00:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:01:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:01:15+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:01:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:01:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1659]
+---------------------------------------------------------------
+[ 2018-11-20T16:02:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1661]
+---------------------------------------------------------------
+[ 2018-11-20T16:02:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181120%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE), expecting '('[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1661]
+---------------------------------------------------------------
+[ 2018-11-20T16:07:28+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(63ca71f6ed1b1c4e10675f809b539472.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-11-20T16:20:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(2541de18e115f995530ce70381751f1d.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-11-20T16:20:53+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(9529271027bbba6c0feb0bdae659eb73.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]

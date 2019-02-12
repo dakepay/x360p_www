@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2018-11-09T11:34:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys
+[ error ] [0]致命错误: Class 'app\api\controller\ReportKi' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportKeys.php:13]
+---------------------------------------------------------------
+[ 2018-11-09T11:52:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:16]
+---------------------------------------------------------------
+[ 2018-11-09T14:46:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys?refresh=1
+[ error ] [0]语法解析错误: syntax error, unexpected 'count_student' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:179]
+---------------------------------------------------------------
+[ 2018-11-09T15:03:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys?refresh=1
+[ error ] [0]语法解析错误: syntax error, unexpected '[', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:201]
+---------------------------------------------------------------
+[ 2018-11-09T17:42:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys?refresh=1
+[ error ] [0]类不存在:app\common\model\TrialListenArange[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Loader.php:390]

@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-09-22T11:03:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_lesson_hours?page=1&pagesize=10&start_date=2018-09-01&end_date=2018-09-30
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'teach_eid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-09-22T11:09:38+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_lesson_hours?page=1&pagesize=10&start_date=2018-09-01&end_date=2018-09-30
+[ error ] [0]语法解析错误: syntax error, unexpected 'foreach' (T_FOREACH)[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeeLessonHours.php:76]

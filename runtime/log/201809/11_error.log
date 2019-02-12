@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2018-09-11T09:54:43+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_lessons
+[ error ] [0]致命错误: Class 'app\api\model\ReportStuentByLesson' not found[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentByLesson.php:46]
+---------------------------------------------------------------
+[ 2018-09-11T10:00:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_lessons
+[ error ] [0]致命错误: Class 'app\api\controller\student' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentByLessons.php:76]
+---------------------------------------------------------------
+[ 2018-09-11T10:06:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_lessons
+[ error ] [8]未定义变量: m_rsbl[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentByLessons.php:81]
+---------------------------------------------------------------
+[ 2018-09-11T10:06:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_lessons
+[ error ] [0]数据表字段不存在:[delete_uid][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-11T12:07:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_class_by_numbers
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ReportClassByNumber::deleteOldData() must be an instance of app\api\model\ReportClassByNumbet, instance of app\api\model\ReportClassByNumber given, called in /home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNumbers.php on line 69[/home/wwwroot/pro.xiao360.com/application/api/model/ReportClassByNumber.php:41]
+---------------------------------------------------------------
+[ 2018-09-11T12:07:45+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_class_by_numbers
+[ error ] [0]数据表字段不存在:[delete_uid][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-11T14:44:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_service_by_systems
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 'find_in_set(5,bids)'  AND `og_id` = ? ) AND `x360p_employee`.`delete_time` IS' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-09-11T07:45:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:45:54+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:46:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:46:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:47:26+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:47:56+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:48:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:49:03+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:49:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:50:06+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:50:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:51:07+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:51:39+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:52:09+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:52:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:53:10+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:53:41+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:10+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:10+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:13+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:13+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:54:44+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:56:17+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:56:47+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:57:18+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:57:49+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T07:58:24+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-11T08:44:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180911%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '='[/home/wwwroot/pro.xiao360.com/config/extra/storage.php:22]

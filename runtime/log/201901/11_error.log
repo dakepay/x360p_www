@@ -1,0 +1,18 @@
+---------------------------------------------------------------
+[ 2019-01-11T11:44:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:20]
+---------------------------------------------------------------
+[ 2019-01-11T12:16:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Cannot use object of type stdClass as array[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:81]
+---------------------------------------------------------------
+[ 2019-01-11T12:25:08+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Call to a member function toArray() on string[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:77]
+---------------------------------------------------------------
+[ 2019-01-11T14:27:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '!'[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:79]
+---------------------------------------------------------------
+[ 2019-01-11T14:27:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '!'[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:79]
+---------------------------------------------------------------
+[ 2019-01-11T14:27:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '!'[/home/wwwroot/pro.xiao360.com/application/api/export/Orders.php:79]

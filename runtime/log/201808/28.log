@@ -1,0 +1,3672 @@
+---------------------------------------------------------------
+[ 2018-08-28T09:29:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：1.362903s][吞吐率：0.73req/s] [内存消耗：1,087.55kb] [文件加载：102]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => NULL,
+)
+[ info ] [ RUN ] app\api\controller\Open->captcha[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'xsess_',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'select' => 0,
+)
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.026701s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004049s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013193s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.002128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006966s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.004995s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:26+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：1.304712s][吞吐率：0.77req/s] [内存消耗：1,426.77kb] [文件加载：124]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'signin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '53',
+  'accept' => 'application/json, text/plain, */*',
+  'x-client-time' => '1535419764',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'origin' => 'http://localhost:8988',
+  'content-type' => 'application/json;charset=UTF-8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '134792',
+  'captcha' => '8',
+)
+[ info ] [ RUN ] app\api\controller\Open->signin[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'xsess_',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'select' => 0,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.043006s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001419s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009795s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005764s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/all
+[ info ] pro.x360.com/api/global/all [运行时间：1.802432s][吞吐率：0.55req/s] [内存消耗：3,932.85kb] [文件加载：143]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419766',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'all',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010678s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001005s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012257s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.002989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006680s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003082s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_wxopen_authorizer` [ RunTime:0.009953s ]
+[ sql ] [ SQL ] SELECT `wa_id`,`cid`,`og_id`,`authorizer_appid`,`nick_name`,`head_img`,`service_type_info`,`verify_type_info`,`user_name`,`principal_name`,`alias`,`qrcode_url`,`status`,`system_default`,`update_time`,`create_uid`,`is_delete`,`delete_time`,`delete_uid`,`create_time` FROM `pro_wxopen_authorizer` WHERE (  `system_default` = 1  AND `status` = 0 ) AND `pro_wxopen_authorizer`.`delete_time` IS NULL [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client_ui_config` [ RunTime:0.007109s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client_ui_config` WHERE  `cid` = 1  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:29+08:00 ] 192.168.10.10 192.168.10.1 GET /api/index/todaytask
+[ info ] pro.x360.com/api/index/todaytask [运行时间：0.828977s][吞吐率：1.21req/s] [内存消耗：1,179.07kb] [文件加载：117]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'todaytask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419768',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->todaytask[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.011259s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002932s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013279s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005883s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000813s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/employees
+[ info ] pro.x360.com/api/global/employees [运行时间：1.409805s][吞吐率：0.71req/s] [内存消耗：1,222.48kb] [文件加载：116]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'employees',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.020832s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000991s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011598s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009892s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：1.618805s][吞吐率：0.62req/s] [内存消耗：1,076.69kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.018559s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001875s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012525s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010734s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001111s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/system/latestversion
+[ info ] pro.x360.com/api/system/latestversion [运行时间：1.726465s][吞吐率：0.58req/s] [内存消耗：1,076.76kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'system',
+    2 => 'latestversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\System->latestversion[ /home/wwwroot/pro.xiao360.com/application/api/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.029569s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001358s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.017475s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010961s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001541s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002022s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_version` [ RunTime:0.011375s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_version` WHERE (  `publish_date` >= 20180821 ) AND `pro_version`.`delete_time` IS NULL ORDER BY publish_date DESC LIMIT 0,1 [ RunTime:0.001090s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/broadcasts?page=1&pagesize=10
+[ info ] pro.x360.com/api/broadcasts?page=1&pagesize=10 [运行时间：2.016834s][吞吐率：0.50req/s] [内存消耗：1,263.70kb] [文件加载：125]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'broadcasts',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.025474s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001081s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.008246s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008084s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000731s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_lesson_warn?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/student_lesson_warn?page=1&pagesize=5 [运行时间：2.074328s][吞吐率：0.48req/s] [内存消耗：1,323.67kb] [文件加载：123]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_lesson_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_lesson_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.025068s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001399s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011121s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007886s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000828s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/class_times_warn?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/class_times_warn?page=1&pagesize=5 [运行时间：1.985096s][吞吐率：0.50req/s] [内存消耗：1,173.48kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'class_times_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->class_times_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.036305s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011624s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007939s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000764s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_lost_warn?page=1&pagesize=4
+[ info ] pro.x360.com/api/dashboard/student_lost_warn?page=1&pagesize=4 [运行时间：2.222832s][吞吐率：0.45req/s] [内存消耗：1,248.20kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_lost_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '4',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_lost_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.027383s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004426s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.016420s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007674s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/backlogs?page=1&pagesize=5&int_day=20180828
+[ info ] pro.x360.com/api/backlogs?page=1&pagesize=5&int_day=20180828 [运行时间：2.117853s][吞吐率：0.47req/s] [内存消耗：1,071.10kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'backlogs',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+  'int_day' => '20180828',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.025795s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001747s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.008121s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010717s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001239s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/today_trial?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/today_trial?page=1&pagesize=5 [运行时间：2.283577s][吞吐率：0.44req/s] [内存消耗：1,190.12kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'today_trial',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->today_trial[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.020618s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001381s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011390s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.012015s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/birthday_remind?page=1&pagesize=4
+[ info ] pro.x360.com/api/dashboard/birthday_remind?page=1&pagesize=4 [运行时间：2.019647s][吞吐率：0.50req/s] [内存消耗：1,199.75kb] [文件加载：116]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'birthday_remind',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419769',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '4',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->birthday_remind[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.019316s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002563s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011452s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.002004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009562s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000756s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_stats?page=1&pagesize=10
+[ info ] pro.x360.com/api/dashboard/student_stats?page=1&pagesize=10 [运行时间：2.476446s][吞吐率：0.40req/s] [内存消耗：1,253.02kb] [文件加载：118]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_stats',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_stats[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.026318s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001772s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.007519s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009108s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001231s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/knowledge_items?page=1&pagesize=10&router_uri=%2Fdashboard%2Fhome&with_my_like=1&order_field=stars&order_sort=desc&bid=-1
+[ info ] pro.x360.com/api/knowledge_items?page=1&pagesize=10&router_uri=%2Fdashboard%2Fhome&with_my_like=1&order_field=stars&order_sort=desc&bid=-1 [运行时间：2.721652s][吞吐率：0.37req/s] [内存消耗：1,218.88kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'knowledge_items',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'router_uri' => '/dashboard/home',
+  'with_my_like' => '1',
+  'order_field' => 'stars',
+  'order_sort' => 'desc',
+  'bid' => '-1',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.022795s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003819s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.007961s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007285s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001258s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/today_course?page=1&pagesize=10
+[ info ] pro.x360.com/api/dashboard/today_course?page=1&pagesize=10 [运行时间：2.892727s][吞吐率：0.35req/s] [内存消耗：1,335.45kb] [文件加载：122]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'today_course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->today_course[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.020622s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001799s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.014459s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008002s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001166s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:38+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues?page=1&pagesize=10
+[ info ] pro.x360.com/api/market_clues?page=1&pagesize=10 [运行时间：2.711161s][吞吐率：0.37req/s] [内存消耗：1,183.57kb] [文件加载：121]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'market_clues',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.017159s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004059s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013964s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.011070s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.003288s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:38+08:00 ] 192.168.10.10 192.168.10.1 GET /api/issetup
+[ info ] pro.x360.com/api/issetup [运行时间：2.296256s][吞吐率：0.44req/s] [内存消耗：1,189.48kb] [文件加载：117]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'is_setup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->is_setup[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009605s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002287s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011448s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.008599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009514s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:38+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/areas
+[ info ] pro.x360.com/api/global/areas [运行时间：1.582196s][吞吐率：0.63req/s] [内存消耗：4,254.86kb] [文件加载：114]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'areas',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.011142s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004333s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013250s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009702s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_area` [ RunTime:0.010116s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_area` [ RunTime:0.009835s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:29:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/dashboard/home
+[ info ] pro.x360.com/api/open/helpdoc?router=/dashboard/home [运行时间：8.643038s][吞吐率：0.12req/s] [内存消耗：916.41kb] [文件加载：130]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'helpdoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419770',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'router' => '/dashboard/home',
+)
+[ info ] [ RUN ] app\api\controller\Open->helpdoc[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.015977s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002111s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.015990s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.015058s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001546s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:30:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.757364s][吞吐率：1.32req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419799',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.007657s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011112s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.002042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009260s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:30:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.772866s][吞吐率：1.29req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419829',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.017810s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001481s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010815s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003868s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006433s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.003354s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:31:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.757393s][吞吐率：1.32req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535419859',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008328s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009958s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005644s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:31:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/basic/lesson
+[ info ] pro.x360.com/api/open/helpdoc?router=/basic/lesson [运行时间：1.434049s][吞吐率：0.70req/s] [内存消耗：847.02kb] [文件加载：130]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'helpdoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419869',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'router' => '/basic/lesson',
+)
+[ info ] [ RUN ] app\api\controller\Open->helpdoc[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.014653s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001044s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013746s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009266s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.003205s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:31:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/lessons?page=1&pagesize=10&is_demo=0&lesson_type=%5BIn%2C0%2C1%2C2%2C3%5D&status=%5BIn%2C1%5D
+[ info ] pro.x360.com/api/lessons?page=1&pagesize=10&is_demo=0&lesson_type=%5BIn%2C0%2C1%2C2%2C3%5D&status=%5BIn%2C1%5D [运行时间：1.395133s][吞吐率：0.72req/s] [内存消耗：1,253.07kb] [文件加载：123]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'lessons',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419869',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'is_demo' => '0',
+  'lesson_type' => '[In,0,1,2,3]',
+  'status' => '[In,1]',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.011372s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001658s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012880s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.014074s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001705s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:31:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/knowledge_items?page=1&pagesize=10&order_field=stars&order_sort=desc&bid=-1&router_uri=%2Fbasic%2Flesson&with_my_like=1
+[ info ] pro.x360.com/api/knowledge_items?page=1&pagesize=10&order_field=stars&order_sort=desc&bid=-1&router_uri=%2Fbasic%2Flesson&with_my_like=1 [运行时间：1.297922s][吞吐率：0.77req/s] [内存消耗：1,212.53kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'knowledge_items',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419869',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'order_field' => 'stars',
+  'order_sort' => 'desc',
+  'bid' => '-1',
+  'router_uri' => '/basic/lesson',
+  'with_my_like' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009810s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001154s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.017479s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008681s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.002094s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:31:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.708816s][吞吐率：1.41req/s] [内存消耗：1,074.66kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419889',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.034454s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.019750s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005858s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000718s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:32:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.662278s][吞吐率：1.51req/s] [内存消耗：1,074.66kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419919',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.007226s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009952s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.006875s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006347s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000716s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:32:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.753663s][吞吐率：1.33req/s] [内存消耗：1,074.66kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419949',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010959s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.018242s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006935s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:32:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/ueditor?token=e0a32a0d3c4df08f37704c285ffeaeb3&action=config&&noCache=1535419954733
+[ info ] pro.x360.com/api/ueditor?token=e0a32a0d3c4df08f37704c285ffeaeb3&action=config&&noCache=1535419954733 [运行时间：0.774149s][吞吐率：1.29req/s] [内存消耗：987.15kb] [文件加载：114]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'ueditor',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'action' => 'config',
+  'noCache' => '1535419954733',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.012063s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000852s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.022251s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007641s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:32:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/subjects?page=1&pagesize=10
+[ info ] pro.x360.com/api/subjects?page=1&pagesize=10 [运行时间：0.754480s][吞吐率：1.33req/s] [内存消耗：1,144.22kb] [文件加载：117]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'subjects',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419958',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.007437s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009647s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005952s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:33:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.793866s][吞吐率：1.26req/s] [内存消耗：1,074.66kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535419979',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009023s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000978s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.005898s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.012470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.013865s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001348s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:33:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.799758s][吞吐率：1.25req/s] [内存消耗：1,074.66kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535420009',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.016723s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000977s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010195s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007341s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000831s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:33:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/logout
+[ info ] pro.x360.com/api/logout [运行时间：0.601659s][吞吐率：1.66req/s] [内存消耗：984.63kb] [文件加载：114]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-client-time' => '1535420029',
+  'x-token' => 'e0a32a0d3c4df08f37704c285ffeaeb3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->logout[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009167s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000922s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.014114s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005845s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:33:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.681689s][吞吐率：1.47req/s] [内存消耗：688.36kb] [文件加载：102]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => NULL,
+)
+[ info ] [ RUN ] app\api\controller\Open->captcha[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'xsess_',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'select' => 0,
+)
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.006922s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012018s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006494s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000697s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：1.114330s][吞吐率：0.90req/s] [内存消耗：1,294.71kb] [文件加载：124]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'signin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '53',
+  'accept' => 'application/json, text/plain, */*',
+  'x-client-time' => '1535420080',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'origin' => 'http://localhost:8988',
+  'content-type' => 'application/json;charset=UTF-8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '134792',
+  'captcha' => '8',
+)
+[ info ] [ RUN ] app\api\controller\Open->signin[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'xsess_',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'select' => 0,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.048714s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000883s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009802s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008438s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000579s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/all
+[ info ] pro.x360.com/api/global/all [运行时间：1.642056s][吞吐率：0.61req/s] [内存消耗：3,864.10kb] [文件加载：143]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420082',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'all',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.011026s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000844s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010405s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005949s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003017s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_wxopen_authorizer` [ RunTime:0.007795s ]
+[ sql ] [ SQL ] SELECT `wa_id`,`cid`,`og_id`,`authorizer_appid`,`nick_name`,`head_img`,`service_type_info`,`verify_type_info`,`user_name`,`principal_name`,`alias`,`qrcode_url`,`status`,`system_default`,`update_time`,`create_uid`,`is_delete`,`delete_time`,`delete_uid`,`create_time` FROM `pro_wxopen_authorizer` WHERE (  `system_default` = 1  AND `status` = 0 ) AND `pro_wxopen_authorizer`.`delete_time` IS NULL [ RunTime:0.005426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client_ui_config` [ RunTime:0.011320s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client_ui_config` WHERE  `cid` = 1  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001163s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/employees
+[ info ] pro.x360.com/api/global/employees [运行时间：1.510961s][吞吐率：0.66req/s] [内存消耗：1,221.88kb] [文件加载：116]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'employees',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.027146s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001586s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012917s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009807s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001338s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/system/latestversion
+[ info ] pro.x360.com/api/system/latestversion [运行时间：1.755759s][吞吐率：0.57req/s] [内存消耗：1,075.57kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'system',
+    2 => 'latestversion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\System->latestversion[ /home/wwwroot/pro.xiao360.com/application/api/controller/System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.034567s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002004s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011704s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.004722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.012446s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001542s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_version` [ RunTime:0.019393s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_version` WHERE (  `publish_date` >= 20180821 ) AND `pro_version`.`delete_time` IS NULL ORDER BY publish_date DESC LIMIT 0,1 [ RunTime:0.004512s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：1.765951s][吞吐率：0.57req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.032635s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001132s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.015390s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.013420s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001106s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/broadcasts?page=1&pagesize=10
+[ info ] pro.x360.com/api/broadcasts?page=1&pagesize=10 [运行时间：2.537440s][吞吐率：0.39req/s] [内存消耗：1,262.31kb] [文件加载：125]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'broadcasts',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.077825s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001474s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009220s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001047s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007588s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_lesson_warn?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/student_lesson_warn?page=1&pagesize=5 [运行时间：2.398694s][吞吐率：0.42req/s] [内存消耗：1,258.39kb] [文件加载：123]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_lesson_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_lesson_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.108799s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001427s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.016399s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.004457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.009696s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001899s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/class_times_warn?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/class_times_warn?page=1&pagesize=5 [运行时间：2.266093s][吞吐率：0.44req/s] [内存消耗：1,172.28kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'class_times_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->class_times_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.036524s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002297s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.008805s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008542s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_lost_warn?page=1&pagesize=4
+[ info ] pro.x360.com/api/dashboard/student_lost_warn?page=1&pagesize=4 [运行时间：2.425311s][吞吐率：0.41req/s] [内存消耗：1,248.20kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_lost_warn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '4',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_lost_warn[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.026299s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001986s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012704s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008073s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000789s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/backlogs?page=1&pagesize=5&int_day=20180828
+[ info ] pro.x360.com/api/backlogs?page=1&pagesize=5&int_day=20180828 [运行时间：2.246773s][吞吐率：0.45req/s] [内存消耗：1,070.41kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'backlogs',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+  'int_day' => '20180828',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.038048s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002195s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.013051s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010553s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000635s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/today_trial?page=1&pagesize=5
+[ info ] pro.x360.com/api/dashboard/today_trial?page=1&pagesize=5 [运行时间：2.380225s][吞吐率：0.42req/s] [内存消耗：1,194.88kb] [文件加载：120]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'today_trial',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '5',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->today_trial[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.029443s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002690s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.015304s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.014610s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.004395s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/birthday_remind?page=1&pagesize=4
+[ info ] pro.x360.com/api/dashboard/birthday_remind?page=1&pagesize=4 [运行时间：2.387532s][吞吐率：0.42req/s] [内存消耗：1,199.75kb] [文件加载：116]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'birthday_remind',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '4',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->birthday_remind[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.021832s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001969s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009916s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.018365s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001943s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/student_stats?page=1&pagesize=10
+[ info ] pro.x360.com/api/dashboard/student_stats?page=1&pagesize=10 [运行时间：2.507046s][吞吐率：0.40req/s] [内存消耗：1,251.71kb] [文件加载：118]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'student_stats',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->student_stats[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.033728s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001777s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012605s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008050s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001015s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/knowledge_items?page=1&pagesize=10&router_uri=%2Fdashboard%2Fhome&with_my_like=1&order_field=stars&order_sort=desc&bid=-1
+[ info ] pro.x360.com/api/knowledge_items?page=1&pagesize=10&router_uri=%2Fdashboard%2Fhome&with_my_like=1&order_field=stars&order_sort=desc&bid=-1 [运行时间：2.464197s][吞吐率：0.41req/s] [内存消耗：1,217.57kb] [文件加载：119]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'knowledge_items',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'router_uri' => '/dashboard/home',
+  'with_my_like' => '1',
+  'order_field' => 'stars',
+  'order_sort' => 'desc',
+  'bid' => '-1',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.037444s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001975s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012338s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007164s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000996s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/open/helpdoc?router=/dashboard/home
+[ info ] pro.x360.com/api/open/helpdoc?router=/dashboard/home [运行时间：2.986268s][吞吐率：0.33req/s] [内存消耗：847.05kb] [文件加载：130]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'helpdoc',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'router' => '/dashboard/home',
+)
+[ info ] [ RUN ] app\api\controller\Open->helpdoc[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.042863s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003128s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012239s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010609s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001403s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/today_course?page=1&pagesize=10
+[ info ] pro.x360.com/api/dashboard/today_course?page=1&pagesize=10 [运行时间：2.315646s][吞吐率：0.43req/s] [内存消耗：1,270.27kb] [文件加载：122]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'dashboard',
+    2 => 'today_course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Dashboard->today_course[ /home/wwwroot/pro.xiao360.com/application/api/controller/Dashboard.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.025327s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003054s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.014308s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.012785s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001618s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues?page=1&pagesize=10
+[ info ] pro.x360.com/api/market_clues?page=1&pagesize=10 [运行时间：2.193647s][吞吐率：0.46req/s] [内存消耗：1,182.27kb] [文件加载：121]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'market_clues',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.021737s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001990s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012604s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.012541s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001829s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/issetup
+[ info ] pro.x360.com/api/issetup [运行时间：1.907369s][吞吐率：0.52req/s] [内存消耗：1,189.48kb] [文件加载：117]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'is_setup',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420085',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->is_setup[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.016660s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001478s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.012018s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.011218s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001439s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:34:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/global/areas
+[ info ] pro.x360.com/api/global/areas [运行时间：1.718700s][吞吐率：0.58req/s] [内存消耗：4,254.86kb] [文件加载：114]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'glob',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420086',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'areas',
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->glob[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.016755s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001999s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.014714s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010135s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_area` [ RunTime:0.011041s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_area` [ RunTime:0.008962s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:35:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.719744s][吞吐率：1.39req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420115',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010564s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001520s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010682s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007176s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.001376s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:35:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.647064s][吞吐率：1.55req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420146',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010945s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009585s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005974s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000966s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:36:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.610550s][吞吐率：1.64req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420177',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008169s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003289s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009675s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005959s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000775s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:36:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.615580s][吞吐率：1.62req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420208',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010854s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000968s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.022049s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006955s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000739s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:37:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.659777s][吞吐率：1.52req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420239',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009967s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011432s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005834s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:37:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.661896s][吞吐率：1.51req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420270',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008931s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000820s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010177s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001087s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005750s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000903s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:38:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.614137s][吞吐率：1.63req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420301',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.007502s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.008230s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000722s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:38:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.806133s][吞吐率：1.24req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420332',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008540s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001143s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.006705s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007666s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.002668s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:39:23+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.718486s][吞吐率：1.39req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420362',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008977s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.010045s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001067s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006172s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:39:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.660068s][吞吐率：1.51req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420393',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009330s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.018160s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006177s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000754s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:40:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.667070s][吞吐率：1.50req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420424',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.010530s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000902s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.017606s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005628s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000890s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:40:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.647717s][吞吐率：1.54req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420455',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.007709s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001052s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.020286s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001457s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005961s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.002392s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:41:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.686778s][吞吐率：1.46req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420485',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008138s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.016706s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007941s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:41:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ info ] pro.x360.com/api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180828%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer [运行时间：0.756574s][吞吐率：1.32req/s] [内存消耗：1,075.48kb] [文件加载：115]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'service_tasks',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420515',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'pagesize' => '10',
+  'int_day' => '[<=,20180828]',
+  'status' => '0',
+  'own_eid' => '10001',
+  'with' => 'student,one_class,customer',
+)
+[ info ] [ RUN ] app\api\controller\Base->restful[ /home/wwwroot/pro.xiao360.com/application/api/controller/Base.php ]
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008174s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000976s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.009814s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.006517s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000773s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:42:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/logout
+[ info ] pro.x360.com/api/logout [运行时间：0.707499s][吞吐率：1.41req/s] [内存消耗：985.76kb] [文件加载：114]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'logout',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'x-client-time' => '1535420520',
+  'x-token' => 'f7e62a4394906e5b55be17e1d41987c1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '5',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Index->logout[ /home/wwwroot/pro.xiao360.com/application/api/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.009885s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000880s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011886s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.005823s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000687s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:42:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.834945s][吞吐率：1.20req/s] [内存消耗：689.45kb] [文件加载：102]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'captcha',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => NULL,
+)
+[ info ] [ RUN ] app\api\controller\Open->captcha[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'xsess_',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'select' => 0,
+)
+[ info ] [ BEHAVIOR ] Run app\api\behavior\RecordAction @response_end [ RunTime:0.008897s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.023895s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.010117s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000953s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:42:16+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：0.553943s][吞吐率：1.81req/s] [内存消耗：708.80kb] [文件加载：97]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'open',
+    2 => 'signin',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '54',
+  'accept' => 'application/json, text/plain, */*',
+  'x-client-time' => '1535420536',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3493.3 Safari/537.36',
+  'origin' => 'http://localhost:8988',
+  'content-type' => 'application/json;charset=UTF-8',
+  'referer' => 'http://localhost:8988/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=k56o16omecnc7rccsse60gvkv1',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '134792',
+  'captcha' => '36',
+)
+[ info ] [ RUN ] app\api\controller\Open->signin[ /home/wwwroot/pro.xiao360.com/application/api/controller/Open.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011620s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.003821s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.007076s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000870s ]
+---------------------------------------------------------------
+[ 2018-08-28T03:26:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.431411s][吞吐率：2.32req/s] [内存消耗：326.79kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:26:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.426358s][吞吐率：2.35req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:26:46+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.278207s][吞吐率：3.59req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:26:49+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.402888s][吞吐率：2.48req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.398202s][吞吐率：2.51req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.347520s][吞吐率：2.88req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.042785077166251906
+[ info ] pro.x360.com/api/captcha?t=0.042785077166251906 [运行时间：0.248664s][吞吐率：4.02req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:17+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.06934355321356067
+[ info ] pro.x360.com/api/captcha?t=0.06934355321356067 [运行时间：0.260170s][吞吐率：3.84req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.319079s][吞吐率：3.13req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:22+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.331770s][吞吐率：3.01req/s] [内存消耗：389.09kb] [文件加载：52]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.322785s][吞吐率：3.10req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:27:26+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.355349s][吞吐率：2.81req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:28:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.366402s][吞吐率：2.73req/s] [内存消耗：394.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:28:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.265001s][吞吐率：3.77req/s] [内存消耗：326.56kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:29:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.333477s][吞吐率：3.00req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:33:57+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.498688s][吞吐率：2.01req/s] [内存消耗：524.20kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6218745673127926
+[ info ] pro.x360.com/api/captcha?t=0.6218745673127926 [运行时间：0.255807s][吞吐率：3.91req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:01+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9861269290530301
+[ info ] pro.x360.com/api/captcha?t=0.9861269290530301 [运行时间：0.238351s][吞吐率：4.20req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:08+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9995053278633381
+[ info ] pro.x360.com/api/captcha?t=0.9995053278633381 [运行时间：0.259698s][吞吐率：3.85req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:13+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.5551248140631062
+[ info ] pro.x360.com/api/captcha?t=0.5551248140631062 [运行时间：0.265896s][吞吐率：3.76req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.1773587897174176
+[ info ] pro.x360.com/api/captcha?t=0.1773587897174176 [运行时间：0.288329s][吞吐率：3.47req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.0510846868867163
+[ info ] pro.x360.com/api/captcha?t=0.0510846868867163 [运行时间：0.319884s][吞吐率：3.13req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6593798758678535
+[ info ] pro.x360.com/api/captcha?t=0.6593798758678535 [运行时间：0.263248s][吞吐率：3.80req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:38+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.09687428118955022
+[ info ] pro.x360.com/api/captcha?t=0.09687428118955022 [运行时间：0.266254s][吞吐率：3.76req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6946534833344575
+[ info ] pro.x360.com/api/captcha?t=0.6946534833344575 [运行时间：0.287017s][吞吐率：3.48req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:34:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.1635983657845821
+[ info ] pro.x360.com/api/captcha?t=0.1635983657845821 [运行时间：0.262292s][吞吐率：3.81req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.261673s][吞吐率：3.82req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:21+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.328741s][吞吐率：3.04req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:24+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.322520s][吞吐率：3.10req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.361948s][吞吐率：2.76req/s] [内存消耗：326.00kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:53+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.4570928725160188
+[ info ] pro.x360.com/api/captcha?t=0.4570928725160188 [运行时间：0.233134s][吞吐率：4.29req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:54+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.48497155258476754
+[ info ] pro.x360.com/api/captcha?t=0.48497155258476754 [运行时间：0.252452s][吞吐率：3.96req/s] [内存消耗：326.02kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:35:55+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.2540410478338593
+[ info ] pro.x360.com/api/captcha?t=0.2540410478338593 [运行时间：0.281167s][吞吐率：3.56req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:36:04+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9908942267270104
+[ info ] pro.x360.com/api/captcha?t=0.9908942267270104 [运行时间：0.273374s][吞吐率：3.66req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:37:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9908942267270104
+[ info ] pro.x360.com/api/captcha?t=0.9908942267270104 [运行时间：0.321389s][吞吐率：3.11req/s] [内存消耗：325.46kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:37:51+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：0.254352s][吞吐率：3.93req/s] [内存消耗：325.36kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:37:52+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.8171216134075219
+[ info ] pro.x360.com/api/captcha?t=0.8171216134075219 [运行时间：0.229636s][吞吐率：4.35req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:37:54+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：0.238757s][吞吐率：4.19req/s] [内存消耗：325.36kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:37:55+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.2639946267577784
+[ info ] pro.x360.com/api/captcha?t=0.2639946267577784 [运行时间：0.234697s][吞吐率：4.26req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:38:00+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ info ] pro.x360.com/api/signin [运行时间：0.275659s][吞吐率：3.63req/s] [内存消耗：325.95kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:38:01+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9003028356936824
+[ info ] pro.x360.com/api/captcha?t=0.9003028356936824 [运行时间：0.291295s][吞吐率：3.43req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.315016s][吞吐率：3.17req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:41+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.7388468324374591
+[ info ] pro.x360.com/api/captcha?t=0.7388468324374591 [运行时间：0.258063s][吞吐率：3.88req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6432929668618474
+[ info ] pro.x360.com/api/captcha?t=0.6432929668618474 [运行时间：0.247044s][吞吐率：4.05req/s] [内存消耗：326.02kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.5469122290196546
+[ info ] pro.x360.com/api/captcha?t=0.5469122290196546 [运行时间：0.253218s][吞吐率：3.95req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.8971308503701942
+[ info ] pro.x360.com/api/captcha?t=0.8971308503701942 [运行时间：0.265476s][吞吐率：3.77req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:39:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.23012842823823254
+[ info ] pro.x360.com/api/captcha?t=0.23012842823823254 [运行时间：0.257932s][吞吐率：3.88req/s] [内存消耗：325.44kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:44:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.288564s][吞吐率：3.47req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:44:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.369552s][吞吐率：2.71req/s] [内存消耗：326.00kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:56:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：1.662067s][吞吐率：0.60req/s] [内存消耗：524.07kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T03:57:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：1.275487s][吞吐率：0.78req/s] [内存消耗：325.29kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T04:03:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.249254s][吞吐率：4.01req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T04:03:25+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.257913s][吞吐率：3.88req/s] [内存消耗：326.00kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T04:03:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.243527s][吞吐率：4.11req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T06:09:25+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：1.679584s][吞吐率：0.60req/s] [内存消耗：524.04kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T06:14:15+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9864352351108776
+[ info ] pro.x360.com/api/captcha?t=0.9864352351108776 [运行时间：0.229181s][吞吐率：4.36req/s] [内存消耗：325.41kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T06:42:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ info ] pro.x360.com/api/student_suspends [运行时间：0.218847s][吞吐率：4.57req/s] [内存消耗：325.46kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T07:40:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.241995s][吞吐率：4.13req/s] [内存消耗：325.38kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T07:40:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ info ] pro.x360.com/api/captcha [运行时间：0.268905s][吞吐率：3.72req/s] [内存消耗：325.38kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

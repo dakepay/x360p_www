@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-10-20T03:37:05+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181020%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Network is unreachable[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-10-20T17:52:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/franchisee_service_applys
+[ error ] [0]致命错误: Class 'app\api\controller\Franchisee' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/FranchiseeServiceApplys.php:83]

@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-10-11T02:09:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181011%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [2002]SQLSTATE[HY000] [2002] Network is unreachable[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-10-11T11:10:17+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\ReportStudentSummary' not found[/home/wwwroot/pro.xiao360.com/application/api/export/ReportDetails.php:217]
+---------------------------------------------------------------
+[ 2018-10-11T12:36:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/25?type=course_arrange_times&page=1&pagesize=10
+[ error ] [8]未定义数组索引: start_int_day[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:57]
+---------------------------------------------------------------
+[ 2018-10-11T12:38:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/25?type=course_arrange_times&page=1&pagesize=10
+[ error ] [8]未定义数组索引: start_date[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentSummarys.php:57]
+---------------------------------------------------------------
+[ 2018-10-11T17:43:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ''1正常,0停课,2转出,9结�' (T_CONSTANT_ENCAPSED_STRING), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportDetails.php:181]
+---------------------------------------------------------------
+[ 2018-10-11T18:04:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_by_teachers/10003?type=class_student_nums&page=1&pagesize=10
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/common/db/Query.php:251]
+---------------------------------------------------------------
+[ 2018-10-11T18:29:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_teachers
+[ error ] [8]未定义变量: bid[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentByTeachers.php:170]
+---------------------------------------------------------------
+[ 2018-10-11T18:33:18+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_teachers
+[ error ] [8]未定义变量: model[/home/wwwroot/pro.xiao360.com/application/api/model/ReportStudentByTeacher.php:75]
+---------------------------------------------------------------
+[ 2018-10-11T18:37:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_teachers
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-10-11T18:39:43+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_student_by_teachers
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]

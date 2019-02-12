@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[ 2018-09-28T10:31:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-26&end_date=2018-09-28
+[ error ] [8]未定义变量: result[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:193]
+---------------------------------------------------------------
+[ 2018-09-28T10:33:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-26&end_date=2018-09-28
+[ error ] [8]未定义变量: result[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:193]
+---------------------------------------------------------------
+[ 2018-09-28T11:36:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/271?start_date=2018-09-26&end_date=2018-09-28
+[ error ] [2]Declaration of app\api\controller\ReportEmployeePerformanceSummarys::get_detail(think\Request $request) should be compatible with app\api\controller\Base::get_detail(think\Request $request, $id = 0)[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:10]
+---------------------------------------------------------------
+[ 2018-09-28T11:36:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/271?start_date=2018-09-26&end_date=2018-09-28
+[ error ] [8]未定义数组索引: rid[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:51]
+---------------------------------------------------------------
+[ 2018-09-28T11:42:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/271
+[ error ] [0]致命错误: Class 'app\api\controller\ReportBranchPerformanceSummary' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:33]
+---------------------------------------------------------------
+[ 2018-09-28T12:13:29+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-21&end_date=2018-09-28&rid=1
+[ error ] [0]查询表达式错误:1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-28T12:14:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-21&end_date=2018-09-28&rid=1
+[ error ] [0]查询表达式错误:1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-28T12:15:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-21&end_date=2018-09-28&rid=1
+[ error ] [0]查询表达式错误:1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-28T12:17:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?rid=1
+[ error ] [0]查询表达式错误:1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-28T14:59:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/271
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:78]
+---------------------------------------------------------------
+[ 2018-09-28T15:59:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/1
+[ error ] [0]致命错误: Cannot access protected property app\api\model\EmployeeLessonHour::$detail_fields[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:56]
+---------------------------------------------------------------
+[ 2018-09-28T15:59:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/1
+[ error ] [0]致命错误: Undefined class constant 'detail_fields'[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:56]
+---------------------------------------------------------------
+[ 2018-09-28T16:00:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/1
+[ error ] [0]致命错误: Undefined class constant 'detail_fields'[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:56]
+---------------------------------------------------------------
+[ 2018-09-28T16:00:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/1
+[ error ] [0]致命错误: Cannot access protected property app\api\model\EmployeeLessonHour::$detail_fields[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:56]

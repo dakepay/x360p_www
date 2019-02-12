@@ -1,0 +1,150 @@
+---------------------------------------------------------------
+[ 2018-09-30T09:15:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?order_field=amount&order_sort=asc&start_date=2018-09-24&end_date=2018-09-30
+[ error ] [0]method not exist:think\db\Query->getSearchResult[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-30T09:15:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?order_field=amount&order_sort=desc&start_date=2018-09-24&end_date=2018-09-30
+[ error ] [0]method not exist:think\db\Query->getSearchResult[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-30T09:16:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?order_field=amount&order_sort=asc&start_date=2018-09-24&end_date=2018-09-30
+[ error ] [8]未定义数组索引: dept_id[/home/wwwroot/pro.xiao360.com/application/common/Report.php:225]
+---------------------------------------------------------------
+[ 2018-09-30T09:17:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?order_field=amount&order_sort=desc&start_date=2018-09-24&end_date=2018-09-30
+[ error ] [0]method not exist:think\db\Query->getSearchResult[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-30T09:18:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?order_field=amount&order_sort=desc&start_date=2018-09-24&end_date=2018-09-30
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::order(), 0 passed in /home/wwwroot/pro.xiao360.com/application/common/Report.php on line 175 and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:1415]
+---------------------------------------------------------------
+[ 2018-09-30T09:43:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '=', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportBranchPerformanceSummarys.php:11]
+---------------------------------------------------------------
+[ 2018-09-30T09:45:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_business_summarys
+[ error ] [8]未定义数组索引: order_field[/home/wwwroot/pro.xiao360.com/application/common/Report.php:175]
+---------------------------------------------------------------
+[ 2018-09-30T09:45:14+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_business_summarys
+[ error ] [8]未定义数组索引: order_field[/home/wwwroot/pro.xiao360.com/application/common/Report.php:175]
+---------------------------------------------------------------
+[ 2018-09-30T09:45:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_business_summarys
+[ error ] [8]未定义数组索引: order_field[/home/wwwroot/pro.xiao360.com/application/common/Report.php:175]
+---------------------------------------------------------------
+[ 2018-09-30T10:34:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys?start_date=2018-09-24&end_date=2018-09-30
+[ error ] [0]数据表字段不存在:[lesson_hours][/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:109]
+---------------------------------------------------------------
+[ 2018-09-30T11:34:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/10?type=lesson_amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: between_int_day[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportBranchPerformanceSummarys.php:56]
+---------------------------------------------------------------
+[ 2018-09-30T11:37:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/10?type=lesson_amount&page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '$input' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportBranchPerformanceSummarys.php:43]
+---------------------------------------------------------------
+[ 2018-09-30T12:03:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\StudentLessonHour' not found[/home/wwwroot/pro.xiao360.com/application/api/export/ReportDetails.php:142]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:03+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1444]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:03+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1444]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:08+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1444]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1444]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1444]
+---------------------------------------------------------------
+[ 2018-09-30T06:48:39+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/helper.php:1445]
+---------------------------------------------------------------
+[ 2018-09-30T14:49:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/0?dept_id=0&type=amount&page=1&pagesize=10
+[ error ] [0]类的属性不存在:app\api\model\Department->bid[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-09-30T14:56:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/0?dept_id=0&type=amount&page=1&pagesize=10
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/home/wwwroot/pro.xiao360.com/application/helper.php:1441]
+---------------------------------------------------------------
+[ 2018-09-30T07:02:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:03:01+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:03:07+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:03:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:03+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:09+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:15+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:04:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:05+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:11+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:15+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:05:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:07+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:13+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:15+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1442]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:38+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1443]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:44+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1443]
+---------------------------------------------------------------
+[ 2018-09-30T07:06:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180930%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'[/home/wwwroot/pro.xiao360.com/application/helper.php:1443]
+---------------------------------------------------------------
+[ 2018-09-30T15:18:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/0?dept_id=0&type=amount&page=1&pagesize=10
+[ error ] [0]致命错误: Call to undefined function app\api\controller\get_bids_by_dpt_id()[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportBranchPerformanceSummarys.php:62]
+---------------------------------------------------------------
+[ 2018-09-30T15:50:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/0?dept_id=0&type=amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: start_date[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportBranchPerformanceSummarys.php:42]
+---------------------------------------------------------------
+[ 2018-09-30T15:55:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_branch_performance_summarys/10?type=amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: start_date[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportBranchPerformanceSummarys.php:42]
+---------------------------------------------------------------
+[ 2018-09-30T16:34:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '=', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportBranchPerformanceSummarys.php:11]
+---------------------------------------------------------------
+[ 2018-09-30T16:35:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '=', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportBranchPerformanceSummarys.php:31]
+---------------------------------------------------------------
+[ 2018-09-30T16:35:24+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/home/wwwroot/pro.xiao360.com/application/api/export/ReportBranchPerformanceSummarys.php:31]
+---------------------------------------------------------------
+[ 2018-09-30T16:35:51+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/home/wwwroot/pro.xiao360.com/application/api/export/ReportBranchPerformanceSummarys.php:31]

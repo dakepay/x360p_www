@@ -1,0 +1,606 @@
+---------------------------------------------------------------
+[ 2018-11-08T10:46:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected ','[/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php:265]
+---------------------------------------------------------------
+[ 2018-11-08T11:49:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=0cdcba2eac4f457bd354740c7b90bd65&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 293,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 598,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T11:51:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=fa78b89e73a761b444dbd974b6b19758&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 293,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 599,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T11:51:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=9dfae0a011c48f3969dcda88bef1cc00&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 293,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 600,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T11:58:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=564ac8b95f156119d5a3ea3163bc61d4&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 293,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 599,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T12:03:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=15404a95224d02761b9781d2a1a8f9d5&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 292,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 599,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T12:04:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=1811efd889bad3044cf57b6f5de57dd4&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 202,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 292,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 599,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 314,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T12:17:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=orders&fk=7c309c0a7d8646bb8043f4a3a83761f9&page=1&pagesize=20
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 272,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 185,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/OrderItem.php',
+    'line' => 292,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 599,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/Order.php',
+    'line' => 459,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 315,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php',
+    'line' => 238,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/common/Import.php',
+    'line' => 178,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 196,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Index.php',
+    'line' => 167,
+  ),
+  10 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  11 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  12 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  13 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  14 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  15 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-08T12:34:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected ''items'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php:282]
+---------------------------------------------------------------
+[ 2018-11-08T12:34:32+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected ''items'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/import/Orders.php:282]
+---------------------------------------------------------------
+[ 2018-11-08T17:27:01+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]类型错误: Too few arguments to function util\excel::getExcelCeilIndex(), 1 passed in /home/wwwroot/pro.xiao360.com/extend/util/excel.php on line 203 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/extend/util/excel.php:70]
+---------------------------------------------------------------
+[ 2018-11-08T18:23:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_kis
+[ error ] [0]语法解析错误: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKi.php:31]
+---------------------------------------------------------------
+[ 2018-11-08T18:24:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_kis
+[ error ] [0]语法解析错误: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKi.php:31]

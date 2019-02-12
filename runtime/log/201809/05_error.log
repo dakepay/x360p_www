@@ -1,0 +1,87 @@
+---------------------------------------------------------------
+[ 2018-09-05T11:52:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_by_status
+[ error ] [8]未定义变量: group[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentByStatus.php:18]
+---------------------------------------------------------------
+[ 2018-09-05T12:02:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_by_status
+[ error ] [0]查询表达式错误:[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Builder.php:331]
+---------------------------------------------------------------
+[ 2018-09-05T12:04:20+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_by_status
+[ error ] [0]语法解析错误: syntax error, unexpected ')', expecting ']'[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportStudentByStatus.php:25]
+---------------------------------------------------------------
+[ 2018-09-05T14:36:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_by_status
+[ error ] [0]variable type error： array[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Response.php:318]
+---------------------------------------------------------------
+[ 2018-09-05T15:29:45+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '$columns' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportStudentByStatus.php:11]
+---------------------------------------------------------------
+[ 2018-09-05T15:32:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [1]Class 'app\api\export\Base' not found[/home/wwwroot/pro.xiao360.com/application/api/export/ReportStudentByStatus.php:8]
+---------------------------------------------------------------
+[ 2018-09-05T15:33:02+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\common\Student' not found[/home/wwwroot/pro.xiao360.com/application/api/export/ReportStudentByStatus.php:35]
+---------------------------------------------------------------
+[ 2018-09-05T15:49:01+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/share/my_review_detail?with=one_class&rs_id=95
+[ error ] [0]method not exist:think\db\Query->classes[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T16:32:42+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]致命错误: Class 'app\sapi\controller\OrderModel' not found[/home/wwwroot/pro.xiao360.com/application/sapi/controller/Orders.php:37]
+---------------------------------------------------------------
+[ 2018-09-05T16:33:12+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]method not exist:think\db\Query->orderPerformance[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T16:35:45+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]致命错误: Class 'app\sapi\model\OrderPerformance' not found[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/model/relation/HasMany.php:35]
+---------------------------------------------------------------
+[ 2018-09-05T16:37:46+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]method not exist:think\db\Query->getItemNumsCondition[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T16:38:41+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]致命错误: Class 'app\sapi\controller\StudentLesson' not found[/home/wwwroot/pro.xiao360.com/application/sapi/controller/Orders.php:57]
+---------------------------------------------------------------
+[ 2018-09-05T16:39:22+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]method not exist:think\db\Query->employeeStudent[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T17:10:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/orders?page=1&pagesize=1000&sid=34
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/controller/Orders.php:43]
+---------------------------------------------------------------
+[ 2018-09-05T17:21:06+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]method not exist:think\db\Query->getItemNumsCondition[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T17:21:44+08:00 ] 192.168.10.10 192.168.10.1 GET /sapi/orders?page=1&pagesize=10&
+[ error ] [0]method not exist:think\db\Query->getTransferNumByOiId[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-05T19:23:09+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/students/48/dotransfer_money
+[ error ] [0]致命错误: Call to a member function updateStudentInfo() on null[/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php:238]
+---------------------------------------------------------------
+[ 2018-09-05T19:23:52+08:00 ] 192.168.10.10 192.168.10.1 PUT /api/students/59/dotransfer_money
+[ error ] [0]致命错误: Call to a member function updateStudentInfo() on null[/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php:238]
+---------------------------------------------------------------
+[ 2018-09-05T19:26:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]未定义数组索引: amount[/home/wwwroot/pro.xiao360.com/application/api/controller/Students.php:768]
+---------------------------------------------------------------
+[ 2018-09-05T19:28:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]未定义变量: student[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2026]
+---------------------------------------------------------------
+[ 2018-09-05T19:28:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]未定义数组索引: sid[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2027]
+---------------------------------------------------------------
+[ 2018-09-05T19:29:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [0]致命错误: Class 'app\api\model\TransferMoneyHistory' not found[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2031]
+---------------------------------------------------------------
+[ 2018-09-05T19:30:13+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [0]类不存在:app\common\validate\TransferMoneyHistory[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Loader.php:465]
+---------------------------------------------------------------
+[ 2018-09-05T19:30:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [64]Cannot declare class app\api\validate\TransferMoneyHistory because the name is already in use[/home/wwwroot/pro.xiao360.com/application/api/validate/TransferMoneyHistory.php:8]
+---------------------------------------------------------------
+[ 2018-09-05T19:40:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [0]类的属性不存在:app\api\model\Student->amount[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-09-05T19:40:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransfer_money?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]Trying to get property 'money' of non-object[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2043]
+---------------------------------------------------------------
+[ 2018-09-05T19:49:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransmoney?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]Trying to get property 'money' of non-object[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2046]
+---------------------------------------------------------------
+[ 2018-09-05T19:50:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students/26/dotransmoney?to_sid=27&amount=16&remark=%E8%B5%8F%E4%BD%A0%E7%9A%84
+[ error ] [8]Trying to get property 'money' of non-object[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:2046]

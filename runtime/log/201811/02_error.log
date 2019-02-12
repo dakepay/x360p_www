@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-11-02T17:37:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/81?type=course_arrange_times&page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1379]
+---------------------------------------------------------------
+[ 2018-11-02T17:37:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_student_summarys/82?type=course_arrange_times&page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1379]

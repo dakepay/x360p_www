@@ -1,0 +1,177 @@
+---------------------------------------------------------------
+[ 2018-08-28T03:26:27+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:26:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:26:46+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:26:49+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.042785077166251906
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:17+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.06934355321356067
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:22+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:27:26+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:28:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:28:33+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:29:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:33:57+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6218745673127926
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:01+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9861269290530301
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:08+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9995053278633381
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:13+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.5551248140631062
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:14+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.1773587897174176
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.0510846868867163
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:16+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6593798758678535
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:38+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.09687428118955022
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6946534833344575
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:34:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.1635983657845821
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:21+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:24+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:53+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.4570928725160188
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:54+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.48497155258476754
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:35:55+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.2540410478338593
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:36:04+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9908942267270104
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:37:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9908942267270104
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:37:51+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:37:52+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.8171216134075219
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:37:54+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:37:55+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.2639946267577784
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:38:00+00:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:38:01+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9003028356936824
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:41+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.7388468324374591
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.6432929668618474
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.5469122290196546
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.8971308503701942
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:39:45+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.23012842823823254
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:44:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:44:37+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:56:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T03:57:00+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T04:03:23+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T04:03:25+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T04:03:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T06:09:25+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection refused[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T06:14:15+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha?t=0.9864352351108776
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T06:42:42+00:00 ] 192.168.10.10 192.168.10.1 GET /api/student_suspends
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T07:40:36+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-28T07:40:40+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]

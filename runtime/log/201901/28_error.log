@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2019-01-28T11:14:17+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:14:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:22:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:22:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:22:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:22:41+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:24:23+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:65]
+---------------------------------------------------------------
+[ 2019-01-28T11:25:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:67]
+---------------------------------------------------------------
+[ 2019-01-28T11:25:32+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:71]
+---------------------------------------------------------------
+[ 2019-01-28T11:28:07+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '$fields' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:40]
+---------------------------------------------------------------
+[ 2019-01-28T11:44:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting '{'[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendanceStudents.php:14]

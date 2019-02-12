@@ -1,0 +1,51 @@
+---------------------------------------------------------------
+[ 2018-08-14T14:34:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:34:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:34:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:34:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:34:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:34:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers/teacher?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:35:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T14:35:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_demolesson_by_teachers?page=1&pagesize=10&start_date=2018-07-15&end_date=2018-08-14
+[ error ] [0]method not exist:think\db\Query->scope[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-14T15:21:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(bedafe41cc67f4bed0585f031a8d9116.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-14T15:31:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/consume_lesson_hour?cid=15&int_start_hour=12%3A00&int_end_hour=13%3A00
+[ error ] [0]语法解析错误: syntax error, unexpected '[', expecting ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:131]
+---------------------------------------------------------------
+[ 2018-08-14T15:31:58+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '[', expecting ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:131]
+---------------------------------------------------------------
+[ 2018-08-14T15:32:04+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '[', expecting ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:131]
+---------------------------------------------------------------
+[ 2018-08-14T15:32:12+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '[', expecting ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:131]
+---------------------------------------------------------------
+[ 2018-08-14T15:37:13+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_service_by_systems
+[ error ] [1]Maximum execution time of 30 seconds exceeded[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Config.php:109]
+---------------------------------------------------------------
+[ 2018-08-14T15:40:16+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_service_by_systems
+[ error ] [1]Maximum execution time of 30 seconds exceeded[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:379]
+---------------------------------------------------------------
+[ 2018-08-14T15:53:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/report_service_by_systems
+[ error ] [1]Maximum execution time of 30 seconds exceeded[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-14T16:24:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]unlink(/storage1/www/pro.xiao360.com/public/data/uploads/user_avatar/10001/18/08/04/fe57754aa1768163a168a8086430a98e.png): No such file or directory[/home/wwwroot/pro.xiao360.com/application/api/controller/Upload.php:247]

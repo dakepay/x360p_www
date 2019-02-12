@@ -1,0 +1,12 @@
+---------------------------------------------------------------
+[ 2018-12-11T17:59:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/30/doclose
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ClassLog::addDeleteClassArrangeLog() must be of the type array, object given, called in /home/wwwroot/pro.xiao360.com/application/api/model/Classes.php on line 726[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:224]
+---------------------------------------------------------------
+[ 2018-12-11T18:00:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/30/doclose
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ClassLog::addDeleteClassArrangeLog() must be of the type array, object given, called in /home/wwwroot/pro.xiao360.com/application/api/model/Classes.php on line 726[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:224]
+---------------------------------------------------------------
+[ 2018-12-11T18:00:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/30/doclose
+[ error ] [0]类型错误: Argument 1 passed to app\api\model\ClassLog::addDeleteClassArrangeLog() must be of the type array, object given, called in /home/wwwroot/pro.xiao360.com/application/api/model/Classes.php on line 727[/home/wwwroot/pro.xiao360.com/application/api/model/ClassLog.php:224]
+---------------------------------------------------------------
+[ 2018-12-11T18:04:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/classes/30/students?with=student_lesson
+[ error ] [0]语法解析错误: syntax error, unexpected 'catch' (T_CATCH)[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:733]

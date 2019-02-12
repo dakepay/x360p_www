@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2018-08-16T10:14:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-16T10:18:40+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-16T10:57:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3345/regatts
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\exception\ErrorException given, called in /home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php on line 2882[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-16T10:59:24+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3345/regatts
+[ error ] [0]类型错误: Argument 1 passed to app\common\Model::exception_error() must be an instance of app\common\traits\Exception, instance of think\Exception given, called in /home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php on line 2882[/home/wwwroot/pro.xiao360.com/application/common/traits/ModelTrait.php:38]
+---------------------------------------------------------------
+[ 2018-08-16T19:49:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students?page=1&pagesize=10
+[ error ] [64]Cannot use try without catch or finally[/home/wwwroot/pro.xiao360.com/application/api/model/Student.php:1662]
+---------------------------------------------------------------
+[ 2018-08-16T20:20:23+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=student_moneys&fk=0619617fb40739984b6b8c930eea5246&page=1&pagesize=20
+[ error ] [0]致命错误: Class 'app\api\import\Student' not found[/home/wwwroot/pro.xiao360.com/application/api/import/StudentMoneys.php:104]
+---------------------------------------------------------------
+[ 2018-08-16T20:20:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=student_moneys&fk=d857b360774c0c7d8489a3f71f600230&page=1&pagesize=20
+[ error ] [0]致命错误: Class 'app\api\import\Student' not found[/home/wwwroot/pro.xiao360.com/application/api/import/StudentMoneys.php:104]
+---------------------------------------------------------------
+[ 2018-08-16T20:22:22+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=student_moneys&fk=633359590aa0920e2cf9393a45435ddd&page=1&pagesize=20
+[ error ] [0]致命错误: Class 'app\api\import\Student' not found[/home/wwwroot/pro.xiao360.com/application/api/import/StudentMoneys.php:104]

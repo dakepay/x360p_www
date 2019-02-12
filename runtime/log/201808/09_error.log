@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2018-08-09T06:26:28+00:00 ] 192.168.10.10 192.168.10.1 GET /
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-08-09T15:08:50+08:00 ] 192.168.10.10 192.168.10.2 GET /api/captcha
+[ error ] [0]不支持:redis[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/session/driver/Redis.php:49]
+---------------------------------------------------------------
+[ 2018-08-09T15:25:20+08:00 ] 192.168.10.10 192.168.10.2 GET /api/captcha
+[ error ] [0]不支持:redis[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/session/driver/Redis.php:49]

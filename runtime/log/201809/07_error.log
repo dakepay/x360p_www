@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2018-09-07T12:20:27+08:00 ] 192.168.10.10 192.168.10.1 GET /api/upload/
+[ error ] [0]类型错误: Too few arguments to function Qiniu\Auth::__construct(), 0 passed in /home/wwwroot/pro.xiao360.com/application/api/controller/Upload.php on line 50 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/vendor/qiniu/php-sdk/src/Qiniu/Auth.php:11]
+---------------------------------------------------------------
+[ 2018-09-07T14:33:52+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload/save_file_to_db?file_url=http://s10.xiao360.com/qms/correct_upload/10001/18/05/21/4dbc4e5ae84901ace05a1df895f4b0f9.mp4&file_type=mp4&file_name=test.mp4&file_size=5580277
+[ error ] [8]未定义变量: storage[/home/wwwroot/pro.xiao360.com/application/api/controller/Upload.php:125]
+---------------------------------------------------------------
+[ 2018-09-07T14:35:47+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload/save_file_to_db?file_url=http://s10.xiao360.com/qms/correct_upload/10001/18/05/21/4dbc4e5ae84901ace05a1df895f4b0f9.mp4&file_type=mp4&file_name=test.mp4&file_size=5580277
+[ error ] [8]未定义数组索引: domain[/home/wwwroot/pro.xiao360.com/application/api/controller/Upload.php:127]
+---------------------------------------------------------------
+[ 2018-09-07T14:37:05+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload/save_file_to_db?file_url=http://s10.xiao360.com/qms/correct_upload/10001/18/05/21/4dbc4e5ae84901ace05a1df895f4b0f9.mp4&file_type=mp4&file_name=test.mp4&file_size=5580277
+[ error ] [8]未定义变量: file_ext[/home/wwwroot/pro.xiao360.com/application/api/controller/Upload.php:133]
+---------------------------------------------------------------
+[ 2018-09-07T15:14:34+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload?file_url=http://s10.xiao360.com/6h/m/6h8GqlvMcMvpkO7stRStSg6yQuWafDJo.mp4&file_type=mp4&file_name=xushuqing.mp4&file_size=5580277&js_upload=1
+[ error ] HTTP/1.1 404 Not Found
+---------------------------------------------------------------
+[ 2018-09-07T17:47:56+08:00 ] 192.168.10.10 192.168.10.1 POST /api/reviews
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Reviews::getAttr()[/home/wwwroot/pro.xiao360.com/application/api/controller/Reviews.php:64]
+---------------------------------------------------------------
+[ 2018-09-07T17:50:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/reviews
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Reviews::getAttr()[/home/wwwroot/pro.xiao360.com/application/api/controller/Reviews.php:64]
+---------------------------------------------------------------
+[ 2018-09-07T17:54:45+08:00 ] 192.168.10.10 192.168.10.1 POST /api/reviews
+[ error ] [0]类的属性不存在:app\api\model\Review->rvw_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-09-07T18:11:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(468f93afe9404eb588a5c430d4bfa3ec.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-09-07T19:38:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/transfer_hour_historys
+[ error ] [0]致命错误: Class 'app\api\model\TransferHourHistory' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/TransferHourHistorys.php:12]
+---------------------------------------------------------------
+[ 2018-09-07T12:11:44+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180907%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]Parse error: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/common.php:65]

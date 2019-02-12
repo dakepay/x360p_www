@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-12-04T09:23:31+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\MarketClueLog' not found[/home/wwwroot/pro.xiao360.com/application/api/export/MarketLogs.php:127]
+---------------------------------------------------------------
+[ 2018-12-04T09:24:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\MarketClue' not found[/home/wwwroot/pro.xiao360.com/application/api/export/MarketLogs.php:117]

@@ -1,0 +1,84 @@
+---------------------------------------------------------------
+[ 2018-08-25T09:11:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]语法解析错误: syntax error, unexpected '$exist_data' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:288]
+---------------------------------------------------------------
+[ 2018-08-25T09:11:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10000&int_day=%5Bbetween%2C20180820%2C20180826%5D&with=one_class%2Cstudents
+[ error ] [0]语法解析错误: syntax error, unexpected '$exist_data' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:288]
+---------------------------------------------------------------
+[ 2018-08-25T09:11:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?int_day=%5Bbetween%2C20180820%2C20180826%5D&pagesize=10000&with=one_class%2Cstudents
+[ error ] [0]语法解析错误: syntax error, unexpected '$exist_data' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:288]
+---------------------------------------------------------------
+[ 2018-08-25T09:13:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]语法解析错误: syntax error, unexpected '$exist_data' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:288]
+---------------------------------------------------------------
+[ 2018-08-25T09:13:59+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]语法解析错误: syntax error, unexpected '$exist_data' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:288]
+---------------------------------------------------------------
+[ 2018-08-25T10:23:47+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T10:23:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T10:30:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T10:30:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:03:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:03:39+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:05:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:05:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:05:43+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/law_course_arranges
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:281]
+---------------------------------------------------------------
+[ 2018-08-25T11:20:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:20:10+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:21:58+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:21:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]类的属性不存在:app\api\model\CourseArrange->ca_id[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/Model.php:560]
+---------------------------------------------------------------
+[ 2018-08-25T11:40:36+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义数组索引: teach_eid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:231]
+---------------------------------------------------------------
+[ 2018-08-25T11:40:37+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义数组索引: teach_eid[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:231]
+---------------------------------------------------------------
+[ 2018-08-25T12:02:15+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '}', expecting ';'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:309]
+---------------------------------------------------------------
+[ 2018-08-25T14:51:33+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [2]array_merge(): Argument #2 is not an array[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:257]
+---------------------------------------------------------------
+[ 2018-08-25T16:01:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students
+[ error ] http://210994a0.all123.net:8080/neza/user/registerUser
+[ error ] 0
+[ error ] callback fail, error: Failed to connect to 210994a0.all123.net port 8080: Connection timed out
+[ error ] [2]PDO::prepare(): MySQL server has gone away[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:368]
+---------------------------------------------------------------
+[ 2018-08-25T16:56:59+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]Trying to get property 'input' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:277]
+---------------------------------------------------------------
+[ 2018-08-25T17:00:07+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]致命错误: Class 'app\api\controller\StudentLesson' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:278]
+---------------------------------------------------------------
+[ 2018-08-25T17:18:24+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ',' or ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:294]
+---------------------------------------------------------------
+[ 2018-08-25T17:55:33+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\CourseArrangeModel' not found[/home/wwwroot/pro.xiao360.com/application/api/export/CourseArranges.php:109]

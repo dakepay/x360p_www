@@ -1,0 +1,114 @@
+---------------------------------------------------------------
+[ 2018-08-31T11:21:39+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(155fc80dc15cced80cc11cc6be60ce69.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T11:25:39+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(0f722a283a5bb4ad14b72aa853e82dc5.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T11:26:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(ccbecf2e148e54998b6119dac9d2beee.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T11:31:11+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(ef43e32d7e0abc9cd7ddba1228afb230.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T11:32:30+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(19b46ec30a1a480574eb430ca3170ed0.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T11:32:43+08:00 ] 192.168.10.10 192.168.10.1 POST /api/upload
+[ error ] [2]exif_read_data(2db2a106a3a0a38bb27ae3d286a845fe.png): File not supported[/home/wwwroot/pro.xiao360.com/extend/util/Image.php:22]
+---------------------------------------------------------------
+[ 2018-08-31T15:51:21+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [64]Cannot use app\api\model\ClassStudent as ClassStudent because the name is already in use[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:14]
+---------------------------------------------------------------
+[ 2018-08-31T15:52:10+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [0]致命错误: Class 'app\api\controller\ClassStudnet' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:354]
+---------------------------------------------------------------
+[ 2018-08-31T16:05:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [0]method not exist:think\db\Query->getClasses[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-31T16:14:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::column(), 0 passed in /home/wwwroot/pro.xiao360.com/application/api/model/Employee.php on line 727 and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:441]
+---------------------------------------------------------------
+[ 2018-08-31T16:30:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [8]未定义数组索引: cid[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:352]
+---------------------------------------------------------------
+[ 2018-08-31T16:42:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [8]未定义数组索引: list[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:370]
+---------------------------------------------------------------
+[ 2018-08-31T17:34:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [8]未定义变量: input[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T17:34:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [8]未定义数组索引: page[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T17:35:33+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1
+[ error ] [8]未定义数组索引: page[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T19:25:06+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.sid' in 'order clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-08-31T19:26:00+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8
+[ error ] [8]未定义变量: with[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:402]
+---------------------------------------------------------------
+[ 2018-08-31T19:31:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=
+[ error ] [8]Uninitialized string offset: 0[/home/wwwroot/pro.xiao360.com/application/common/db/Query.php:225]
+---------------------------------------------------------------
+[ 2018-08-31T19:32:34+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=
+[ error ] [8]Uninitialized string offset: 0[/home/wwwroot/pro.xiao360.com/application/common/db/Query.php:225]
+---------------------------------------------------------------
+[ 2018-08-31T19:34:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=
+[ error ] [8]Uninitialized string offset: 0[/home/wwwroot/pro.xiao360.com/application/common/db/Query.php:225]
+---------------------------------------------------------------
+[ 2018-08-31T19:44:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=19
+[ error ] [8]未定义数组索引: order_filed[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:351]
+---------------------------------------------------------------
+[ 2018-08-31T19:46:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=19
+[ error ] [8]未定义变量: ofield[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:368]
+---------------------------------------------------------------
+[ 2018-08-31T19:57:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=[1,3]
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:334]
+---------------------------------------------------------------
+[ 2018-08-31T19:57:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=[%271%27,%273%27]
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:334]
+---------------------------------------------------------------
+[ 2018-08-31T19:58:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=[in,1,3]
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:334]
+---------------------------------------------------------------
+[ 2018-08-31T20:03:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:339]
+---------------------------------------------------------------
+[ 2018-08-31T20:03:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:347]
+---------------------------------------------------------------
+[ 2018-08-31T20:05:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [8]未定义变量: res[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:344]
+---------------------------------------------------------------
+[ 2018-08-31T20:10:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [8]未定义变量: sname[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:368]
+---------------------------------------------------------------
+[ 2018-08-31T20:17:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:347]
+---------------------------------------------------------------
+[ 2018-08-31T20:18:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE&cid=1
+[ error ] [8]未定义数组索引: list[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:349]
+---------------------------------------------------------------
+[ 2018-08-31T20:25:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: student_name[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:385]
+---------------------------------------------------------------
+[ 2018-08-31T20:37:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: per[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T20:40:23+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: per[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T20:41:28+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: list[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:394]
+---------------------------------------------------------------
+[ 2018-08-31T20:42:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: per[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T20:43:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: per[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:390]
+---------------------------------------------------------------
+[ 2018-08-31T20:48:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10003/students?class=1&page=1&pagesize=10&student_name=%E8%AF%B8%E8%91%9B%E4%BA%AE
+[ error ] [8]未定义变量: per[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:391]

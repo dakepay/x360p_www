@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2018-08-18T11:09:06+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]method not exist:think\db\Query->colum[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-08-18T12:41:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]语法解析错误: syntax error, unexpected '；' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/common/job/CreateCas.php:69]
+---------------------------------------------------------------
+[ 2018-08-18T12:42:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [8]Undefined property: app\common\job\CreateCas::$m_course_arrange_student[/home/wwwroot/pro.xiao360.com/application/common/job/CreateCas.php:90]
+---------------------------------------------------------------
+[ 2018-08-18T12:43:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [0]致命错误: Call to undefined method app\common\job\CreateCas::startTrans()[/home/wwwroot/pro.xiao360.com/application/common/job/CreateCas.php:98]
+---------------------------------------------------------------
+[ 2018-08-18T15:45:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges
+[ error ] [8]未定义变量: post[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:127]

@@ -1,0 +1,48 @@
+---------------------------------------------------------------
+[ 2018-09-14T10:05:18+08:00 ] 192.168.10.10 192.168.10.1 POST /api/students?search_field=tel&search_value=17727750995&pagesize=50
+[ error ] [8]未定义数组索引: is_student_limit[/home/wwwroot/pro.xiao360.com/application/helper.php:152]
+---------------------------------------------------------------
+[ 2018-09-14T10:36:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students/get_info_by_tel?tel=17727750995
+[ error ] [0]method not exist:think\db\Query->selelt[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-14T10:44:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/students/get_info_by_tel?tel=17727750995
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tel' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2018-09-14T14:23:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues/280/customer
+[ error ] [0]致命错误: Call to undefined method app\api\controller\CustomerFollowUp::where()[/home/wwwroot/pro.xiao360.com/application/api/controller/MarketClues.php:63]
+---------------------------------------------------------------
+[ 2018-09-14T14:24:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues/280/customer
+[ error ] [8]未定义变量: customer[/home/wwwroot/pro.xiao360.com/application/api/controller/MarketClues.php:65]
+---------------------------------------------------------------
+[ 2018-09-14T16:21:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/student_money_historys?with=student
+[ error ] [0]method not exist:think\db\Query->student[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2018-09-14T16:33:46+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义数组索引: ignore_class_cc[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1151]
+---------------------------------------------------------------
+[ 2018-09-14T16:33:57+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义数组索引: ignore_class_cc[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1151]
+---------------------------------------------------------------
+[ 2018-09-14T16:35:38+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义数组索引: ignore_class_cc[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1151]
+---------------------------------------------------------------
+[ 2018-09-14T16:44:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: request[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1155]
+---------------------------------------------------------------
+[ 2018-09-14T16:44:51+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [8]未定义变量: request[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:1155]
+---------------------------------------------------------------
+[ 2018-09-14T16:45:27+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [2]Cannot use a scalar value as an array[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:950]
+---------------------------------------------------------------
+[ 2018-09-14T16:50:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [2]Cannot use a scalar value as an array[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:950]
+---------------------------------------------------------------
+[ 2018-09-14T16:56:41+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/law_course_arranges
+[ error ] [2]Cannot use a scalar value as an array[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:950]
+---------------------------------------------------------------
+[ 2018-09-14T18:15:18+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [8]未定义数组索引: start_int_hour[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:220]
+---------------------------------------------------------------
+[ 2018-09-14T18:15:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/check_conflict
+[ error ] [8]未定义数组索引: start_int_hour[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:220]

@@ -1,0 +1,3 @@
+---------------------------------------------------------------
+[ 2019-01-16T11:15:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Call to undefined method app\api\export\Students::convert_vip_leval()[/home/wwwroot/pro.xiao360.com/application/api/export/Students.php:109]

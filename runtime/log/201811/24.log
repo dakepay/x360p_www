@@ -1,0 +1,48 @@
+---------------------------------------------------------------
+[ 2018-11-24T15:52:53+08:00 ] 192.168.10.10 192.168.10.1 POST /api/customers/assign_employee
+[ info ] pro.x360.com/api/customers/assign_employee [运行时间：0.769858s][吞吐率：1.30req/s] [内存消耗：1,321.50kb] [文件加载：116]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] /home/wwwroot/pro.xiao360.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'customers',
+    2 => 'assign_employee',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'pro.x360.com',
+  'connection' => 'close',
+  'content-length' => '32',
+  'origin' => 'http://localhost:8868',
+  'x-token' => '2c754128c1f582d65ec7ffafc31d3644',
+  'x-client-time' => '1543045974',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'x-sub-host' => 'base',
+  'x-bid' => '8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'referer' => 'http://localhost:8868/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=n19nkj9ltfg1vsr6h479v9rk7g',
+)
+[ info ] [ PARAM ] array (
+  'eid' => 10052,
+  'cu_ids' => 
+  array (
+    0 => 374,
+    1 => 374,
+  ),
+)
+[ info ] [ CACHE ] INIT Redis
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Customers->assign_employee[ /home/wwwroot/pro.xiao360.com/application/api/controller/Customers.php ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001914s ] mysql:host=192.168.0.157;dbname=x360p_center;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_client` [ RunTime:0.011592s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_client` WHERE  `host` = 'base'  AND `delete_time` IS NULL LIMIT 1 [ RunTime:0.000919s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pro_database_config` [ RunTime:0.008152s ]
+[ sql ] [ SQL ] SELECT * FROM `pro_database_config` WHERE  `cid` = 1 LIMIT 1 [ RunTime:0.000737s ]

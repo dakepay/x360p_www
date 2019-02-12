@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2019-01-07T09:39:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_attendances/branch_attendances?start_date=2018-12-06&end_date=2019-01-05&bids=2,5,8&group=att_way
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'att_way' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-07T09:50:36+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_attendances/branch_attendances?start_date=2018-12-06&end_date=2019-01-05&bids=2,5,8&group=att_way
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'att_way' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-07T15:33:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries
+[ error ] [8]未定义数组索引: bids[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:245]
+---------------------------------------------------------------
+[ 2019-01-07T15:33:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?bids=2,5,8
+[ error ] [0]致命错误: Call to undefined method app\api\controller\ReportSummaries::sendSucess()[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:272]
+---------------------------------------------------------------
+[ 2019-01-07T15:34:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries
+[ error ] [8]未定义数组索引: bids[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:245]
+---------------------------------------------------------------
+[ 2019-01-07T16:15:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?bids=2,5,8
+[ error ] [8]未定义变量: parmas[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:289]
+---------------------------------------------------------------
+[ 2019-01-07T16:18:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/overview?bids=2,5,8&start_day=2018-08-06&end_day=2019-01-05
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:123]
+---------------------------------------------------------------
+[ 2019-01-07T17:25:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?start_date=2018-08-06&end_date=2019-01-05&bids=2,5,8
+[ error ] [0]致命错误: Class 'app\api\controller\MarketClue' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:299]
+---------------------------------------------------------------
+[ 2019-01-07T17:32:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?start_date=2018-08-06&end_date=2019-01-05&bids=2,5,8
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'in_day' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-07T18:02:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?start_date=2018-08-06&end_date=2019-01-05&bids=2,5,8
+[ error ] [0]致命错误: Class 'app\api\controller\Order' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportSummaries.php:325]
+---------------------------------------------------------------
+[ 2019-01-07T18:03:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?start_date=2018-08-06&end_date=2019-01-05&bids=2,5,8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(oid) as new_order_nums FROM `x360p_order` WHERE (  `x360p_order`.`og_id` =' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-07T18:12:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_summaries/branch_summaries?start_date=2018-08-06&end_date=2019-01-05&bids=2,5,8
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(oid) as new_order_nums FROM `x360p_order` WHERE (  `x360p_order`.`og_id` =' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]

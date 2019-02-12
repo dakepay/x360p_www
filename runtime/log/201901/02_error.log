@@ -1,0 +1,111 @@
+---------------------------------------------------------------
+[ 2019-01-02T01:32:44+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T01:33:34+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T01:39:51+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T01:40:43+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T01:42:19+00:00 ] 192.168.10.10 192.168.10.1 GET /api/captcha
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T10:04:48+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T10:05:39+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T10:05:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/signin
+[ error ] [2002]SQLSTATE[HY000] [2002] Connection timed out[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2019-01-02T11:10:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]致命错误: Call to undefined function app\api\controller\sum()[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:108]
+---------------------------------------------------------------
+[ 2019-01-02T11:10:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10000&int_day=%5Bbetween%2C20200106%2C20200112%5D&with=one_class%2Cstudents
+[ error ] [0]致命错误: Call to undefined function app\api\controller\sum()[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:108]
+---------------------------------------------------------------
+[ 2019-01-02T11:10:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?int_day=%5Bbetween%2C20200106%2C20200112%5D&pagesize=10000&with=one_class%2Cstudents
+[ error ] [0]致命错误: Call to undefined function app\api\controller\sum()[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:108]
+---------------------------------------------------------------
+[ 2019-01-02T11:11:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]致命错误: Call to undefined function app\api\controller\sum()[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:108]
+---------------------------------------------------------------
+[ 2019-01-02T11:19:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]语法解析错误: syntax error, unexpected '$model' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:101]
+---------------------------------------------------------------
+[ 2019-01-02T11:19:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10000&int_day=%5Bbetween%2C20200106%2C20200112%5D&with=one_class%2Cstudents
+[ error ] [0]语法解析错误: syntax error, unexpected '$model' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:101]
+---------------------------------------------------------------
+[ 2019-01-02T11:19:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?int_day=%5Bbetween%2C20200106%2C20200112%5D&pagesize=10000&with=one_class%2Cstudents
+[ error ] [0]语法解析错误: syntax error, unexpected '$model' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:101]
+---------------------------------------------------------------
+[ 2019-01-02T11:19:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges?page=1&pagesize=10&with=one_class%2Cstudents&lesson_type=%5BIn%2C0%2C1%2C2%5D&is_cancel=%5Bin%2C0%2C1%5D&is_demo=0
+[ error ] [0]语法解析错误: syntax error, unexpected '$model' (T_VARIABLE)[/home/wwwroot/pro.xiao360.com/application/api/controller/CourseArranges.php:101]
+---------------------------------------------------------------
+[ 2019-01-02T12:03:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?start_date=2018-12-01&end_date=2018-12-01
+[ error ] [8]未定义数组索引: bids[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:49]
+---------------------------------------------------------------
+[ 2019-01-02T12:04:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?start_date=2018-12-01&end_date=2018-12-01&bids=8
+[ error ] [8]未定义数组索引: consume_type[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:67]
+---------------------------------------------------------------
+[ 2019-01-02T12:04:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?start_date=2018-12-01&end_date=2018-12-01&bids=8&consume_type=1
+[ error ] [0]致命错误: Class 'app\api\controller\Order' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:69]
+---------------------------------------------------------------
+[ 2019-01-02T12:04:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?start_date=2018-12-01&end_date=2018-12-01&bids=8&consume_type=1
+[ error ] [0]致命错误: Class 'app\api\order' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:70]
+---------------------------------------------------------------
+[ 2019-01-02T12:14:07+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders
+[ error ] [8]未定义数组索引: bids[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:50]
+---------------------------------------------------------------
+[ 2019-01-02T12:14:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?bids=8&consume_type=1
+[ error ] [0]致命错误: Class 'app\api\controller\OrderItem' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:74]
+---------------------------------------------------------------
+[ 2019-01-02T15:47:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [0]语法解析错误: syntax error, unexpected end of file[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:120]
+---------------------------------------------------------------
+[ 2019-01-02T15:57:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'oi.bid' in 'where clause'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-02T15:58:30+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'x360p_base.oi'[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-02T15:59:45+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [8]未定义数组索引: oi_id[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:116]
+---------------------------------------------------------------
+[ 2019-01-02T16:01:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [8]未定义数组索引: oi_id[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:116]
+---------------------------------------------------------------
+[ 2019-01-02T16:03:39+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [8]未定义数组索引: oi_id[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:116]
+---------------------------------------------------------------
+[ 2019-01-02T16:12:58+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_refund_orders?bids=5
+[ error ] [0]method not exist:think\db\Query->whth[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:94]
+---------------------------------------------------------------
+[ 2019-01-02T16:35:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/2
+[ error ] [2]Declaration of app\api\controller\OrderItems::get_detail(think\Request $request) should be compatible with app\api\controller\Base::get_detail(think\Request $request, $id = 0)[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:15]
+---------------------------------------------------------------
+[ 2019-01-02T16:38:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/2
+[ error ] [0]致命错误: Class 'app\api\controller\OrderItem' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:32]
+---------------------------------------------------------------
+[ 2019-01-02T16:43:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/12
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::order(), 0 passed and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:1415]
+---------------------------------------------------------------
+[ 2019-01-02T16:44:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/12
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::order(), 0 passed and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:1415]
+---------------------------------------------------------------
+[ 2019-01-02T18:15:35+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders
+[ error ] [8]未定义数组索引: bids[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:62]
+---------------------------------------------------------------
+[ 2019-01-02T18:15:51+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?bids=5
+[ error ] [8]未定义数组索引: consume_type[/home/wwwroot/pro.xiao360.com/application/api/controller/OrderItems.php:81]
+---------------------------------------------------------------
+[ 2019-01-02T18:16:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?bids=5&consume_type=1&with=order
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::order(), 0 passed and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:1415]
+---------------------------------------------------------------
+[ 2019-01-02T18:16:41+08:00 ] 192.168.10.10 192.168.10.1 GET /api/order_items/branch_orders?bids=5&consume_type=1
+[ error ] [0]类型错误: Too few arguments to function think\db\Query::order(), 0 passed and at least 1 expected[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Query.php:1415]

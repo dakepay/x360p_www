@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[ 2018-10-26T09:31:47+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/20/doupgrade
+[ error ] [64]Cannot use [] for reading[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:807]
+---------------------------------------------------------------
+[ 2018-10-26T09:39:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/20/doupgrade
+[ error ] [64]Cannot use [] for reading[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:808]
+---------------------------------------------------------------
+[ 2018-10-26T09:42:09+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/20/doupgrade
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:819]
+---------------------------------------------------------------
+[ 2018-10-26T09:43:02+08:00 ] 192.168.10.10 192.168.10.1 POST /api/classes/20/doupgrade
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:819]
+---------------------------------------------------------------
+[ 2018-10-26T09:56:46+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+---------------------------------------------------------------
+[ 2018-10-26T10:07:21+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+[ error ] [8]iconv(): Detected an illegal character in input string[/home/wwwroot/pro.xiao360.com/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/StringHelper.php:346]
+---------------------------------------------------------------
+[ 2018-10-26T10:14:22+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[/home/wwwroot/pro.xiao360.com/application/api/export/ReportEmployeeOutputs.php:4]
+---------------------------------------------------------------
+[ 2018-10-26T10:14:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [64]Namespace declaration statement has to be the very first statement or after any declare call in the script[/home/wwwroot/pro.xiao360.com/application/api/export/ReportEmployeeOutputs.php:4]
+---------------------------------------------------------------
+[ 2018-10-26T16:54:42+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[/home/wwwroot/pro.xiao360.com/application/api/import/MultiMarketClues.php:208]
+---------------------------------------------------------------
+[ 2018-10-26T16:54:53+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[/home/wwwroot/pro.xiao360.com/application/api/import/MultiMarketClues.php:208]
+---------------------------------------------------------------
+[ 2018-10-26T16:55:21+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=multi_market_clues&fk=20e18d5a72c626cb8b546155404d98ac&page=1&pagesize=20
+[ error ] [0]致命错误: Call to undefined function app\api\import\msubstr()[/home/wwwroot/pro.xiao360.com/application/api/import/MultiMarketClues.php:208]
+---------------------------------------------------------------
+[ 2018-10-26T16:56:03+08:00 ] 192.168.10.10 192.168.10.1 GET /api/import?func=multi_market_clues&fk=20f0a1d2452bc492b9fbd483a75359c6&page=1&pagesize=20
+[ error ] [0]致命错误: Call to undefined method app\api\import\MultiMarketClues::msubstr()[/home/wwwroot/pro.xiao360.com/application/api/import/MultiMarketClues.php:208]

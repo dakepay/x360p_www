@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2018-09-12T11:01:52+08:00 ] 192.168.10.10 192.168.10.1 GET /api/employees/10005/students?page=1&pagesize=10
+[ error ] [8]未定义变量: id[/home/wwwroot/pro.xiao360.com/application/api/controller/Employees.php:507]
+---------------------------------------------------------------
+[ 2018-09-12T14:42:55+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected '&'[/home/wwwroot/pro.xiao360.com/application/api/import/Customers.php:212]
+---------------------------------------------------------------
+[ 2018-09-12T14:56:35+08:00 ] 192.168.10.10 192.168.10.1 POST /api/import
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[/home/wwwroot/pro.xiao360.com/application/api/import/Customers.php:155]
+---------------------------------------------------------------
+[ 2018-09-12T17:02:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\Student' not found[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:161]
+---------------------------------------------------------------
+[ 2018-09-12T17:03:22+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\User' not found[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:163]
+---------------------------------------------------------------
+[ 2018-09-12T17:03:50+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\CustomerFollowUp' not found[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:165]
+---------------------------------------------------------------
+[ 2018-09-12T17:04:19+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\PublicSchool' not found[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:173]
+---------------------------------------------------------------
+[ 2018-09-12T17:04:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\CustomerEmployee' not found[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:175]
+---------------------------------------------------------------
+[ 2018-09-12T18:26:05+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues?page=1&pagesize=10&cu_assigned_eid=0&assigned_eid=0&with=employee%2Crecommend_user%2Crecommend_student&recommend_sid=0
+[ error ] [8]未定义数组索引: name[/home/wwwroot/pro.xiao360.com/application/helper.php:209]
+---------------------------------------------------------------
+[ 2018-09-12T18:26:40+08:00 ] 192.168.10.10 192.168.10.1 GET /api/market_clues?page=1&pagesize=10&cu_assigned_eid=0&assigned_eid=0&with=employee%2Crecommend_user%2Crecommend_student&recommend_sid=0
+[ error ] [8]未定义数组索引: channnel_name[/home/wwwroot/pro.xiao360.com/application/helper.php:209]
+---------------------------------------------------------------
+[ 2018-09-12T19:51:58+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ']'[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:72]
+---------------------------------------------------------------
+[ 2018-09-12T12:26:39+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180912%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T12:26:57+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180912%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T12:27:08+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180912%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T12:27:28+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180912%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T12:27:39+00:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20180912%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T12:34:22+00:00 ] 192.168.10.10 192.168.10.1 GET /api/global/all
+[ error ] [1130]SQLSTATE[HY000] [1130] Host 'DESKTOP-FDOEPBD' is not allowed to connect to this MySQL server[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:293]
+---------------------------------------------------------------
+[ 2018-09-12T20:43:46+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected '`'[/home/wwwroot/pro.xiao360.com/application/api/export/Customers.php:79]

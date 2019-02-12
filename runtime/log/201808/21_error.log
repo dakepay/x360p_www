@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-08-21T15:07:12+08:00 ] 192.168.10.10 192.168.10.1 GET /api/course_arranges/3368/docancel_course
+[ error ] [0]authentication Failed[/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php:281]
+---------------------------------------------------------------
+[ 2018-08-21T15:28:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/course_arranges/3368/docancel_course
+[ error ] [0]致命错误: Call to a member function toArray() on array[/home/wwwroot/pro.xiao360.com/application/api/model/CourseArrange.php:3227]

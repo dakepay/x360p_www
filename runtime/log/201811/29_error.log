@@ -1,0 +1,123 @@
+---------------------------------------------------------------
+[ 2018-11-29T10:03:03+08:00 ] 192.168.10.10 192.168.10.1 POST /api/market_clues
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/MarketClue.php',
+    'line' => 144,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/MarketClues.php',
+    'line' => 90,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 369,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-29T10:04:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/market_clues
+[ error ] array (
+  0 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/model/MarketClue.php',
+    'line' => 143,
+  ),
+  1 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/MarketClues.php',
+    'line' => 90,
+  ),
+  2 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 193,
+  ),
+  3 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/application/api/controller/Base.php',
+    'line' => 369,
+  ),
+  4 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 197,
+  ),
+  5 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 411,
+  ),
+  6 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 296,
+  ),
+  7 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/library/think/App.php',
+    'line' => 124,
+  ),
+  8 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/thinkphp/start.php',
+    'line' => 18,
+  ),
+  9 => 
+  array (
+    'file' => '/home/wwwroot/pro.xiao360.com/public/index.php',
+    'line' => 21,
+  ),
+)
+---------------------------------------------------------------
+[ 2018-11-29T14:20:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/service_tasks?page=1&pagesize=10&int_day=%5B%3C%3D%2C20181129%5D&status=0&own_eid=10001&with=student%2Cone_class%2Ccustomer
+[ error ] [0]语法解析错误: syntax error, unexpected 'ClassLog' (T_STRING)[/home/wwwroot/pro.xiao360.com/application/api/model/Classes.php:713]
+---------------------------------------------------------------
+[ 2018-11-29T15:34:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys
+[ error ] [0]类型错误: Too few arguments to function day_diff(), 0 passed in /home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php on line 424 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/common.php:2509]
+---------------------------------------------------------------
+[ 2018-11-29T15:34:38+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys
+[ error ] [0]类型错误: Too few arguments to function day_diff(), 0 passed in /home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php on line 424 and exactly 2 expected[/home/wwwroot/pro.xiao360.com/application/common.php:2509]
+---------------------------------------------------------------
+[ 2018-11-29T17:04:32+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys?start_date=2018-11-01&end_date=2018-11-30&refresh=1
+[ error ] [0]致命错误: Unsupported operand types[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:150]
+---------------------------------------------------------------
+[ 2018-11-29T17:05:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_keys?start_date=2018-11-01&end_date=2018-11-30&refresh=1
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[/home/wwwroot/pro.xiao360.com/application/api/model/ReportKey.php:546]

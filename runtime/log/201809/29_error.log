@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2018-09-29T10:14:44+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]致命错误: Class 'app\api\export\ReportEmployeePerformance' not found[/home/wwwroot/pro.xiao360.com/application/api/export/ReportEmployeePerformanceSummarys.php:44]
+---------------------------------------------------------------
+[ 2018-09-29T12:02:16+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?rid=1&refresh=1&bid=-1
+[ error ] [8]未定义变量: eid[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:182]
+---------------------------------------------------------------
+[ 2018-09-29T15:09:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?rid=1&refresh=1&bid=-1
+[ error ] [8]未定义变量: second_lesson_hours[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:346]
+---------------------------------------------------------------
+[ 2018-09-29T15:10:44+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys?start_date=2018-09-24&end_date=2018-09-29
+[ error ] [8]未定义变量: second_lesson_hours[/home/wwwroot/pro.xiao360.com/application/api/model/ReportEmployeePerformanceSummary.php:346]
+---------------------------------------------------------------
+[ 2018-09-29T15:46:55+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/9?type=performance_amount&page=1&pagesize=10
+[ error ] [2]Invalid argument supplied for foreach()[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:90]
+---------------------------------------------------------------
+[ 2018-09-29T15:47:17+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/9?type=performance_amount&page=1&pagesize=10
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:96]
+---------------------------------------------------------------
+[ 2018-09-29T15:54:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/13?type=edu_lesson_amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: sale_role_did[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:95]
+---------------------------------------------------------------
+[ 2018-09-29T15:54:15+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/13?type=edu_lesson_amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: sale_role_did[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:95]
+---------------------------------------------------------------
+[ 2018-09-29T15:54:24+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/19?type=performance_amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: lesson_type[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:93]
+---------------------------------------------------------------
+[ 2018-09-29T15:57:47+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_employee_performance_summarys/13?type=teach_lesson_amount&page=1&pagesize=10
+[ error ] [8]未定义数组索引: lesson_type[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportEmployeePerformanceSummarys.php:96]
+---------------------------------------------------------------
+[ 2018-09-29T19:19:45+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected ',', expecting :: (T_PAAMAYIM_NEKUDOTAYIM)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportDetails.php:81]

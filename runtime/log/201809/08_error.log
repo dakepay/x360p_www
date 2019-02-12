@@ -1,0 +1,54 @@
+---------------------------------------------------------------
+[ 2018-09-08T12:01:26+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]未定义变量: model[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:63]
+---------------------------------------------------------------
+[ 2018-09-08T12:04:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]未定义变量: data[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:65]
+---------------------------------------------------------------
+[ 2018-09-08T12:08:01+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:66]
+---------------------------------------------------------------
+[ 2018-09-08T12:08:13+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]A non well formed numeric value encountered[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:66]
+---------------------------------------------------------------
+[ 2018-09-08T12:20:42+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]未定义数组索引: lid[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:68]
+---------------------------------------------------------------
+[ 2018-09-08T12:25:19+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [0]致命错误: Class 'app\api\controller\StudentLesson' not found[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:68]
+---------------------------------------------------------------
+[ 2018-09-08T12:25:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]Trying to get property 'lid' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:69]
+---------------------------------------------------------------
+[ 2018-09-08T12:27:08+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:69]
+---------------------------------------------------------------
+[ 2018-09-08T12:27:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]Trying to get property 'lid' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:69]
+---------------------------------------------------------------
+[ 2018-09-08T12:28:04+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]Trying to get property 'lid' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:69]
+---------------------------------------------------------------
+[ 2018-09-08T12:29:09+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]Trying to get property 'lid' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:69]
+---------------------------------------------------------------
+[ 2018-09-08T12:29:57+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10
+[ error ] [8]Trying to get property 'lid' of non-object[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:71]
+---------------------------------------------------------------
+[ 2018-09-08T12:41:37+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10&order_field=class_name&order_sort=asc&cid=3
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:63]
+---------------------------------------------------------------
+[ 2018-09-08T12:42:54+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10&order_field=class_name&order_sort=asc&cid=3
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:63]
+---------------------------------------------------------------
+[ 2018-09-08T12:43:02+08:00 ] 192.168.10.10 192.168.10.1 GET /api/report_class_by_names?page=1&pagesize=10&order_field=class_name&order_sort=asc&cid=3
+[ error ] [8]未定义变量: ret[/home/wwwroot/pro.xiao360.com/application/api/controller/ReportClassByNames.php:63]
+---------------------------------------------------------------
+[ 2018-09-08T15:39:18+08:00 ] 192.168.10.10 192.168.10.1 GET /api/transfer_hour_historys
+[ error ] [8]未定义变量: w[/home/wwwroot/pro.xiao360.com/application/api/controller/TransferHourHistorys.php:19]
+---------------------------------------------------------------
+[ 2018-09-08T15:39:50+08:00 ] 192.168.10.10 192.168.10.1 GET /api/transfer_hour_historys
+[ error ] [8]未定义数组索引: to_student_name[/home/wwwroot/pro.xiao360.com/application/api/controller/TransferHourHistorys.php:23]
+---------------------------------------------------------------
+[ 2018-09-08T15:40:11+08:00 ] 192.168.10.10 192.168.10.1 GET /api/transfer_hour_historys
+[ error ] [8]未定义数组索引: to_student_name[/home/wwwroot/pro.xiao360.com/application/api/controller/TransferHourHistorys.php:23]

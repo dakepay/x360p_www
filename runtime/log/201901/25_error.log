@@ -1,0 +1,30 @@
+---------------------------------------------------------------
+[ 2019-01-25T11:51:31+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T11:52:53+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T11:53:46+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T11:54:25+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T11:59:49+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T12:03:56+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T12:15:29+08:00 ] 192.168.10.10 192.168.10.1 GET /api/dashboard/attendance_warning?int_day=2019-01-25
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '5,7,8,9,10,11,13,14,15 and int_day = 20190125' at line 1[/home/wwwroot/pro.xiao360.com/thinkphp/library/think/db/Connection.php:388]
+---------------------------------------------------------------
+[ 2019-01-25T18:04:54+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'convert_name' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendances.php:21]
+---------------------------------------------------------------
+[ 2019-01-25T18:05:00+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'convert_name' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendances.php:21]
+---------------------------------------------------------------
+[ 2019-01-25T18:05:49+08:00 ] 192.168.10.10 192.168.10.1 POST /api/export
+[ error ] [0]语法解析错误: syntax error, unexpected 'fundtion' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[/home/wwwroot/pro.xiao360.com/application/api/export/ReportAttendances.php:68]
