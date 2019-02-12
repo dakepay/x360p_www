@@ -1,0 +1,166 @@
+<div class="a4">
+    <div style="font-size: 20px;text-align: center;" class="title titleinfo">
+        
+
+            校360标准退费收据
+    </div>
+    <div style="font-size: 14px;">        
+        姓名：<span style="margin-right: 30px;">{{bs.student_name}}</span>
+        学号：<span style="margin-right: 30px;">{{bs.sno}}</span>
+        交费日期：<span style="margin-right: 30px;">{{bs.pay_date}}</span>
+        <span style="float: right;">{{bs.receipt_no}}</span>
+    </div>
+    <table>
+        <tbody>  
+            <tr>
+                <td width="40%" class="title">
+                    项目名称
+                </td>
+            
+                <td width="16%" class="title">
+                    原交费日期
+                </td>
+            
+                <td width="14%" class="title">
+                    原收据号
+                </td>
+            
+                <td width="8%" class="title">
+                    数量
+                </td>
+            
+                <td width="8%" class="title">
+                    单位
+                </td>
+            
+                <td width="14%" class="title">
+                    金额
+                </td>
+        
+            </tr>
+            <!--没有打印数据的是要空出来一行-->   
+            <tr v-for="item in bm">            
+            
+                <td>
+                    {{item.lesson_name}}
+                </td>
+            
+                <td>
+                    {{item.pay_date}}
+                </td>
+            
+                <td>
+                    {{item.pay_no}}
+                </td>
+            
+                <td class="right">
+                    {{item.old_nums}}
+                </td>
+            
+                <td class="right">
+                    {{item.nums}}
+                </td>
+            
+                <td class="right">
+                    {{item.subtotal}}
+                </td>
+        
+            </tr>
+        </tbody>
+    </table>
+    <table class="border-top-none">    
+        <tbody>
+            <tr>
+                <td width="16%" class="title">
+                    备注
+                </td>
+            
+                <td colspan="3" width="54%">
+                    {{bs.refund_remark}}
+                </td>
+            
+                <td class="title" width="16%">
+                    退费项目合计
+                </td>
+            
+                <td width="14%" class="right">
+                    {{bs.refund_total}}
+                </td>
+            </tr>
+        
+            <tr>
+                <td class="title">
+                    退电子钱包
+                </td>
+            
+                <td class="right">
+                    {{bs.refund_balance_amount}}
+                </td>
+            
+                <td class="title" width="16%">
+                    扣款金额
+                </td>
+            
+                <td class="right" width="14%">
+                    {{bs.cut_amount}}
+                </td>
+            
+                <td class="title">
+                    实际退费
+                </td>
+            
+                <td class="right">
+                    {{bs.refund_amount}}
+                </td>        
+            </tr>
+        
+            <tr>
+                <td class="title">
+                    金额(大写)
+                </td>            
+                <td colspan="5">
+                    {{bs.refund_amount_b}}
+                </td>        
+            </tr>
+        </tbody>
+    </table>
+    <div class="clearfix otherinfo">
+        <div style="position: absolute;left:0;right: 320px;">
+            <p style="margin: 0;">
+                经办人：{{bs.op_name}}(签名)
+            </p>
+            
+            <p style="margin: 0;line-height: 1.1;">
+                1、请家长妥善保管此单和发票，凭此单和发票上课；
+            </p>
+            
+            <p style="margin: 0;line-height: 1.1;">
+                2、记住上课时间和地点；
+            </p>
+            
+            <p style="margin: 0;line-height: 1.1;">
+                3、如需退费，请在开学一周前到办理报名的教学点凭发票和此单办理。
+            </p>
+        
+        </div>
+        <img qrcode="true" src="/static/img/mpqr.jpg" style="width: 110px;height: 110px;"/>
+        
+        <div style="width: 195px;display: inline-block;float: right;">
+            <p style="margin: 0;">
+                请关注&quot;学习管家服务号&quot;了解学情
+            </p>
+            
+            <p style="margin: 0;">
+                用户名：{{bs.account}}
+            </p>
+            
+            <p style="margin: 0;">
+                (密码请咨询学校工作人员)
+            </p>
+            
+            <p style="margin: 0;">
+                客户签名：
+            </p>        
+        </div>
+    </div>
+</div>

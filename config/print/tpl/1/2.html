@@ -1,0 +1,53 @@
+<div class="fe" style="padding: 20px 12px 0px 8px; font-size: 10px; margin-left: 0px; margin-top: 0px;">
+	<p class="textCenter">{{sys.org_name}}</p>
+	<p style="margin-top: 3px;">
+		</p><div class="leftFloat"></div>
+		<div class="rightFloat">{{bs.receipt_no}}</div>
+		<div class="clearFloat"></div>
+	<p></p>
+	<p style="padding-top: 10px;">学生姓名：{{bs.student_name}}</p>
+	<p>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：{{bs.sno}}</p>
+	<p>交费日期：{{bs.pay_date}}</p>
+	<hr>
+	<div v-for="item in bm">
+		<p>项目:{{item.lesson_name}}</p>
+		<p>数量:{{item.nums}}</p>
+		<p>原价:{{item.origin_price}}</p>
+		<p>单价:{{item.price}}</p>
+		<hr>
+	</div>
+
+
+	<div class="dashed-top" style=" padding-top: 10px;">
+		<p>应收合计：{{bs.origin_amount}}</p>
+		<p>
+			<span style="display: inline;">冲减电子钱包：</span>
+			<span>{{bs.balance_paid_amount}}</span>
+		</p>
+		<p>直减优惠：{{bs.order_reduce_amount}}</p>
+		<p>实收金额：{{bs.pay_amount}}</p>		
+		<p>
+			<span style="display: inline;">计入电子钱包：</span>			
+			<span>{{bs.pay_remain_amount}}</span>
+		</p>
+		<p>大写金额：{{bs.pay_amount_b}}</p>
+		<p style="line-height: 1.2;">备注：{{bs.pay_remark}}</p>
+	</div>
+	
+	<div class="dashed-top dashed-bottom" style="padding-top: 10px;">
+		<p>经办人：{{bs.op_name}}</p>
+		<p>客户签名：</p>
+		<p style="line-height:1.3;"></p>
+	</div>
+	<div class="dashed-bottom" style="display: block;">
+				<p style="line-height: 1;margin-top: 4px;">请关注&quot;学习管家服务号&quot;了解学情</p>
+				<p>用户名：{{bs.amount}}</p>
+				<p>(密码请咨询学校工作人员)</p>
+				
+				<div class="ecode">
+					<img width="80%" src="/static/img/mpqr.jpg">
+				</div>
+				<div class="clearFloat"></div>
+	</div>
+	<p class="info"></p>
+</div>

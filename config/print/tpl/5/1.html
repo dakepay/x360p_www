@@ -1,0 +1,61 @@
+<div class="a4 order-lesson"><hr/>
+    <div class="title">XX机构课表</div>
+    <div class="pay">学员信息</div>
+    <table class="table price page2">
+        <tr>
+            <th width="10%">ID</th>
+            <th width="12.5%">姓名</th>
+            <th width="12.5%">性别</th>
+            <th width="12.5%">年级</th>
+            <th width="15%">学校</th>
+            <th width="12.5%">储值金额</th>
+            <th width="12.5%">可用余额</th>
+            <th width="12.5%">家长签字</th>
+        </tr>
+        <tr>
+            <td>{{student.sid}}</td>
+            <td>{{student.student_name}}</td>
+            <td>{{student.sex}}</td>
+            <td>{{student.school_grade}}</td>
+            <td>{{student.school_name}}</td>
+            <td>{{dc.amount}}</td>
+            <td>{{sdc.remain_amount}}</td>
+            <td></td>
+        </tr>
+    </table>
+
+
+
+    <div class="pay">课程安排</div>
+    <table class="table price">
+        <tr>
+           
+            <th width="23%">课程名称</th>
+            <th width="11%">课时数</th>
+            <th width="11%">标准价格</th>
+            <th width="11%">优惠价格</th>
+
+            <th width="22%">班级安排</th>
+            <th width="11%">上课时段</th>
+            <th width="11%">教师安排</th>
+        </tr>
+        <tr v-for="item in lessons">
+           
+            <td><span v-if="!item.blank">{{item.lesson_name}}</span></td>
+            <td><span v-if="!item.blank">{{item.sl.lesson_hours}}</span></td>
+            <td><span v-if="!item.blank">￥{{item.origin_amount}}</span></td>
+            <td><span v-if="!item.blank">￥{{item.amount}}</span></td>
+
+            <td>
+                <span v-if="!item.blank">{{item.class_name}}</span>
+            </td>
+            <td>
+                <div v-if="!item.blank && item.class && item.class.schedules_text">
+                    <p v-for="t in item.class.schedules_text">{{t}}</p>
+                </div>
+            </td>
+            <td><span v-if="!item.blank">{{item.teacher}}</span></td>
+        </tr>
+
+    </table>
+</div>

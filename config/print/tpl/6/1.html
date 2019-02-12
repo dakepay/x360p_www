@@ -1,0 +1,113 @@
+<div class="a4 pre-charge">
+    <div class="contract">合同协议号：<span class="number">{{order.order_no}}</span></div><hr/>
+    <div class="title">教育辅导协议书</div>
+    <div class="sides">甲方：<span>{{diy.var1}}</span></div>
+    <div class="sides">乙方：<span>{{student.student_name}}</span></div>
+    <div class="sides" style="margin-top:20px;">乙方具体信息：</div>
+    <div class="row">
+        <div class="small fl">性别：<span class="infos">{{student.sex}}</span></div>
+        <div class="small fl">年级：<span class="infos">{{student.school_grade}}</span></div>
+        <div class="large fl">就读学校：<span class="infos">{{student.school_name}}</span></div>
+    </div>
+    <div class="row">
+        <div class="middle fl">监护人姓名：<span class="infos">{{student.first_family_name}}</span></div>
+        <div class="small fl">关系：<span class="infos">{{student.first_family_rel}}</span></div>
+        <div class="middle fl" style="width:37%;">联系方式（手机）：<span class="infos">{{student.first_tel}}</span></div>
+    </div>
+
+    <div class="sides" style="margin-top:20px;">合同信息</div>
+    <div class="p">
+        <p>合同金额：¥ <span class="infos">{{order.pay_amount}}</span></p>
+        <p v-if="order.buy_year">合同有效期：（ <span>{{order.buy_year}}</span> ）年（ <span>{{order.buy_month}}</span> ）月（ <span>{{order.buy_day}}</span>  ）日起，至（ <span>{{order.expire_year}}</span> ）年（ <span>{{order.expire_month}}</span> ）月（ <span>{{order.expire_day}}</span> ）日止</p>
+        <p style="font-weight: bold;color:#555;">就读校区： <span class="infos" style="color:#555;">{{sys.branch_name}}</span></p>
+        <p style="font-weight: bold;color:#555;">学员类型：
+            <span style="color:#555;"><span v-if="student.is_new==1">■</span><span v-else>□</span>新生</span>
+            <span style="color:#555;"><span v-if="student.is_new==0">■</span><span v-else>□</span>在读</span>
+        </p>
+    </div>
+
+    <div class="pay">支付明细：</div>
+    <table class="table">
+        <tr>
+            <th>支付日期</th>
+            <th>支付金额</th>
+            <th>支付详情</th>
+            <th>收款人</th>
+        </tr>
+        <tr>
+            <td>{{order.pay_date}}</td>
+            <td>{{order.pay_amount}}</td>
+            <td>课程付款</td>
+            <td>{{op.name}}</td>
+        </tr>
+    </table>
+    <div class="pay">合同项目：</div>
+    <table class="table price">
+
+        <tbody>
+        <tr>
+            <td class="title">
+                项目
+            </td>
+            <td class="title">
+                班级
+            </td>
+            <td class="title">
+                有效期至
+            </td>
+            <td class="title">
+                数量
+            </td>
+            <td class="title">
+                单价
+            </td>
+            <td class="title" width="85px">
+                折后金额
+            </td>
+            <td class="title" width="85px">
+                小计金额
+            </td>
+        </tr>
+        <!--没有打印数据的是要空出来一行-->
+        <tr class="nocolsborder" v-for="(item,index) in items" :key="index">
+            <td>
+                {{item.lesson_name}}
+            </td>
+            <td>
+                {{item.class_name}}
+            </td>
+            <td>
+                {{item.expire_time}}
+            </td>
+            <td class="right">
+                {{item.nums}}
+            </td>
+            <td class="right">
+                {{item.origin_price}}
+            </td>
+            <td class="right">
+                {{item.price}}
+            </td>
+            <td class="right">
+                {{item.subtotal}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="pay">协议签署：</div>
+    <div class="agreement">
+        <p style="line-height: 2em;">乙方（监护人或协议签署人）已仔细认真阅读并完全理解并同意本协议<span style="font-weight: bold;">背面各项条款</span>的全部内容，自愿签署本协议并成为学员。 </p>
+        <div class="side">
+            <p>甲方：<span>{{sys.org_name}}</span></p>
+            <p>乙方：<span>{{student.student_name}}</span></p>
+            <p>顾问签署：<span></span></p>
+            <div style="clear:both;"></div>
+            <p>学习中心校长签署：<span></span></p>
+            <p>监护人（或协议签署人）:<span></span></p>
+            <p>签署日期：<span></span></p>
+            <p>签署日期：<span></span></p>
+            <p>（盖章）</p>
+        </div>
+    </div>
+</div>
