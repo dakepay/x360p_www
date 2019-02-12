@@ -1,0 +1,48 @@
+{
+    "name": "payhon/pro.xiao360",
+    "description": "api for qms",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://pro.xiao360.com/",
+    "license": "",
+    "authors": [
+        {
+            "name": "payhon",
+            "email": "payhon@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "^5.0",
+        "liushoukun/dawn-api": "^1.0",
+        "topthink/think-helper": "^1.0",
+        "topthink/think-captcha": "1.0.7",
+        "qiniu/php-sdk": "^7.0",
+        "overtrue/wechat": "^3.3",
+        "phpmailer/phpmailer": "^6.0",
+        "curl/curl": "^1.9",
+        "endroid/qrcode": "1.9.3",
+        "overtrue/pinyin": "~3.0",
+        "yansongda/pay": "^2.0",
+        "topthink/think-queue": "^1.1",
+        "phpoffice/phpspreadsheet": "^1.2",
+        "overtrue/easy-sms": "^1.0"
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
