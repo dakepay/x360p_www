@@ -234,7 +234,7 @@ CREATE TABLE `pro_client_apply_sqb` (
   `user_id` varchar(32) DEFAULT NULL COMMENT '推广者',
   `client_sn` varchar(50) DEFAULT NULL COMMENT '外部商户号',
   `create_account` tinyint(1) DEFAULT 1 COMMENT '是否创建商户账号',
-  `is_audit` tinyint(1) NOT NULL DEFAULT 0 COMMENT '审核状态：0未审核，1系统审核通过，2收钱吧审核中，4审核通过',
+  `is_audit` tinyint(1) NOT NULL DEFAULT 0 COMMENT '审核状态：0系统审核状态，1系统审核状态，2收钱吧审核通过',
   `config` text DEFAULT NULL COMMENT '入网返回资料，json格式',
   `create_time` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '创建时间',
   `create_uid` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '创建用户ID',
@@ -440,3 +440,56 @@ ADD COLUMN `task_id` varchar(32) DEFAULT '' COMMENT '任务ID' AFTER `queue`
 ;
 
 
+-- 20181124 dbserver 新增端口号
+ALTER TABLE `pro_dbserver`
+ADD COLUMN `port` int(11) UNSIGNED NOT NULL DEFAULT 3306 COMMENT '端口号' AFTER `root_pwd`
+;
+
+INSERT INTO `pro_app` VALUES
+(1, 'books', '图书管理', 'app.books', 'https://sp1.xiao360.com/static/ui/pc/app/center/book.png', '绘本，图书观念里', 2, 0.00, 0.20, 1541644144, 1, 1541644144, 0, NULL, 0),
+(2, 'materials', '物品管理', 'app.materials', 'https://sp1.xiao360.com/static/ui/pc/app/center/material.png', '物品管理，出库入库', 2, 0.00, 0.20, 1541644144, 1, 1541644144, 0, NULL, 0),
+(3, 'achievement', '成绩管理', 'app.archievemennt', 'https://sp1.xiao360.com/static/ui/pc/app/center/achievement.png', '成绩管理，成绩录入查询', 2, 0.00, 0.20, 1541644144, 1, 1541644144, 0, NULL, 0),
+(4, 'knowledge', '知识库', 'app.knowledge', 'https://sp1.xiao360.com/static/ui/pc/app/center/knowledge.png', '知识库管理', 2, 0.00, 0.20, 1541644144, 1, 1541644144, 0, NULL, 0),
+(5, 'franchisees', '加盟商管理', 'app.franchisees', 'https://sp1.xiao360.com/static/ui/pc/app/center/franchisee.png', '加盟商管理', 2, 0.00, 0.20, 1541644144, 1, 1541644144, 0, NULL, 0)
+;
+
+ALTER TABLE `pro_app`
+ADD COLUMN `is_system` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '是否系统内置应用' AFTER `volume_price`
+;
+
+UPDATE `pro_app`
+set `is_system` = 1
+WHERE app_id < 1000
+;
+
+ALTER TABLE `pro_app`
+ADD COLUMN `pics` varchar(255) DEFAULT '' COMMENT '介绍图片，最多可放三张图片，逗号隔开' AFTER `app_desc`
+;
+
+
+-- 新增外教端配置
+ALTER TABLE `pro_client_ui_config`
+ADD COLUMN `ft_config` text DEFAULT NULL COMMENT '外教端配置(JSON格式)'
+;
+
+ALTER TABLE `pro_client_apply_sqb`
+ADD COLUMN `is_check` tinyint(1) NOT NULL DEFAULT 0 COMMENT '是否审核' AFTER `create_account`
+;
+
+--  收钱吧审核过程表
+DROP TABLE IF EXISTS `pro_client_apply_sqb_check`;
+CREATE TABLE `pro_client_apply_sqb_check` (
+  `casc_id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT '主键',
+  `cid` int(11) NOT NULL DEFAULT '0' COMMENT 'cid',
+  `og_id` int(11) NOT NULL DEFAULT '0' COMMENT 'og_id',
+  `cas_id` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '收钱吧ID',
+  `check_status` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '0未通过 1已通过',
+  `check_messages` VARCHAR (255) DEFAULT '' COMMENT '审核信息',
+  `create_time` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '创建时间',
+  `create_uid` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '创建用户ID',
+  `update_time` int(11) unsigned DEFAULT NULL COMMENT '更新时间',
+  `is_delete` tinyint(1) unsigned DEFAULT 0,
+  `delete_time` int(11) unsigned DEFAULT NULL COMMENT '删除时间',
+  `delete_uid` int(11) unsigned NOT NULL DEFAULT 0 COMMENT '删除用户ID',
+  PRIMARY KEY (`casc_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='收钱吧审核过程表';
