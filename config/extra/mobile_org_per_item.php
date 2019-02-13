@@ -68,7 +68,15 @@ return [
 			'uri'	=> 'my',
 			'class'	=> 'icon-us'
 				
-		]
+		],
+        [
+            'text'  => '应用',
+            'name'  => 'app',
+            'uri'   => 'app',
+            'sub'   => [
+
+            ]
+        ]
 
 	]
 ];
