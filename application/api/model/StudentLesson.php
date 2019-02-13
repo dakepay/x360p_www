@@ -2127,6 +2127,10 @@ class StudentLesson extends Base
 
         if($oi_info['lid'] > 0){
             $w_sl['lid'] = $oi_info['lid'];
+            //20190128添加，加下面这3行代码后，报不同的班级会产生多条student_lesson记录，更合理。
+            if($oi_info['cid'] > 0){
+                $w_sl['cid'] = $oi_info['cid'];
+            }
 
             $lesson_info = get_lesson_info($oi_info['lid']);
 
@@ -2709,12 +2713,15 @@ class StudentLesson extends Base
             return $this->user_error('缺少撤销结转返还课程数');
         }
 
+        $transfer_lesson_hours = min_val($student_lesson['transfer_lesson_hours'] - $nums );
+
         $data = [
             'remain_arrange_hours' => $student_lesson['remain_arrange_hours'] + $nums + $present_nums,
             'remain_lesson_amount' => $student_lesson['remain_lesson_amount'] + $amount,
             'remain_lesson_hours' => $student_lesson['remain_lesson_hours'] + $nums + $present_nums,
-            'transfer_lesson_hours' => $student_lesson['transfer_lesson_hours'] - $nums - $present_nums,
+            'transfer_lesson_hours' => $transfer_lesson_hours,
         ];
+
 
         if ($student_lesson['lesson_status'] == 2){
             $data['lesson_status'] = 1;
