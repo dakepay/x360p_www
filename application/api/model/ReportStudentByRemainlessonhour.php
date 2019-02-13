@@ -19,7 +19,6 @@ class ReportStudentByRemainlessonhour extends Base
             $w_c['sid'] = $sid;
             $w_c['status'] = 1;
             $cids = ClassStudent::where($w_c)->column('cid');
-
 			$data['cids'] = implode(',',$cids);
             
             $w_l['sid'] = $sid;
