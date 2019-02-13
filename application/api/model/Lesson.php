@@ -127,7 +127,7 @@ class Lesson extends Base
     public function getDefinePromotionRuleAttr($value,$data)
     {
         $promotion_value = null;
-        $bid = request()->header('x-bid');
+        $bid = auto_bid();
         if(!$bid){
             return $promotion_value;
         }
