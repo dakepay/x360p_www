@@ -79,8 +79,12 @@ class StudentReferer extends Base
             'referer_teacher_eids' => $referer_teacher_eids,
             'referer_edu_eid' => $referer_student['eid']
         ];
-        $rs = $this->isUpdate(false)->allowField(true)->save($data);
-        if ($rs === false) return $this->sql_add_error('student_referer');
+        $result = $this->isUpdate(false)->allowField(true)->save($data);
+        if (false === $result) return $this->sql_add_error('student_referer');
+
+        $mStudent = new Student();
+        $result = $mStudent->save(['referer_sid'=>$referer_sid],['sid'=>$sid]);
+        if (false === $result) return $this->sql_save_error('student');
 
         return true;
     }
