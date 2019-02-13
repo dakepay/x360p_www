@@ -78,7 +78,6 @@ class ReportBranchPerformanceSummary extends Report
         $result = $db->where($w)->order($input['order_field'],$input['order_sort'])->select();
 
         $result_bids = [];
-
         if(!$result || isset($input['refresh']) && $input['refresh'] == 1){
             $result = [];
             $build_bids = $query_bids;
@@ -96,7 +95,7 @@ class ReportBranchPerformanceSummary extends Report
         }
 
         foreach ($result as &$item) {
-            $item['only_amount'] = round($item['amount'] - abs($item['refund_amount']),6);
+            $item['only_amount'] = $item['amount'] - abs($item['refund_amount']);
         }
 
         $ret['list'] = $result;
@@ -106,14 +105,15 @@ class ReportBranchPerformanceSummary extends Report
         $enable_company = user_config('params.enable_company');
         if($enable_company){
             $ret['list1'] = $this->getCompanyList($result);
-            foreach($ret['list1'] as $k=>$v){
-                $ret['list1'][$k]['only_amount'] = $v['amount'] - abs($v['refund_amount']);
+            foreach($ret['list1'] as $k=>$item){
+                $ret['list1'][$k]['only_amount'] = $item['amount'] - abs($item['refund_amount']);
             }
         }else{
             $ret['list1'] = [];
         }
 
         return $ret;
+
 
     }
 
@@ -179,7 +179,6 @@ class ReportBranchPerformanceSummary extends Report
 
     protected function count_student_lesson_hour($params)
     {
-
         $lesson_hours = 0.00;
         $lesson_amount = 0.000000;
 
@@ -194,6 +193,7 @@ class ReportBranchPerformanceSummary extends Report
         $this->bid_row_field_value['lesson_hours'] = $lesson_hours;
         $this->bid_row_field_value['lesson_amount'] = $lesson_amount;
     }
+
 
 
 
