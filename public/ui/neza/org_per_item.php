@@ -15,6 +15,8 @@ return [
                 ['text' => '客户跟进', 'uri'=>'dashboard.follow','ismenu'=>false ],
                 ['text' => '报名', 'uri'=>'dashboard.signup','ismenu'=>false ],
                 ['text' => '缴费', 'uri'=>'dashboard.payment','ismenu'=>false ],
+                ['text' => '保存订单', 'uri'=>'order.save','ismenu'=>false],
+                ['text' => '提交订单', 'uri'=>'order.submit','ismenu'=>false],
 
                 ['text' => '考勤', 'uri'=>'dashboard.attendance','ismenu'=>false ],
                 ['text' => '结转', 'uri'=>'dashboard.transfer','ismenu'=>false ],
@@ -144,6 +146,11 @@ return [
                             ['text' => '删除试听排课','uri'=>'aclist.delete','ismenu'=>false],
                             ['text' => '试听学员管理','uri'=>'aclist.student','ismenu'=>false]
                         ]],
+			['text' => '一对一评估','uri'=>'audition.assess','sub'=>[
+                            ['text' => '添加一对一评估','uri'=>'assess.add','ismenu'=>false],
+                            ['text' => '编辑一对一评估','uri'=>'assess.edit','ismenu'=>false],
+                            ['text' => '删除一对一评估','uri'=>'assess.delete','ismenu'=>false]
+                        ]]
                     ]
                 ],
                 [
@@ -251,12 +258,21 @@ return [
                             ['text' => '退费','uri'=>'offline.refund','ismenu'=>false],
                             ['text' => '编辑','uri'=>'offline.edit','ismenu'=>false],
                         ]],
+                        ['text' => '报名项目','uri'=>'order.items','sub' => [
+                            ['text' => '撤销课程升级','uri'=>'orderitems.undo','ismenu'=>false],
+                            ['text' => '修改收费类型','uri'=>'orderitems.edit','ismenu'=>false]
+                        ]],
                         ['text' => '课时管理','uri'=>'order.hours','sub' => [
                             ['text' => '批量导入','uri'=>'hours.import','ismenu'=>false],
                             ['text' => '编辑','uri'=>'hours.edit','ismenu'=>false],
                             ['text' => '赠送课时','uri'=>'hours.present','ismenu'=>false],
-                            ['text' => '结转课时','uri'=>'hours.transfer','ismenu'=>false]
-                        ]]
+                            ['text' => '结转课时','uri'=>'hours.transfer','ismenu'=>false],
+                            ['text' => '撤销结转','uri'=>'transfer.undo','ismenu'=>false],
+                            ['text' => '撤销转让课时','uri'=>'transferhours.undo','ismenu'=>false],
+                            ['text' => '撤销转让金额','uri'=>'transfermoney.undo','ismenu'=>false],
+                            ['text' => '撤销赠送课时','uri'=>'presenthours.undo','ismenu'=>false]
+                        ]],
+                        ['text' => '转介绍管理','uri'=>'order.referer']
                     ]
                 ],
                 [
@@ -277,8 +293,12 @@ return [
                             ['text' => '结课','uri'=>'class.close','ismenu'=>false],
                             ['text' => '撤销结课','uri'=>'class.undo','ismenu'=>false]
                         ]],
-                        ['text' => '临时班级','uri'=>'class.templist'],
-			['text' => '班级学员','uri'=>'class.students']
+                        ['text' => '临时班级','uri'=>'class.templist','sub' => [
+                            ['text' => '编辑','uri'=>'temp.edit','ismenu'=>false],
+                            ['text' => '生成二维码','uri'=>'temp.scanner','ismenu'=>false],
+                            ['text' => '删除','uri'=>'temp.delete','ismenu'=>false]
+                        ]],
+                        ['text' => '班级学员','uri'=>'class.students']
                     ]
                 ],
                 [
