@@ -958,6 +958,9 @@ class Base extends Api
                 case 'review_tpl_define':
                     $ret = model('ReviewTplDefine')->select();
                     break;
+                case 'review_styles':
+                    $ret = review_styles();
+                    break;
                 case 'employees':
                     $ret = model('employee')->field('eid,ename,nick_name,uid')->select();
                     break;
@@ -970,7 +973,7 @@ class Base extends Api
             self::$_global_vars[$name] = $ret;
         }else{
             $global_vars = ['configs','lessons',
-            'subjects','classrooms','dicts','public_schools','review_tpl_setting','employees','review_tpl_define'
+            'subjects','classrooms','dicts','public_schools','review_tpl_setting','employees','review_tpl_define','review_styles'
             ];
             foreach($global_vars as $var){
                 $ret[$var] = $this->getGlobalVars($var);
