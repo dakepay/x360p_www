@@ -63,10 +63,6 @@ class OrderItems extends Base
         return $this->sendSuccess($ret);
     }
 
-    /**
-     * @param Request $request
-     * @return Redirect|\think\Response|\think\response\Json|\think\response\Jsonp|\think\response\Xml
-     */
     public function do_assign(Request $request)
     {
         $input = $request->post();
