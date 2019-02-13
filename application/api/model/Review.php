@@ -26,11 +26,6 @@ class Review extends Base
         return is_array($value) ? implode(',', $value) : $value;
     }
 
-    /*protected function setIntDayAttr($value)
-    {
-        return $value ? format_int_day($value) : $value;
-    }*/
-
     public function setIntStartHourAttr($value)
     {
         return $value ? format_int_hour($value) : $value;
@@ -113,6 +108,8 @@ class Review extends Base
 
             //--3-- 个人点评
             if (!empty($review_student)) {
+                $review_style = isset($review_data['review_style'])? $review_data['review_style'] : 0;
+
                 $review_student_data = [
                     'rvw_id'         => $rvw_id,
                     'lesson_type'    => $review_data['lesson_type'],
@@ -122,13 +119,13 @@ class Review extends Base
                     'int_start_hour' => $review_data['int_start_hour'],
                     'int_end_hour'   => $review_data['int_end_hour'],
                     'eid'            => $review_data['eid'],
-                    'review_style'   => $review_data['review_style']
+                    'review_style'   => $review_style
                 ];
 
                 foreach ($review_student as $k=>$per_review_student) {
                     $mReviewStudent = new ReviewStudent();
                     $per_review_student = array_merge($per_review_student, $review_student_data);
-                    if ($per_review_student['review_style'] == 1){
+                    if ($review_style == 1){
                         $detail = [];
                         array_copy($detail,$per_review_student,['detail','honor','weak0','weak1','weak2','weak3','weak4','score0','score1','score2','score3','score4']);
                         $per_review_student['detail'] = $detail;
