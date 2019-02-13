@@ -411,7 +411,14 @@ function get_franchisee_info($id,$cache = true){
     return get_row_info($id,'franchisee','fc_id',$cache);
 }
 
-
+/**
+ * 获取排课记录信息
+ * @param $id
+ * @param bool $cache
+ */
+function get_course_arrange_info($id,$cache = true){
+    return get_row_info($id,'course_arrange','ca_id',$cache);
+}
 /**
  * 获得学员信息
  * @param  [type] $id [description]
@@ -1918,21 +1925,19 @@ function get_lesson_define_price($lid,$bid = 0){
  */
 function get_lesson_define_promotion_rule($lid,$bid = 0)
 {
-    $promotion_value = [];
+    $promotion_value = null;
     $lesson_info = get_lesson_info($lid);
-    if(!$lesson_info){
+    if(empty($lesson_info)){
         return $promotion_value;
     }
 
-    $int_day = int_day(time());
-
     $w_pr['status'] = 1;
-    $w_pr['start_time'] = ['ELT',$int_day];
-    $w_pr['end_time'] = ['EGT',$int_day];
+    $w_pr['start_time'] = ['ELT',time()];
+    $w_pr['end_time'] = ['EGT',time()];
     $lesson_promotion_rule = get_table_list('promotion_rule',$w_pr);
     $lesson_promotion_rule = array_reverse($lesson_promotion_rule);
 
-    $promotion = null;
+    $promotion = [];
     if (!empty($lesson_promotion_rule)){
         foreach ($lesson_promotion_rule as $rule){
             $arr_sj_ids = explode(',', $rule['suit_sj_ids']);
@@ -1944,19 +1949,22 @@ function get_lesson_define_promotion_rule($lid,$bid = 0)
                     if ($lesson_info['is_package'] == 1){
                         $sj_ids = explode(',', $lesson_info['sj_ids']);
                         if (in_array($sj_id, $sj_ids)){
-                            $promotion = $rule;
-                            break 2;
+                            array_push($promotion,$rule);
+//                            $promotion = $rule;
+//                            break 2;
                         }
                     }else{
                         if ($sj_id == $lesson_info['sj_id']){
-                            $promotion = $rule;
-                            break 2;
+                            array_push($promotion,$rule);
+//                            $promotion = $rule;
+//                            break 2;
                         }
                     }
                 }
                 if (in_array($lid, $arr_lids)) {
-                    $promotion = $rule;
-                    break;
+                    array_push($promotion,$rule);
+//                    $promotion = $rule;
+//                    break;
                 }
             }
 
@@ -1965,19 +1973,22 @@ function get_lesson_define_promotion_rule($lid,$bid = 0)
                     if ($lesson_info['is_package'] == 1){
                         $sj_ids = explode(',', $lesson_info['sj_ids']);
                         if (in_array($sj_id, $sj_ids)){
-                            $promotion = $rule;
-                            break 2;
+                            array_push($promotion,$rule);
+//                            $promotion = $rule;
+//                            break 2;
                         }
                     }else{
                         if ($sj_id == $lesson_info['sj_id']){
-                            $promotion = $rule;
-                            break 2;
+                            array_push($promotion,$rule);
+//                            $promotion = $rule;
+//                            break 2;
                         }
                     }
                 }
                 if (in_array($lid, $arr_lids)) {
-                    $promotion = $rule;
-                    break;
+                    array_push($promotion,$rule);
+//                    $promotion = $rule;
+//                    break;
                 }
             }
         }
