@@ -261,7 +261,8 @@ return [
                         ]],
                         ['text' => '报名项目','uri'=>'order.items','sub' => [
                             ['text' => '撤销课程升级','uri'=>'orderitems.undo','ismenu'=>false],
-                            ['text' => '修改收费类型','uri'=>'orderitems.edit','ismenu'=>false]
+                            ['text' => '修改收费类型','uri'=>'orderitems.edit','ismenu'=>false],
+                            ['text' => '设置转介绍','uri'=>'orderitems.referer','ismenu'=>false]
                         ]],
                         ['text' => '课时管理','uri'=>'order.hours','sub' => [
                             ['text' => '批量导入','uri'=>'hours.import','ismenu'=>false],
