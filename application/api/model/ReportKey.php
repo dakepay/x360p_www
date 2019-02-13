@@ -327,7 +327,6 @@ class ReportKey extends Report
 	{
 		$w['bid'] = $params['bid'];
 		$w['og_id'] = $params['og_id'];
-        //$w['lesson_status'] = 2;
         $w['lesson_status'] = ['in',['0','1']];
 
         $remain_lesson_amount = 0.000000;
