@@ -686,6 +686,8 @@ class ClassAttendance extends Base
         $this->trial_nums = $trial_nums;
         $this->absence_nums = $absence_nums;
         $this->has_extra_consume = $has_extra_consume;
+        $this->tb_id = $ca_info['tb_id'];
+        $this->tbs_id = $ca_info['tbs_id'];
 
         $result = $this->isUpdate(true)->save();
 
