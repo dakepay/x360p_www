@@ -3,6 +3,7 @@ namespace app\api\controller;
 
 use app\api\model\CourseArrange;
 use app\api\model\CourseRemindPlan;
+use app\api\model\TextbookSection;
 use Overtrue\Pinyin\Pinyin;
 use think\Request;
 use app\common\job\SendWxTplMsg;
@@ -55,7 +56,8 @@ class Test extends Base
     }
 
     public function test(Request $request){
-        $pwd = get_lesson_define_promotion_rule(1,1);
+        $a = new TextbookSection();
+        $pwd = $a->getLastTbs(7,6);
         var_dump($pwd);exit;
 
     }
