@@ -628,7 +628,7 @@ class User extends Base
 
         $user_per_items = self::getUserSavedPers($login_info['uid'], $client_type);
 
-        if($login_info['is_admin'] == 1){
+        if($login_info['is_admin'] == 1 || $client_type == 'mobile'){
             $all_res_pers = get_client_pers_item('org_res');
             $all_res_per_items = self::getNavPers($all_res_pers);
             $all_app_per_items = self::getClientAppPers();
