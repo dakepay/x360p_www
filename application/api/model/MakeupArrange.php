@@ -184,7 +184,7 @@ class MakeupArrange extends Base
         if(!($course instanceof CourseArrange)) {
             $course = CourseArrange::get($course['ca_id']);
         }
-	$this->startTrans();
+	        $this->startTrans();
         try {
             
             $absence_list = StudentAbsence::all(['sa_id' => ['in', $sa_ids]]);
