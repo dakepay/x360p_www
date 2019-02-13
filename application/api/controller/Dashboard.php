@@ -7,7 +7,9 @@
 namespace app\api\controller;
 
 use app\api\model\CourseArrange;
+use app\api\model\CourseArrangeStudent;
 use app\api\model\Employee;
+use app\api\model\EmployeeLessonHour;
 use app\api\model\EmployeeReceipt;
 use app\api\model\EmployeeStudent;
 use app\api\model\Student;
@@ -318,6 +320,28 @@ class Dashboard extends Base
     }
 
     /**
+     *  未考勤学员列表
+     * @param Request $request
+     */
+    public function today_no_attendance(Request $request)
+    {
+        $today = date('Ymd', time());
+
+        $sql = 'select * from x360p_course_arrange_student where ca_id in (select ca_id from x360p_course_arrange where int_day = '.$today.')';
+
+
+        $student_list = DB::query($sql);
+        foreach ($student_list as $k => $student){
+            if ($student['is_in'] == 1){
+                unset($student_list[$k]);
+            }
+        }
+        $student_list = array_values($student_list);
+
+        return $this->sendSuccess($student_list);
+    }
+
+    /**
      * @desc    咨询师工作台数据汇总
      * @param Request $request
      * @method GET
@@ -414,6 +438,62 @@ class Dashboard extends Base
         $result['attendance_no'] = DB::query($sql_attendance_no)[0]['num'];
 
         return $this->sendSuccess(['list' => $result]);
+    }
+
+    /**
+     * @desc  员工业绩排行
+     * @method POST
+     */
+    public function receipt_ranking(Request $request){
+
+        $input = $request->get('type');
+        $mEmployeeReceipt = new EmployeeReceipt();
+        $data['list'] = [];
+        if ($input == 'month'){
+            $create_time = time() - 30 * 86400;
+            $sql = 'select eid,sum(amount) as total from x360p_employee_receipt where create_time > '.$create_time.' group by eid  order by total desc';
+            $data['list'] = $mEmployeeReceipt->query($sql);
+        }elseif($input == 'year'){
+            $create_time = time() - 30 * 12 * 86400;
+            $sql = 'select eid,sum(amount) as total from x360p_employee_receipt where create_time > '.$create_time.' group by eid  order by total desc';
+            $data['list'] = $mEmployeeReceipt->query($sql);
+        }
+        if ($data['list']){
+            foreach ($data['list'] as $k => $v){
+                $data['list'][$k]['name'] = get_employee_name($v['eid']);
+            }
+        }else{
+            return $this->sendSuccess($data);
+        }
+        return $this->sendSuccess($data);
+    }
+
+    /**
+     * 学管师课时排行
+     * @param Request $request
+     */
+    public function class_hour_ranking(Request $request)
+    {
+        $input = $request->get('type');
+        $mElh = new EmployeeLessonHour();
+        $data['list'] = [];
+        if ($input == 'month'){
+            $create_time = time() - 30 * 86400;
+            $sql = 'select eid,sum(lesson_hours) as total from x360p_employee_lesson_hour where create_time > '.$create_time.' group by eid  order by total desc';
+            $data['list'] = $mElh->query($sql);
+        }elseif($input == 'year'){
+            $create_time = time() - 30 * 12 * 86400;
+            $sql = 'select eid,sum(lesson_hours) as total from x360p_employee_lesson_hour where create_time > '.$create_time.' group by eid  order by total desc';
+            $data['list'] = $mElh->query($sql);
+        }
+        if ($data['list']){
+            foreach ($data['list'] as $k => $v){
+                $data['list'][$k]['name'] = get_employee_name($v['eid']);
+            }
+        }else{
+            return $this->sendSuccess($data);
+        }
+        return $this->sendSuccess($data);
     }
 
 
