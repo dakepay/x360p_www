@@ -12,6 +12,7 @@ use app\sapi\model\EventSignUp;
 use app\sapi\model\Review;
 use app\sapi\model\ReviewStudent;
 use app\sapi\model\StudentArtwork;
+use app\sapi\model\Wxmp;
 use think\Log;
 use think\Request;
 
@@ -51,12 +52,12 @@ class Share extends Base
     {
         $rs_id = input('rs_id/d');
         $m_rs = new ReviewStudent();
-        $review = $m_rs->with(['student', 'review' => ['reviewFile.file', 'reviewTplSetting'], 'employee', 'lesson'])
-            ->find($rs_id);
+        $review = $m_rs->with(['student', 'review' => ['reviewFile.file', 'reviewTplSetting'], 'employee', 'lesson'])->where('rs_id',$rs_id)->find();
         if(empty($review)) return $this->sendError(400,'课评不存在');
         if(!empty($review)) {
             $review['org_name'] = org_name();
             $review['class_name'] = get_class_name($review['cid']);
+            $review['qrcode_url'] = (new Wxmp())->getPublicAccounts();
             if(isset($review['review']) && isset($review['review']['review_tpl_setting'])
                 && empty($review['review']['review_tpl_setting'])) {
                 $review['review']['review_tpl_setting'] = [
@@ -76,6 +77,7 @@ class Share extends Base
             $rs = (new Review())->where('rvw_id', $review->review->rvw_id)->setInc('view_times');
             if($rs === false) Log::record('分享：课评分享次数增加失败');
         }
+        $review['review_styles'] = $this->getGlobalVars('review_styles');
 
         return $this->sendSuccess($review);
     }
