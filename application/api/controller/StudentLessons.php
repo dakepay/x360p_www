@@ -115,7 +115,7 @@ class StudentLessons extends Base
         if(isset($input['last_tbs']) && $input['last_tbs'] == 1){
             $mTextbookSection = new TextbookSection();
             foreach ($ret['list'] as $k => $v){
-                $ret['list'][$k]['last_tbs'] = $mTextbookSection->getLastTbs($v['sid'],$v['sl_id']);
+                $ret['list'][$k]['last_tbs'] = $mTextbookSection->getLastTbs($v['sid'],$v['lid']);
             }
         }
 
