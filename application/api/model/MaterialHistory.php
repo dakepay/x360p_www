@@ -153,15 +153,15 @@ class MaterialHistory extends Base
             foreach ($ms_id_data as $row) {
                 $his_data = array_merge($his_data, $row);
                 $rs = $this->addOneHis($his_data);
-                if (!$rs) throw new FailResult($this->getErrorMsg());
+                if (!$rs) {
+                    $this->rollback();
+                    return $this->user_error($this->getErrorMsg());
+                }
             }
             $this->commit();
-        } catch (FailResult $e) {
+        } catch (\Exception $e) {
             $this->rollback();
-            return $this->user_error($e->getMessage());
-        } catch (Exception $e) {
-            $this->rollback();
-            return $this->deal_exception($e->getMessage(), $e);
+            return $this->exception_error($e);
         }
 
         return true;
@@ -181,7 +181,7 @@ class MaterialHistory extends Base
                 'gid' => $mh_id
             ];
             $m_oi_list = $mOrderItem->where($w_o)->select();
-            if ($$m_oi_ist){
+            if ($m_oi_list){
                 return $this->user_error('该物品已售出，不能删除');
             }
 
@@ -189,18 +189,24 @@ class MaterialHistory extends Base
             $history->delete();
             $m_msq = new MaterialStoreQty();
             if ($history['type'] == MaterialHistory::TYPE_IN) {
-                $rs = $m_msq->decMaterialNum($history->ms_id, $history->mt_id, $history->num);
-                if ($rs === false) exception('仓库物品数量复原失败');
+                $result = $m_msq->decMaterialNum($history->ms_id, $history->mt_id, $history->num);
+                if (false === $result){
+                    $this->rollback();
+                    return $this->user_error('仓库物品数量复原失败');
+                }
             }
             if ($history['type'] == MaterialHistory::TYPE_OUT) {
-                $rs = $m_msq->incMaterialNum($history->ms_id, $history->mt_id, $history->num);
-                if ($rs === false) exception('仓库物品数量复原失败');
+                $result = $m_msq->incMaterialNum($history->ms_id, $history->mt_id, $history->num);
+                if (false === $result){
+                    $this->rollback();
+                    return $this->user_error('仓库物品数量复原失败');
+                }
             }
 
             $this->commit();
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             $this->rollback();
-            return $this->deal_exception($e->getMessage(), $e);
+            return $this->exception_error($e);
         }
 
         return true;
