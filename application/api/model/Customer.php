@@ -508,7 +508,7 @@ class Customer extends Base
     public function changeToStudent($cu_id)
     {
 
-        $customer = $this->find($cu_id);
+        $customer = $this->where('cu_id',$cu_id)->find($cu_id);
         if(empty($customer) || $customer->is_reg) return $this->user_error('客户不存在或者已经转正');
 
         try{
@@ -533,7 +533,9 @@ class Customer extends Base
             $student_model = new Student();
 
             $sid = $student_model->createOneStudent($data);
-            if(!$sid) exception($student_model->getErrorMsg());
+            if(!$sid){
+                return $this->user_error($student_model->getError());
+            }
 
             $customer->sid = $sid;
             $customer->is_reg = 1;   // 有疑问，客户转学员就把状态改成已报读是否太草率？如果仅仅是转成学员，没有报读呢？建议：客户转成学员后如果有缴费行为（报读和充值）就把客户的状态改为已报读
@@ -572,7 +574,7 @@ class Customer extends Base
             }
 
             $this->commit();
-        } catch(Exception $e) {
+        } catch(\Exception $e) {
             $this->rollback();
             return $this->user_error(['msg' => $e->getMessage(), 'trace' => $e->getTrace()]);
         }
@@ -584,7 +586,7 @@ class Customer extends Base
     public function deleteOneCustomer($id = 0, $is_force_del = 0)
     {
         if($id > 0) {
-            $customer = $this->find($id);
+            $customer = $this->where('cu_id',$id)->find();
         }else{
             $customer = $this;
         }
