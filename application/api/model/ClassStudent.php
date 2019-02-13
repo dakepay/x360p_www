@@ -148,6 +148,11 @@ class ClassStudent extends Base
      */
     public function addOneStudentToClass(Classes $class, $sid,$check_overmax = true)
     {
+        $student_info = get_student_info($sid);
+        if($student_info['bid'] != $class['bid']){
+            $msg = sprintf('学员:%s与班级:%s不在同一个校区，请检查是否选择了同名学员!',$student_info['student_name'],$class['class_name']);
+            return $this->user_error($msg);
+        }
         $this->startTrans();
         try {
     	    if($check_overmax){
